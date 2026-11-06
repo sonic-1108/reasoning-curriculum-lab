@@ -10,6 +10,10 @@ import numpy as np
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else 'results')
 rows = json.loads((root / 'metrics.json').read_text())
+environment = json.loads((root / 'environment.json').read_text())
+for seed in environment['config']['seeds']:
+    for policy in ['random', 'easy_to_hard', 'adaptive']:
+        assert any(row['seed'] == seed and row['policy'] == policy and row['step'] == environment['config']['steps'] for row in rows), 'Run incomplete'
 figures = root / 'figures'
 figures.mkdir(exist_ok=True)
 policies = ['random', 'easy_to_hard', 'adaptive']
@@ -26,12 +30,20 @@ for axis in ['slots', 'cost']:
             budget = np.mean([row['slots'] if axis == 'slots' else row['training_seconds'] + row['scoring_seconds'] for row in selected])
             points.append((budget, np.mean([row['correct'] for row in selected])))
         plot.plot(*zip(*points), marker='o', label=policy)
+        for seed in sorted({row['seed'] for row in rows}):
+            trajectory = []
+            for step in sorted({row['step'] for row in rows}):
+                selected = [row for row in rows if row['policy'] == policy and row['step'] == step and row['seed'] == seed]
+                if selected:
+                    trajectory.append((np.mean([row['slots'] if axis == 'slots' else row['training_seconds'] + row['scoring_seconds'] for row in selected]), np.mean([row['correct'] for row in selected])))
+            plot.plot(*zip(*trajectory), alpha=.2, color=plot.lines[-1].get_color())
     plot.set(xlabel='Padded training token slots' if axis == 'slots' else 'Training + selection seconds (evaluation excluded)', ylabel='Exact answer accuracy', title='SmolLM2-135M arithmetic pilot')
     plot.legend()
     fig.tight_layout()
     fig.savefig(figures / f'{axis}.svg')
+    fig.savefig(figures / f'{axis}.png', dpi=160)
     plt.close(fig)
-for group in ['family', 'difficulty']:
+for group in ['family', 'difficulty', 'split']:
     fig, plot = plt.subplots(figsize=(7, 4))
     groups = sorted({row[group] for row in rows})
     for index, policy in enumerate(policies):
@@ -41,10 +53,12 @@ for group in ['family', 'difficulty']:
     plot.legend()
     fig.tight_layout()
     fig.savefig(figures / f'{group}.svg')
+    fig.savefig(figures / f'{group}.png', dpi=160)
     plt.close(fig)
 for policy in policies:
     final = [row for row in rows if row['policy'] == policy and row['step'] == final_step]
     summary.append(dict(policy=policy, observations=len(final), accuracy=np.mean([row['correct'] for row in final]),
+                        seed_accuracies={str(seed): np.mean([row['correct'] for row in final if row['seed'] == seed]) for seed in sorted({row['seed'] for row in final})},
                         slots=final[0]['slots'], mean_answer_tokens=np.mean([row['answer_tokens'] for row in final]),
                         mean_training_seconds=np.mean([row['training_seconds'] for row in final]),
                         mean_selection_seconds=np.mean([row['scoring_seconds'] for row in final])))

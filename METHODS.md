@@ -1,0 +1,17 @@
+# Experimental record
+
+Question: does choosing examples using the current student's losses improve answer accuracy per unit of training and scoring cost?
+
+The first milestone runs a real pretrained causal language model on generated arithmetic. This intentionally small test verifies the experiment loop before claims about reasoning benchmarks. Dataset construction uses exact Python integer arithmetic and no teacher model. The 800 prompts are public in this repository and can be regenerated deterministically. There is no employer data.
+
+The train/test split hashes complete prompts. Every prompt ID is unique across the generated pool. Composition is excluded entirely from training. Exact deduplication is tested, but no semantic decontamination against the model's undisclosed pretraining corpus is possible. Operations, operands and answer values can overlap across splits. The transfer test measures composition of known operations, not broad out-of-distribution mathematical reasoning.
+
+All policies begin with identical model state. All receive the same number of updates, eight examples per update, 32 padded positions per example. This makes forward/backward tensor dimensions comparable. Prompt lengths and supervised token counts differ, so non-padding training tokens are also logged. A stricter token-budget study should use packed examples with an identical supervised-token cap. No policy uses evaluation outcomes as inputs. The fixed adaptive target loss (1.5 nats) is a heuristic; it has not been tuned on the held-out data.
+
+Random candidate pools use the same seed stream across policies. Each step samples without replacement within its candidate pool; examples can repeat across steps. Easy-to-hard chooses candidates nearest a linearly increasing difficulty target. Because candidate pools vary, this is a stochastic curriculum rather than a globally sorted epoch. Adaptive scores 32 candidates with one forward pass and selects eight nearest the target loss. All policies can revisit examples.
+
+Evaluation is greedy decoding of up to six new tokens, with stripped exact-string agreement. Save raw continuations so alternative format-aware scoring can be audited later. The 64 evaluation prompts are the same across seeds and policies. Multiple seeds therefore measure training variability, not independent test-set replications. Do not treat 192 seed-question observations as 192 independent problems.
+
+Recorded training elapsed time includes optimization; selection elapsed time includes candidate sampling and adaptive scoring. On the measured CPU run these calls are synchronous. Evaluation is excluded from the cost plot; total evaluation duration is currently recorded only for the last policy in environment metadata. Data generation is recorded once per invocation. Download/setup time, energy, memory peaks and monetary costs are not measured. No paid compute or teacher API was used. Cost plots should be read as training-plus-selection elapsed time, not end-to-end runtime.
+
+The small dataset, answer-only loss, short runs, small model and narrow transfer family limit external validity. A useful next study would expand arithmetic templates and run longer training under an exact non-padding token budget, followed by a separately designed public reasoning benchmark study. The current results cannot support recruiting claims about improving frontier-model reasoning.

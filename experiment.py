@@ -34,6 +34,7 @@ def dataset():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', default='HuggingFaceTB/SmolLM2-135M')
+    parser.add_argument('--revision', default='93efa2f097d58c2a74874c7e644dbc9b0cee75a2')
     parser.add_argument('--steps', type=int, default=30)
     parser.add_argument('--seeds', type=int, nargs='+', default=[7, 19, 41])
     parser.add_argument('--output', default='results')
@@ -45,9 +46,9 @@ def main():
     rows = dataset()
     output.joinpath('data.json').write_text(json.dumps(rows, indent=2))
     generation_seconds = time.perf_counter() - start
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, revision=args.revision)
     tokenizer.pad_token = tokenizer.eos_token
-    model = AutoModelForCausalLM.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=args.revision)
     revision = getattr(model.config, '_commit_hash', None)
     initial = {key: value.clone() for key, value in model.state_dict().items()}
     device = 'mps' if torch.backends.mps.is_available() else 'cpu'

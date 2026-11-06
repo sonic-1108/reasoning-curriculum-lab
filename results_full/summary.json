@@ -1,0 +1,44 @@
+[
+  {
+    "policy": "random",
+    "observations": 192,
+    "accuracy": 0.17708333333333334,
+    "seed_accuracies": {
+      "7": 0.1875,
+      "19": 0.140625,
+      "41": 0.203125
+    },
+    "slots": 7680,
+    "mean_answer_tokens": 914.6666666666666,
+    "mean_training_seconds": 16.636449069666657,
+    "mean_selection_seconds": 0.0010003216666879904
+  },
+  {
+    "policy": "easy_to_hard",
+    "observations": 192,
+    "accuracy": 0.16666666666666666,
+    "seed_accuracies": {
+      "7": 0.1875,
+      "19": 0.171875,
+      "41": 0.140625
+    },
+    "slots": 7680,
+    "mean_answer_tokens": 960.0,
+    "mean_training_seconds": 16.814652125000027,
+    "mean_selection_seconds": 0.0011543039999608595
+  },
+  {
+    "policy": "adaptive",
+    "observations": 192,
+    "accuracy": 0.20833333333333334,
+    "seed_accuracies": {
+      "7": 0.203125,
+      "19": 0.203125,
+      "41": 0.21875
+    },
+    "slots": 7680,
+    "mean_answer_tokens": 900.0,
+    "mean_training_seconds": 17.210516483666634,
+    "mean_selection_seconds": 15.662941417666653
+  }
+]
