@@ -1,0 +1,6402 @@
+[
+  {
+    "prompt": "Calculate 2+2. Answer:",
+    "answer": "4",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "d4e322600772d851c52a7cce1bbe0d0b79b218286f47917aa6fd7f61cdae915a"
+  },
+  {
+    "prompt": "Calculate 2+3. Answer:",
+    "answer": "5",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "51fca34a97fc9ef387e0c93909ba254546bf1dcd7713d75f956a6da52e3e541e"
+  },
+  {
+    "prompt": "Calculate 2+4. Answer:",
+    "answer": "6",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b5d4674d2bad0a0cbf817ee50c945ad2ae38cb777b46f9338d0023c732bbd05d"
+  },
+  {
+    "prompt": "Calculate 2+5. Answer:",
+    "answer": "7",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "cda4007bb867fbba212c40e3f734df061409118ba15f3c2b728722498c7b3e0b"
+  },
+  {
+    "prompt": "Calculate 2+6. Answer:",
+    "answer": "8",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "f205d0e2614ee98169b53230d17f5ae850532b8b6aa0e6f8457c167fb27cf80e"
+  },
+  {
+    "prompt": "Calculate 2+7. Answer:",
+    "answer": "9",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ea0d3f6bb34cf3191ef381b7d12557dbee4ecb676cabbfe48dcace172a49a391"
+  },
+  {
+    "prompt": "Calculate 2+8. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5a10f0f0b3129d8471ded6cd9fc0fe88f18dda2eacb1d318f2de878d8fb98776"
+  },
+  {
+    "prompt": "Calculate 2+9. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e8e65e89e93826f53d92631eb16089da93063e3c8413c790d707003311e1dd79"
+  },
+  {
+    "prompt": "Calculate 2+10. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "23d82d9d9e0a97236d8581afb2bd242d1adb9a1a957dd4d98a55a914d33f7108"
+  },
+  {
+    "prompt": "Calculate 2+11. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7666dd43d4ff30989cca5a8d2d7a9abadaa7bc73198f2e80fe412261bbb06015"
+  },
+  {
+    "prompt": "Calculate 3+2. Answer:",
+    "answer": "5",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e73a9d98af9854a11a267627f0bde74506586315318fdc7645aedbff9774cb06"
+  },
+  {
+    "prompt": "Calculate 3+3. Answer:",
+    "answer": "6",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "74313534e65caa7a188b8ac623cd933d758b0cbfb8e33ea05b2399bc5aeff2aa"
+  },
+  {
+    "prompt": "Calculate 3+4. Answer:",
+    "answer": "7",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "044780bc34cc6b7e210bf07331478693d28960e13a9ef32aafd7c128bcbdfb2b"
+  },
+  {
+    "prompt": "Calculate 3+5. Answer:",
+    "answer": "8",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "0e135a017a94c7c2adb05cb6a714789dc64e578f932d6b58964f3287353095d8"
+  },
+  {
+    "prompt": "Calculate 3+6. Answer:",
+    "answer": "9",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1993288d9b36043f10e5c875b179ddc479fa145cb2ea3b1a62af497b6c9b6484"
+  },
+  {
+    "prompt": "Calculate 3+7. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "78e95616a1354ecdbb5d11348135ba976c0ab96e8ce4cd7c659d39196bfe4286"
+  },
+  {
+    "prompt": "Calculate 3+8. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "924d43111d13d0d1091a037114263987519a4ffd93692f02d91dabe73a8fca38"
+  },
+  {
+    "prompt": "Calculate 3+9. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ce68e8245d8f3ce2844bda4fe2b3eebc0f7320d5d392c76aa00f3cb50fd20f79"
+  },
+  {
+    "prompt": "Calculate 3+10. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "464cc520fb979d86b2230f08c290e53434661e1b0803854562517e87c0ac70d3"
+  },
+  {
+    "prompt": "Calculate 3+11. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5b232709b87f6d05c0b6436924104001f0c616974d9d69246d64c3a24470d3fb"
+  },
+  {
+    "prompt": "Calculate 4+2. Answer:",
+    "answer": "6",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7805b8fa4b9176f2d94b18d71c5d055714f83413c757de4163845fb3e01f82a5"
+  },
+  {
+    "prompt": "Calculate 4+3. Answer:",
+    "answer": "7",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "f01e9ad7659e4461dc89e315c33bd6031b7131005956f698996540ef4b1ffd41"
+  },
+  {
+    "prompt": "Calculate 4+4. Answer:",
+    "answer": "8",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "76b7ab449b3e5d5db69b29d8f570f64c73e94d5f04d96df7a405b1683ba6be71"
+  },
+  {
+    "prompt": "Calculate 4+5. Answer:",
+    "answer": "9",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e24d6219a8a50d9d96aded96cdc663afdb9835e2538dc24320d1ba21986b5fea"
+  },
+  {
+    "prompt": "Calculate 4+6. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5a0d2ca4e74bd5c2f93227d250395ebb66013d64f2ed9f4cae7255f582968884"
+  },
+  {
+    "prompt": "Calculate 4+7. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "fa629f394014ffc878ec462c29688488fa9128dc498cfd351269405d245213cc"
+  },
+  {
+    "prompt": "Calculate 4+8. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "d9b02745ce1fa4ec2e3972f74f5c548d6116d9409b4934a428a75022d14f643c"
+  },
+  {
+    "prompt": "Calculate 4+9. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "dbca4b5704df05013c3fe29a7c2bb2cc4bae9a65c2647ac32d336d984a57d9b0"
+  },
+  {
+    "prompt": "Calculate 4+10. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "0317cf0a4ce13f6449f2328a05c8c8f2c5c90bdf49a457ada8c02e06600a44a8"
+  },
+  {
+    "prompt": "Calculate 4+11. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "399ac5d3a91a0265ad49c7e8976c963616e5e3fdd246065871f75d55c9b06928"
+  },
+  {
+    "prompt": "Calculate 5+2. Answer:",
+    "answer": "7",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1405dc2f5f0537a5ab2efeff30bc8700cf540e112ab9a742970b3777f867ea7d"
+  },
+  {
+    "prompt": "Calculate 5+3. Answer:",
+    "answer": "8",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "d5953294cb711dc47770bb0649c6cbb452a786c18884fa6d924cf57582aea0f4"
+  },
+  {
+    "prompt": "Calculate 5+4. Answer:",
+    "answer": "9",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "88dd8a2e2c7bede7beaee46941948ea313d27f99c7dbc62c373d1c0e39523e57"
+  },
+  {
+    "prompt": "Calculate 5+5. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1b5105a68ce63109e5d862edb462a36b947ee2037d9756f783501b5359eebab3"
+  },
+  {
+    "prompt": "Calculate 5+6. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "4856b3634ecc7d40a43b33c8f8b82dcca30968601dfd9ed1fd03c3fffd4369be"
+  },
+  {
+    "prompt": "Calculate 5+7. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "8791ae8be6530fe761273b6c9eed40477f48bad46075689fd79ffbf8c9e9269e"
+  },
+  {
+    "prompt": "Calculate 5+8. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "7f965076be0c324c8544f212b3e39726c7ee2b2f4fcdab7333d7fd4d80db8611"
+  },
+  {
+    "prompt": "Calculate 5+9. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e3986d9eeb8d48e58df4186d156e58c064e1f9baebe475eb93f2660ba224dedb"
+  },
+  {
+    "prompt": "Calculate 5+10. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "778352ebff15a9f5dd9dfeb0789e2468f1d8d03300ab6250a8fe2311c5591cc5"
+  },
+  {
+    "prompt": "Calculate 5+11. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "55ddfeba315b263b683c762558f95d32cac2bf12948050c38da7f518620a0f5c"
+  },
+  {
+    "prompt": "Calculate 6+2. Answer:",
+    "answer": "8",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5ad837b20f91bffabed20a16017e0276e598162d623a1eaf93e27df2795bcabb"
+  },
+  {
+    "prompt": "Calculate 6+3. Answer:",
+    "answer": "9",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "73362116862334c0b750572d3922ea1ba06ea0766c3ffbffdeb20d5cd51b8593"
+  },
+  {
+    "prompt": "Calculate 6+4. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5aa8c0723a3976a145a221ae40caaeab35d266aa8dbf04a58e93bb7f78021725"
+  },
+  {
+    "prompt": "Calculate 6+5. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "c187cab9f26336e1898be871a407a8cacd1231e19104c839113bc9de9ef697d2"
+  },
+  {
+    "prompt": "Calculate 6+6. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5a7b97131a5e396a50c74779ac0c58e81a55ee2478bbb4378d6ebc97869f3823"
+  },
+  {
+    "prompt": "Calculate 6+7. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "5330f4c85b0bddd3cea559534988e0216fd1f80687224256e75a80ddccf76a54"
+  },
+  {
+    "prompt": "Calculate 6+8. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "fee163fea2a8ce32e1c10f3c61938993bc2a25f0b2cace45456fcbfdd83261c2"
+  },
+  {
+    "prompt": "Calculate 6+9. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "d05abef428e45419d7bedd364bb649d953a5c7b8a0a671a6fefec1b53fbdd524"
+  },
+  {
+    "prompt": "Calculate 6+10. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "6097abdd7bbd52bc76c7c6ecd2437f4351f482540a48e98f812a7c230a75868a"
+  },
+  {
+    "prompt": "Calculate 6+11. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "af5f6b071098fbc8d8e09ef2c5a32fe888f7b3b0e40d7e724cca63cfa7ffa8e8"
+  },
+  {
+    "prompt": "Calculate 7+2. Answer:",
+    "answer": "9",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "bdc3360d9a5a9a7964305e21d9e8e2543b45f01b520752af8d82b8c46392c524"
+  },
+  {
+    "prompt": "Calculate 7+3. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "3b02a63a9f1a86b631ad88e7c43b8909481c3fc0b98e51d13f90c68224387d68"
+  },
+  {
+    "prompt": "Calculate 7+4. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ebb8c3718feba384fa63b08db5cf42726d9a4e8fab7e42b11beb9709f4f8e468"
+  },
+  {
+    "prompt": "Calculate 7+5. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "aa6622bfa5adc93ea66c3d8d4a771321b4d8461bfafbccad139e5d21f33cd2c9"
+  },
+  {
+    "prompt": "Calculate 7+6. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "42d68bfe01866b8247be17d85052fe52137a8d50eb28bcf25d29968ed200ec1d"
+  },
+  {
+    "prompt": "Calculate 7+7. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "08a09281123bf3cb20922eb73d0a0aadcef71cceb07b68bd2ce619f8e5b1dc8f"
+  },
+  {
+    "prompt": "Calculate 7+8. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "227120798377d26aca9b35ad962c207ed34aa0b5ac65329985e1641f85010e12"
+  },
+  {
+    "prompt": "Calculate 7+9. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "0e882e314af795f47304a075a11b24568311dfa0dccbd3723d96923c03b8ebd3"
+  },
+  {
+    "prompt": "Calculate 7+10. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "9bcea5043f3300ab41788744f2b553c740580b22f8a85fd4642ff4e8245c4eda"
+  },
+  {
+    "prompt": "Calculate 7+11. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "de604899429d099a9fe73e927efa7e53d70cb5815cc1c50206f54d52dc9c12d9"
+  },
+  {
+    "prompt": "Calculate 8+2. Answer:",
+    "answer": "10",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "407054f1136d8971b2dffa6fcf863b2be11e04db974de77c9c54c2776fdc58e3"
+  },
+  {
+    "prompt": "Calculate 8+3. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "83e75829e51236c63c7e8840bbca951368e4f5b2330f1062f9c5892bbd2a0af2"
+  },
+  {
+    "prompt": "Calculate 8+4. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "315ea291df2ea5ceb9a7cf65707f1f0666574115f8be6573331e42298eea289a"
+  },
+  {
+    "prompt": "Calculate 8+5. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "af44673e4bf545f4885b8d27bab160edc3afaab9c2492f2b4d691e768fd9fc6d"
+  },
+  {
+    "prompt": "Calculate 8+6. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "c3e947e7cf9f0be392c8ffd06277f0fb2e6943b0695950442b81bbd44a1bff74"
+  },
+  {
+    "prompt": "Calculate 8+7. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c9fbd76f7e027ffde5a7e7ffb8939c8fdd1d11fb8e1522bf3cc1e6411cf54ab0"
+  },
+  {
+    "prompt": "Calculate 8+8. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "d417c37527e2e2e91e0dd08a17a8607415a3f6637983323bc3b85046fdc7186c"
+  },
+  {
+    "prompt": "Calculate 8+9. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "96f2b78c602456eda801fa2e4307de3e0bc7c5bb7d184296773dabb49fa6c833"
+  },
+  {
+    "prompt": "Calculate 8+10. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c6c40cd583be3f50aba14e4a6290072846ffecce3b27d5ae79401e614cb96570"
+  },
+  {
+    "prompt": "Calculate 8+11. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "bcaf83b56e9479a1ef717f25b1aa3c37847f8d929fd79ccb63e7987aa41bd24a"
+  },
+  {
+    "prompt": "Calculate 9+2. Answer:",
+    "answer": "11",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "905eb20707ef53590d0665352fb7c5d67ddfc73dcc6266436375f7a0ecb14255"
+  },
+  {
+    "prompt": "Calculate 9+3. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "30f43ea33f9b853553ce543f9470bd02e0caf6bfdc0c3ffe1bd330467ec3b5a4"
+  },
+  {
+    "prompt": "Calculate 9+4. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "623ce3ba413cddcaedb99ff6a202ab5978dfb241be6ae1d010be2b2141193846"
+  },
+  {
+    "prompt": "Calculate 9+5. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "a74ac9311191fdb213f6c5146c4456235473f2bfaac3362854cbf18891bb0429"
+  },
+  {
+    "prompt": "Calculate 9+6. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "2a66f46a10c23708a447f47a3ee570a4aee6a69b2dfff98a4ecbd2da7de7f1fe"
+  },
+  {
+    "prompt": "Calculate 9+7. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ffe2b68c31361cb8bfbb22d61683b640c75d1fa73e3e71f2aff864da1d8069b9"
+  },
+  {
+    "prompt": "Calculate 9+8. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "fb5c903be8a59935987a995c51bec6b2beabf740a197c01c8557b36a35b7bd1d"
+  },
+  {
+    "prompt": "Calculate 9+9. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c67a2bb250c3e631b46e2403ef1e329fb4ddc163e820b2b4237365289a8b4ed7"
+  },
+  {
+    "prompt": "Calculate 9+10. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "a82ae3bba7b0a05deed552fd1ce5f74c23f7c642206375ffd1688c38535e5fc2"
+  },
+  {
+    "prompt": "Calculate 9+11. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "706680e148abe2297996e2b77a01234f879e44ad849498d86ee70bec968d69ae"
+  },
+  {
+    "prompt": "Calculate 10+2. Answer:",
+    "answer": "12",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1b51090c1827048deca0d11f55471cd12ff7341b6b6c9ee7b028f50b7506f710"
+  },
+  {
+    "prompt": "Calculate 10+3. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "0413dc4974ed5d34a77bc8d74568b57d5d8c6f60fc6d4d3c917b22229167379b"
+  },
+  {
+    "prompt": "Calculate 10+4. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "55ef91d10453fe658aff77574b7392ea1c2727383d6c20983162e9c05493bc68"
+  },
+  {
+    "prompt": "Calculate 10+5. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "0a325ada3e4ae6bbefd700ed6947c6e03aadf3b8284a3054de653efaa866dbe4"
+  },
+  {
+    "prompt": "Calculate 10+6. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "6f27c31c9af4ae13cdcd66c7a9b3c5cdc4fafe7c30bbaf869f184e1e89e4e980"
+  },
+  {
+    "prompt": "Calculate 10+7. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7852902a362f7458ea4a2d5e0a7a8bf1ee058a57cea49c962299e70ed2cb4413"
+  },
+  {
+    "prompt": "Calculate 10+8. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7dfbdfb46a2327ad7c746f1d81d460c00a6dea7622b89117c181a48b321ab5b6"
+  },
+  {
+    "prompt": "Calculate 10+9. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "18255612c90cb6e7d435d3904a6b6eaca5860359038149e79c7b2558ade54636"
+  },
+  {
+    "prompt": "Calculate 10+10. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "c32e9a64437e3919edba6871d2db0aece0ac2e13e64f2645bf4b11f0f10d147e"
+  },
+  {
+    "prompt": "Calculate 10+11. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "60288b6ab816e36b3f149a46f2b19ee0b73921faa8e2eb0da0b4e198233f5424"
+  },
+  {
+    "prompt": "Calculate 11+2. Answer:",
+    "answer": "13",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b76fef269acc7fb7e88eecca5a6caca17532fa8feb7d212ed75c3af21b113bc8"
+  },
+  {
+    "prompt": "Calculate 11+3. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "a8c8d8014b27a4d989ffc0cef4bef47cb3b1df31121169e54eb2ea2822f4478a"
+  },
+  {
+    "prompt": "Calculate 11+4. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "4c4328cff1a08186e44cb549f94e4979e0aa74960efb91370d182f6721e6b526"
+  },
+  {
+    "prompt": "Calculate 11+5. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1d1058225bcb547915423ada5bf56fa312cea3a34373946fba4953f569a3d100"
+  },
+  {
+    "prompt": "Calculate 11+6. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "a26963f78c185869b63bad745ef232f55b6bf69d53d04afdf79fd0eed6bbdb9b"
+  },
+  {
+    "prompt": "Calculate 11+7. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "6bb2f8f615318ee24f1112db998cb1d91b3002ad35e70971a817bddc9eeba00f"
+  },
+  {
+    "prompt": "Calculate 11+8. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "4b0a52c781202a21ef1b32e86523baeb388879efb378b3105e6386b4e1bb6ae4"
+  },
+  {
+    "prompt": "Calculate 11+9. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c85a2f50fc39085f27ff6c5618e0e29f54cb2e9227f602212d697a5fd1ff5137"
+  },
+  {
+    "prompt": "Calculate 11+10. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 1,
+    "split": "test",
+    "id": "f92dc3060936d64da7d90b1e0763ee74c84ed1836ad6310eefbb259dffb8731a"
+  },
+  {
+    "prompt": "Calculate 11+11. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 1,
+    "split": "train",
+    "id": "f6db29e848bfcbdbc8f1e22aebcd6437d57874f5d4a0327790cce904e802b3f2"
+  },
+  {
+    "prompt": "Calculate 12+2. Answer:",
+    "answer": "14",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4e0bd84d0ebf180a2a0e8bca7d4752d871b713afa9a98da31dfa9f8f546ea5e3"
+  },
+  {
+    "prompt": "Calculate 12+3. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f84a37c02745162192956dd8e4be6f4f7c883911271ff93768a30c5a4cdeea20"
+  },
+  {
+    "prompt": "Calculate 12+4. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c1d9a8ee5da337bedc283431b7d9c41ea4fa29729da344a0fda236b1bc02cdf0"
+  },
+  {
+    "prompt": "Calculate 12+5. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b358b927a74bc95393f5335a83c52e6ad55e31576d21517d0604affeeb1a1758"
+  },
+  {
+    "prompt": "Calculate 12+6. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "bb061c188345159a5209c0e1085da0c25be34180e658b71525c96db60276dc2f"
+  },
+  {
+    "prompt": "Calculate 12+7. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b5247c4b9782f38d8b0260c6d0acfce12109bc7d2c52142f5cfefddcac856110"
+  },
+  {
+    "prompt": "Calculate 12+8. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "121a859b1790d144eee9c11da3b3973eebf56bc7220eef2dad1233410ceb19e9"
+  },
+  {
+    "prompt": "Calculate 12+9. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e4d70b85bf8b1d99318f2130aee836539b0ebf0d8c05405d5acefba9bbb12dc6"
+  },
+  {
+    "prompt": "Calculate 12+10. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "c14652e63b5ca75c1b566ca63446d69f7e03a64fa16963337d49348b57faf9c1"
+  },
+  {
+    "prompt": "Calculate 12+11. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e6f764cdbfda11b3a0b4c67e7f811cb056c292b43aae494297ef91598728a0c5"
+  },
+  {
+    "prompt": "Calculate 13+2. Answer:",
+    "answer": "15",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "fd12b0333ac2d141585855573c8a7e2fae72cc4c07b14f287e142660d7ca417c"
+  },
+  {
+    "prompt": "Calculate 13+3. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4adbb032a8ce1605dc79a3ec7bf8d819b6cd12a028d6b87fd3212d02b03b0436"
+  },
+  {
+    "prompt": "Calculate 13+4. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f7274ce64eb19a37423531f21abc7e6c3ae1e6d7c74c0f2bd6967d6692945550"
+  },
+  {
+    "prompt": "Calculate 13+5. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5c84b2be825911b9d1198aa6a7bdfd63723b96e7dba3556dfad3f6c587f43cfe"
+  },
+  {
+    "prompt": "Calculate 13+6. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d172d9fb1c7650f5f3a5d9a91e5b466c40d75734f09bdd5ef429183abf18ce7b"
+  },
+  {
+    "prompt": "Calculate 13+7. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "2dcb414d78c1572dc83cf66a1f849c31f8f0f7732192d75760cf83eedf8d3827"
+  },
+  {
+    "prompt": "Calculate 13+8. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2bc8a51af6b1649cf7fcb20a67eccaffbcdf83577e43bd45c842f0ef77176359"
+  },
+  {
+    "prompt": "Calculate 13+9. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "553b1ca58bb447ada24993f361500a7a47d3169f3e0aae57faddff4c775808de"
+  },
+  {
+    "prompt": "Calculate 13+10. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "4cfdc6853a9bcbcd7934e925ddff097df449e0b5766223d6b00149ac2a72bf79"
+  },
+  {
+    "prompt": "Calculate 13+11. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "35a47cc1466d77b96e64b5787a5b712b533e2bd0b9f63a195cd8475e93cd5777"
+  },
+  {
+    "prompt": "Calculate 14+2. Answer:",
+    "answer": "16",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "433b5479f46e5d2cdabe4b9fd39addaa4f67097bcc48bbe7a535d4d93ded4aa1"
+  },
+  {
+    "prompt": "Calculate 14+3. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "01cf0192e87cc246449d7eebbbe59ccab7b656fcca8ae0aec97db91441be76d5"
+  },
+  {
+    "prompt": "Calculate 14+4. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c521ad37264d16340675281102d7088130b2db8ad2931b93d45c41f47769d7a9"
+  },
+  {
+    "prompt": "Calculate 14+5. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "296476c37e55c8b662a012a7986a4de8c1125d2782e114ca0d8d521652b36a8a"
+  },
+  {
+    "prompt": "Calculate 14+6. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c880e2be82be6ed8a7363df36739e79e410f8468056ef053711511ba7082f4b2"
+  },
+  {
+    "prompt": "Calculate 14+7. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "07a9c53165198f059f0411229d791f7c1d6abf915cef8b0fed32e923fb696f8c"
+  },
+  {
+    "prompt": "Calculate 14+8. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5eded45e65fd26f7f18de866b6e717f33a56fb2bbdd1572a00a6726aef0a021f"
+  },
+  {
+    "prompt": "Calculate 14+9. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4396fd9f4d1e34ef7eeb27253d9e023a607ad0887951e85d0d4b76f4f2e3cf32"
+  },
+  {
+    "prompt": "Calculate 14+10. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "7eb48b4df2643915521504bdc9504d397a7be26464b7ce0b565629f92de5804d"
+  },
+  {
+    "prompt": "Calculate 14+11. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d58fc238916c4d284dcfb4e14b290e35747af93f783ba206111f894207b5bca0"
+  },
+  {
+    "prompt": "Calculate 15+2. Answer:",
+    "answer": "17",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "42b713aec802d383453e2a431a943b019aed5494d4ef167d240b41a7c9109eff"
+  },
+  {
+    "prompt": "Calculate 15+3. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6ebd63b51b1d92f029101234b0349ac9008757591833e56b72a7b034f1b225c6"
+  },
+  {
+    "prompt": "Calculate 15+4. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2bae89fedc9fdc2038a14a4c40931db4ac6d7529535b1e5dff35340a25fc033c"
+  },
+  {
+    "prompt": "Calculate 15+5. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "38d96122b9fbc407a940432124727823d7245bf16b1f066ba66da4d9f169264e"
+  },
+  {
+    "prompt": "Calculate 15+6. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5429a5e4ee2fa360c33429b883dfcd4d8cf00c1eab7fe1e33ce4402df4550d69"
+  },
+  {
+    "prompt": "Calculate 15+7. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3900277ba06bc903ee25cdcc504156a5710a36c79d12f5cb48b238a0170c4ada"
+  },
+  {
+    "prompt": "Calculate 15+8. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a22026f98d01d01fca08b7509f5206db6ac0402b03b2f799ad835014c40e2bc5"
+  },
+  {
+    "prompt": "Calculate 15+9. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "619e6d69ee51b3e9491c89bc09ed9c020e30fe33473ce51b8c41eaea85050e89"
+  },
+  {
+    "prompt": "Calculate 15+10. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4d8e09451a636eb0b61a97e4ff0845a775baa6b5b14bf1ad37bf68f2ee6271c1"
+  },
+  {
+    "prompt": "Calculate 15+11. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f93a4cd65bc66c2e58394ce866cd27afffaa33c63bc7e8bf0a6e91947fa28ccf"
+  },
+  {
+    "prompt": "Calculate 16+2. Answer:",
+    "answer": "18",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "08e3480d98f17427f6c5022a67cafcc3044c26f2e87cb51bc5b33485e0ea8d6e"
+  },
+  {
+    "prompt": "Calculate 16+3. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "038966203fd21a6ecb65ef7c07aad041f6626283f7e85ec5eb6bd552023587af"
+  },
+  {
+    "prompt": "Calculate 16+4. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ee8dda5eb3b53e08266e135c5f68102e3c9da5fe76f2667589ea3595f305b01d"
+  },
+  {
+    "prompt": "Calculate 16+5. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "62be88776e8611ec7694e01ac4191d95433d0345174b0999820febe0afdc5050"
+  },
+  {
+    "prompt": "Calculate 16+6. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d8c93d26d2465409306ed6fae61b98535522d1a380626e02cee42cfa1fde4dfc"
+  },
+  {
+    "prompt": "Calculate 16+7. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "fe0cd009fdbf6a0e56e1413b2408e4a6f4aabce73556f73f5a60c04a161c2f4a"
+  },
+  {
+    "prompt": "Calculate 16+8. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c795721f0ed18110addb6947e4bc7b2e3ec24c08aa01848daa0baec26c82e521"
+  },
+  {
+    "prompt": "Calculate 16+9. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "27fb770c67d99a8432ca58b94f33b33cb904eb23c5db0d08e15664e7389201c8"
+  },
+  {
+    "prompt": "Calculate 16+10. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "02830cf330111c6b38878f2b9ca669be83e819eafdbba3e84534d4f9a97a8968"
+  },
+  {
+    "prompt": "Calculate 16+11. Answer:",
+    "answer": "27",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8f08d9d1209bc9c0d74ac68cdd75ce00ac5c946b8e4051d86fa261610d0027c5"
+  },
+  {
+    "prompt": "Calculate 17+2. Answer:",
+    "answer": "19",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "16a0bae871df48c32a309b490a8056a11aa0ba489832b60cac9501fa50a03e62"
+  },
+  {
+    "prompt": "Calculate 17+3. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "832e444659137601830c14a4d657592ba8facf882ac46afe6dea4a6b5f40b598"
+  },
+  {
+    "prompt": "Calculate 17+4. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "acc97375a417b10d2090723fdfe1262e8cdfada0777da7cdc4ce3aa8a08cd1b8"
+  },
+  {
+    "prompt": "Calculate 17+5. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "24f88548eade85063445937002af06dd8ba14b40d214de2e67a953a7b1814087"
+  },
+  {
+    "prompt": "Calculate 17+6. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2123fde3fc47c1dd82023d9a76cc5f67e9683b5469a0ee75982fc2b4639e3cf9"
+  },
+  {
+    "prompt": "Calculate 17+7. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "19f5c88f6534b6cbc6c6703a81fc2832b82ba75698ae00b8bdf485a96899b313"
+  },
+  {
+    "prompt": "Calculate 17+8. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "feebce1d45fb872992fc4d5e91067df85753f5c3b6312877b21e27d38012f567"
+  },
+  {
+    "prompt": "Calculate 17+9. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6e27539fd3bd578fbd1dffafc066149571617e94ddf4901d5d1f46ef8b428c1b"
+  },
+  {
+    "prompt": "Calculate 17+10. Answer:",
+    "answer": "27",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f9dba586c1e04609736b79e32e74dfef132c58683eeed24b936d5062c9b9de48"
+  },
+  {
+    "prompt": "Calculate 17+11. Answer:",
+    "answer": "28",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "822bad8921c5a6cdd7cc7231d2cf6402fd004ecaeb0bff5330115870f5207f03"
+  },
+  {
+    "prompt": "Calculate 18+2. Answer:",
+    "answer": "20",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6541abb9ee2a8ed9e947cd54af99c2f0fa248465418f764d6a0976db41ac1585"
+  },
+  {
+    "prompt": "Calculate 18+3. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ea10cbb08257828719459b334ef447586e467bad5226ff2dea3f1fc522c226a4"
+  },
+  {
+    "prompt": "Calculate 18+4. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "21d34e28d3580421162a465490ad46c52998858cd7c0d656faf58cf8a39c3df4"
+  },
+  {
+    "prompt": "Calculate 18+5. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a66cd78c1d3011d093c22474a6a8653108be8706ab7931397e2b5b224c5e9890"
+  },
+  {
+    "prompt": "Calculate 18+6. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "17271f7b9f25cdb516b1e839c66a6a4f4705af4f29f453ee26b2502804598132"
+  },
+  {
+    "prompt": "Calculate 18+7. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a77b4f948e0122e0d282a272276d894be8e897349a3ee534d1484f46a916cad1"
+  },
+  {
+    "prompt": "Calculate 18+8. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5e8ccc0d8ed1c557115a4ee09f92b5fca1980446e4db71704ffeae50728c25f1"
+  },
+  {
+    "prompt": "Calculate 18+9. Answer:",
+    "answer": "27",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "fee76aea0041985a94f13bf5b738512fe9a5e562c7225d4e39732e6adc6433c4"
+  },
+  {
+    "prompt": "Calculate 18+10. Answer:",
+    "answer": "28",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "959ba6b47b0d91a9b6bd1d1d77b2d390d644757f19744774358639ca40062e72"
+  },
+  {
+    "prompt": "Calculate 18+11. Answer:",
+    "answer": "29",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "7562644d1c04c3b43331c2d2d1653104dba9a0ee3968a2a86712c91d5ef0afa9"
+  },
+  {
+    "prompt": "Calculate 19+2. Answer:",
+    "answer": "21",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5897ef6cfdd647978f90f51615296178e8b5dc12b7896673740bf46dca32356a"
+  },
+  {
+    "prompt": "Calculate 19+3. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1c7bde7d747614d79b9da88f02cfd569eb68e84b2448a2d7a72c4cfe75212d6e"
+  },
+  {
+    "prompt": "Calculate 19+4. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "786953ce0d7246e4228f40c0e62f3b10520aa6bf9e3f1025ec964d5dd8cea996"
+  },
+  {
+    "prompt": "Calculate 19+5. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9891943af51ec2d5a1d0efef7e5604b901eff0fdc6c85d794bee9bcd35b525bb"
+  },
+  {
+    "prompt": "Calculate 19+6. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "e8445230376a9c23709bf8014e1d29c6284dbdf8c30b2055321cf1a531f3a4ea"
+  },
+  {
+    "prompt": "Calculate 19+7. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "651bba12f45118d1256b3406baefe05fde6d9c4710e24bab46dec7c281be655d"
+  },
+  {
+    "prompt": "Calculate 19+8. Answer:",
+    "answer": "27",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "81ccdd404621747cd31f35f7cbf4dd7510a5c9e56fdeaa65a20853e2bef2d831"
+  },
+  {
+    "prompt": "Calculate 19+9. Answer:",
+    "answer": "28",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "fcedaf30d49dd8c8b101fc7e979e340a7b60c9c718817482180021489ef54233"
+  },
+  {
+    "prompt": "Calculate 19+10. Answer:",
+    "answer": "29",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f399eb746e441c31f208186a726755301896ed6eca651c397748726e3887aa31"
+  },
+  {
+    "prompt": "Calculate 19+11. Answer:",
+    "answer": "30",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "66a714cd4676ca2fc943e2b86425aa4d06662d6378bdfcde76e004719f0ff6b3"
+  },
+  {
+    "prompt": "Calculate 20+2. Answer:",
+    "answer": "22",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4c9398f8022f07a68f3fdf2e39626c420dfe663b41c67a6e74826270df94e2ff"
+  },
+  {
+    "prompt": "Calculate 20+3. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a45534836d8401db1e8462260ab84fe3a04f0b442382830649a90dd739968967"
+  },
+  {
+    "prompt": "Calculate 20+4. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1f849808e2296de0d11525695742afd2c7ce21f4d833689ee5c10af4b29456e4"
+  },
+  {
+    "prompt": "Calculate 20+5. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "cd8faf438e5707cb0b52e60ef4c6cde77bb5161ef5afbe57a6876d0fcc0a1168"
+  },
+  {
+    "prompt": "Calculate 20+6. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d22b53be9bc051c6817c451024cd6c6750e9db4799d2dfc616a1cf426684a370"
+  },
+  {
+    "prompt": "Calculate 20+7. Answer:",
+    "answer": "27",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "b6d398ff3fbf30dae7839cb2bce8f67cc2159f3f35b0fa158fa4c382059cfc99"
+  },
+  {
+    "prompt": "Calculate 20+8. Answer:",
+    "answer": "28",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "053e0ff31b1039efaf0ae635265b48c81c6b0402463b4bdd666640480577aed7"
+  },
+  {
+    "prompt": "Calculate 20+9. Answer:",
+    "answer": "29",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "129d61fc489ce204f6b963d9dd849916247d2d26dab24fea8c85005c03af8495"
+  },
+  {
+    "prompt": "Calculate 20+10. Answer:",
+    "answer": "30",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e8e6b9ba46d25f7e817dc11920c14e2a6753aef8e83bd8ac185b053eee4615be"
+  },
+  {
+    "prompt": "Calculate 20+11. Answer:",
+    "answer": "31",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "dc7b093a5aed08b64cf2993fc0dfe3e456821df7f249ea4320ff113da3413b66"
+  },
+  {
+    "prompt": "Calculate 21+2. Answer:",
+    "answer": "23",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e0765c11da04ad3c93701d978cfc8148c9cdc060153648ed476e13a3769db604"
+  },
+  {
+    "prompt": "Calculate 21+3. Answer:",
+    "answer": "24",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b09bd203ee3cc2b7769ffa31144a4236fd1233a3f44b4018ce0353dbdcb9eb43"
+  },
+  {
+    "prompt": "Calculate 21+4. Answer:",
+    "answer": "25",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "eda0d536e49692fa5a64fae86aa7eec82c5ab9829281a2ab391cb353cd20ea6c"
+  },
+  {
+    "prompt": "Calculate 21+5. Answer:",
+    "answer": "26",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "861a7f9df7c872103c1feba4be410961b66f88257fb6aa993736a7c6e17db5b3"
+  },
+  {
+    "prompt": "Calculate 21+6. Answer:",
+    "answer": "27",
+    "family": "add",
+    "difficulty": 2,
+    "split": "test",
+    "id": "904187749d405c3f42504953a123b521f4e406b0832a9782656cfc04ab378d34"
+  },
+  {
+    "prompt": "Calculate 21+7. Answer:",
+    "answer": "28",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "dd8387f53f629546c2842428f064b161ebf6129274b10b84055a95d364c67c33"
+  },
+  {
+    "prompt": "Calculate 21+8. Answer:",
+    "answer": "29",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8cbc16dd3b368cfd726f79f2059fb0062811c1a086961ef88089c73d9c0314d2"
+  },
+  {
+    "prompt": "Calculate 21+9. Answer:",
+    "answer": "30",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f8a73184a264f8dac0b2313a5121abc12ec0ab0ea142238e5af3b66b94582872"
+  },
+  {
+    "prompt": "Calculate 21+10. Answer:",
+    "answer": "31",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3e7d74090752f86f976787d8db9b9e2c54d4be7acd8a60d33569eb3898e3f294"
+  },
+  {
+    "prompt": "Calculate 21+11. Answer:",
+    "answer": "32",
+    "family": "add",
+    "difficulty": 2,
+    "split": "train",
+    "id": "871230829fc7e8924ceb5aa716c686151b6e4cc2ea6363c3ca9277e58724e175"
+  },
+  {
+    "prompt": "Calculate 2-2. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "0f4389b4a2a5bccf4a7d9dafc1006ee54f914a7ecc1a4aedbc6ad38bd29d411c"
+  },
+  {
+    "prompt": "Calculate 2-3. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "21c27bb7fc1c19490f97d6792ec1e14924990966f53e3f29ff5ccf005326e07d"
+  },
+  {
+    "prompt": "Calculate 2-4. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b12704f89d76703649611bb8a0ecff9197b33cc00e9d3f1ed94c7abfb9b62a3e"
+  },
+  {
+    "prompt": "Calculate 2-5. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "65e12aa155346ad11d48a4366d219764b0f74aa02f5676aa7eb0795ca6bed5de"
+  },
+  {
+    "prompt": "Calculate 2-6. Answer:",
+    "answer": "-4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "2116c9da68c7741f6c5c710739880104f43d57fab27b044fb83dd41e3b3be899"
+  },
+  {
+    "prompt": "Calculate 2-7. Answer:",
+    "answer": "-5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "8f229e1cae5a55a8531929790f27056e7a93e847991247f438790f6429c1bad3"
+  },
+  {
+    "prompt": "Calculate 2-8. Answer:",
+    "answer": "-6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5cd4ade2040e36998264107ff327765a8a17b6ed05aba35e1eccf0d347544bce"
+  },
+  {
+    "prompt": "Calculate 2-9. Answer:",
+    "answer": "-7",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "8e92e8206115ccf567a00b8eb88dbfe033fca250b400bf2764d039e5ff9c1cb6"
+  },
+  {
+    "prompt": "Calculate 2-10. Answer:",
+    "answer": "-8",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1ac1dcd0b478faf09e6033b86d8cc2926a799ba9849e26413f705d25a67eb396"
+  },
+  {
+    "prompt": "Calculate 2-11. Answer:",
+    "answer": "-9",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e039d361f3c503b748063d7600e1ab39834e53b05544c4cb4bddecca2adc8e19"
+  },
+  {
+    "prompt": "Calculate 3-2. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "a64649e9474b2718e06de26b514f8d171f094a465812a6bb2c1eb54960969514"
+  },
+  {
+    "prompt": "Calculate 3-3. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "12a628a09451597180a009506ddbf376dc148c84f2d2e5aa7268b7d3b12caeba"
+  },
+  {
+    "prompt": "Calculate 3-4. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b232fbfa4016bf5e3438e586e0039e511e5c0fe8327179ccc52225ce9ba50e84"
+  },
+  {
+    "prompt": "Calculate 3-5. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "bd9eb142e2e488c2e5e8496a12d6f9954b67ab37c2a7ff32422c90e4ac8abfd7"
+  },
+  {
+    "prompt": "Calculate 3-6. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "3e7414c41047db1146025fae1f30adafb5d78b3363a5e0490b4de438d95cb1ba"
+  },
+  {
+    "prompt": "Calculate 3-7. Answer:",
+    "answer": "-4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "339bf0d9124c60318c6f7d84ccd8d3a64fdb0b4c1393297275ea561779c7956e"
+  },
+  {
+    "prompt": "Calculate 3-8. Answer:",
+    "answer": "-5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ec046c7d3fa16a0900fde9c7b88ac239fa24b1feef46192d5fd4e45ca588877b"
+  },
+  {
+    "prompt": "Calculate 3-9. Answer:",
+    "answer": "-6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ec63ed117c263bd096d3917c631ec4797a59a5dae7d52151574f5ff2fc3b15bc"
+  },
+  {
+    "prompt": "Calculate 3-10. Answer:",
+    "answer": "-7",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5ae191ac20c2ae01fb5ea36782758d32783b026c062cc71635a68732faa86ca6"
+  },
+  {
+    "prompt": "Calculate 3-11. Answer:",
+    "answer": "-8",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "5e6b0387d601ec2c58d7f887f2ed95734a8ca5b75f5d793e3d59d67ed4a1ee72"
+  },
+  {
+    "prompt": "Calculate 4-2. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ce7b7713ca8725ea2d63d34a15ae12a304053ce97ed4c7f06a34b3250a799e1b"
+  },
+  {
+    "prompt": "Calculate 4-3. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "51bb9ca4394c26c58770a29e874f83678ea22918913ada7c77615feff4d5507d"
+  },
+  {
+    "prompt": "Calculate 4-4. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "69ed96983fb76692de2e1976a60fb2c7d5db8063ea837786932d9b58923d835f"
+  },
+  {
+    "prompt": "Calculate 4-5. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c34cd64da88254e9aad341690f9d75cae47bc1180f1d416c7bbfe7c96f5a9435"
+  },
+  {
+    "prompt": "Calculate 4-6. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c9a2b3310ca7ba24b746efa3d6fbe932229d192797b515354c99b3af58422b92"
+  },
+  {
+    "prompt": "Calculate 4-7. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "48153b9c08b5608f4f32a8214ff0a683621b3a652152400dc4ae4adfde814c69"
+  },
+  {
+    "prompt": "Calculate 4-8. Answer:",
+    "answer": "-4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "f51da034a1002c642f3f3efcecbfa947cc70525e86a9b3fce3668a976459e7a6"
+  },
+  {
+    "prompt": "Calculate 4-9. Answer:",
+    "answer": "-5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "666515098ec06e5894c71ced62440deb822fd77f3aff17360acba6646100666f"
+  },
+  {
+    "prompt": "Calculate 4-10. Answer:",
+    "answer": "-6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "2b95d61b8ab1ee5cb306c56102de4fc6983de463efa58dbb83d55f126c1a8d50"
+  },
+  {
+    "prompt": "Calculate 4-11. Answer:",
+    "answer": "-7",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "3fe703821a208306fcdff0fc6547528965b913fdce2ea9a2c39965ff2fad7d1a"
+  },
+  {
+    "prompt": "Calculate 5-2. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "1a05c6150e99f112f2309bd9fa1510762ee5b6f710742075e110a5f660b2fcde"
+  },
+  {
+    "prompt": "Calculate 5-3. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "8e3011b9e9baa30a494ff3661d6aa5cdc502687b45c750bbf2613451304a74bd"
+  },
+  {
+    "prompt": "Calculate 5-4. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "5310629ef67094f504662961d7416e782bf8e91dab01d2134e2c449debdf50b2"
+  },
+  {
+    "prompt": "Calculate 5-5. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "cb0467ba6f150c43d1e631db884cc6f31ec582dd8a749fa517fb60915ee5464c"
+  },
+  {
+    "prompt": "Calculate 5-6. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7755f05366668cda7f438ca76c11e474cf29e58c3e1c87632437ffc7653d2b45"
+  },
+  {
+    "prompt": "Calculate 5-7. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "49fac77ec7f26cc689668f62109b1d7eb2790af7c774f3568ebbaee0203f3715"
+  },
+  {
+    "prompt": "Calculate 5-8. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "6f07115d931d867b0db80987bb65837a2193fc1e4162fb1fc6742248fdc7febf"
+  },
+  {
+    "prompt": "Calculate 5-9. Answer:",
+    "answer": "-4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "647db2d15814044237c2716bd696247f49d83fa89f308cd36f004939632de2d0"
+  },
+  {
+    "prompt": "Calculate 5-10. Answer:",
+    "answer": "-5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "a5563fdd014dd2761926ca6fea69cf9c27f11cc250d6925752bd338053723249"
+  },
+  {
+    "prompt": "Calculate 5-11. Answer:",
+    "answer": "-6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "fbcbbd00acf7c1d51fdcceacfaf0a18c21950648379ba8f299fd21fbc8f2ff0c"
+  },
+  {
+    "prompt": "Calculate 6-2. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "172364aabdf48567ad9ce5d80574394ce15034fe78482eaaf20d531b6abba1bc"
+  },
+  {
+    "prompt": "Calculate 6-3. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "6d2edf55a4c6354011e966d1e1e0ffbffe6c251c1ef63966a5a462e21c71f7da"
+  },
+  {
+    "prompt": "Calculate 6-4. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "bf5094326b0117750f1d236aa3f443e61e93da21780123601507c0af33650ff6"
+  },
+  {
+    "prompt": "Calculate 6-5. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "2b84805f018ed64688d62f7282dd38d2cd0c6373bcb3cd06efb27c984facf0bb"
+  },
+  {
+    "prompt": "Calculate 6-6. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "2dd92c5a3897b88a70a02bf3f6c1de517630d4cf4eab3f66e76d7b5c43ba73f2"
+  },
+  {
+    "prompt": "Calculate 6-7. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e58a93cbedee9a1a863aa20ef47a3a33ca375102e0e5d0c5533e2a984a1e2f6c"
+  },
+  {
+    "prompt": "Calculate 6-8. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "3e243987b46fc9cbfaeb2eb92d3c360c62b6822ac5162a499497905d6cface4c"
+  },
+  {
+    "prompt": "Calculate 6-9. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "fd8709f996fde72b36b52ca6e4f7ac1637a1a2a272902f430b7919409e37a707"
+  },
+  {
+    "prompt": "Calculate 6-10. Answer:",
+    "answer": "-4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b87d5e590ac6219669cc1e7e29a0c802b787493d32dd9f71252bb3c475266db7"
+  },
+  {
+    "prompt": "Calculate 6-11. Answer:",
+    "answer": "-5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "04c85dcc493f5607b54dd90b1c7a94c681417847e71772c4347e8117facbcdda"
+  },
+  {
+    "prompt": "Calculate 7-2. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "a3b82877c575b6dfd141cd308bce9dc9148e90bd862ac85063209d88b6f54b3a"
+  },
+  {
+    "prompt": "Calculate 7-3. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ab7c077c755b466a4cfef4be8c005471a45fff91985410a8027984069475e611"
+  },
+  {
+    "prompt": "Calculate 7-4. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "8b77d172a7b57b99838baca35b2d499827db018ea195f1f40fdebb373a3c1183"
+  },
+  {
+    "prompt": "Calculate 7-5. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7ac8d3d7b78aa9b40f0bce07c4fbc7fdd44f45595b5a59c102efdba6091e57d2"
+  },
+  {
+    "prompt": "Calculate 7-6. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "c785adc37a33917305cd8829b52b2b304af85f05e42ccde959b5e9ec4b615d5b"
+  },
+  {
+    "prompt": "Calculate 7-7. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "9ce50da69e453c17861ae42c6eabac8c4dd72ad7da3355c76d87a240ec0ccda7"
+  },
+  {
+    "prompt": "Calculate 7-8. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "654796c7449361b229208298bb1cc8c320a7fb29dbc9133513f3626ec0c469f7"
+  },
+  {
+    "prompt": "Calculate 7-9. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "cf760d44f1bc26c5c2517742818f359aab2a9de57276d238461bf1732ff3c511"
+  },
+  {
+    "prompt": "Calculate 7-10. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "127059f775308cf4a093985bab6dc8d1e481d7bff1c3757c61f4fd17d588c98d"
+  },
+  {
+    "prompt": "Calculate 7-11. Answer:",
+    "answer": "-4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "320bed07806bf958ed52a45235a0352f35a243921db9a5cd3eb4660638978091"
+  },
+  {
+    "prompt": "Calculate 8-2. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "e7afcc5e35210fcc72e8e716b6d61cddb99b4f97b0244fca681975ad82543b7c"
+  },
+  {
+    "prompt": "Calculate 8-3. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "92ac0d532cdce623fc2da8158a7f2d764ba8a60aac0c555547fe7eb68b3784b4"
+  },
+  {
+    "prompt": "Calculate 8-4. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "af43e620c968d3cd3467b8827b720763c03b7247507cea63ca15b51ad958d0d5"
+  },
+  {
+    "prompt": "Calculate 8-5. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b29e7987355cb1f097accd1a630e479c24c22393ed28295e6fcb522660241ff4"
+  },
+  {
+    "prompt": "Calculate 8-6. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "317c36e59f8d3ff28ebddfc138b078fd168ae1a4f9a40852fee64741c6a0f62c"
+  },
+  {
+    "prompt": "Calculate 8-7. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "db180a097e33366920324f6443d5f304e244f7f09d9a7b5dc697e29d7284dcce"
+  },
+  {
+    "prompt": "Calculate 8-8. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "331de20f87fc509e79e161d367058bd31429caa7ca38849ddbc0c252ed793fd8"
+  },
+  {
+    "prompt": "Calculate 8-9. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "7a0105ec5c5796fd70b572815731d0c218cb9904ed2d315874c908b8f1455c38"
+  },
+  {
+    "prompt": "Calculate 8-10. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "1eb295e022d5bf872578aa65c9a5df1fc3eed7b29611d3ae84db5a051b9ac19c"
+  },
+  {
+    "prompt": "Calculate 8-11. Answer:",
+    "answer": "-3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "4fd0cd177c4cc0e4b02d386a80e439bd70951317bf646d85ff3e4ff971b15285"
+  },
+  {
+    "prompt": "Calculate 9-2. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "fa9b8cb7a0e9a13a49972ad407261fac9f5547efaccbbfa91299be20dd84897a"
+  },
+  {
+    "prompt": "Calculate 9-3. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "15a4d41431047f8076a441d298dabf091ad64b9a6fd4392abaffebb3eea1a1e5"
+  },
+  {
+    "prompt": "Calculate 9-4. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "061a675e0d939bdc10f933f4493d29863f333ec5b4d08682d60ac1e7cefc8b4b"
+  },
+  {
+    "prompt": "Calculate 9-5. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "f56857446b695c28d2c2e655606978edc9d6558ba0b674c6bc5e8e0f6ec5251d"
+  },
+  {
+    "prompt": "Calculate 9-6. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "6afec305573ae2a4070691a00a8ec1aad8c234034bd0c06e7f6565a5771070da"
+  },
+  {
+    "prompt": "Calculate 9-7. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "6afa00495902c54a6d5ffebecfb3737c857dc3a72894add075750a113e142808"
+  },
+  {
+    "prompt": "Calculate 9-8. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "7f2fc72508d3633ed76b01787f86b7980152580d3ca57bfe5a493cb755f17164"
+  },
+  {
+    "prompt": "Calculate 9-9. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "37c14fd0e405b9c642fed229fa8f209a55dc22bcf43f4193ce37620e4edb9fe7"
+  },
+  {
+    "prompt": "Calculate 9-10. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "ed2db23d6507fac72aab52c7d0606998555e841a536c32eebe9ba04b04127dfb"
+  },
+  {
+    "prompt": "Calculate 9-11. Answer:",
+    "answer": "-2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "17383b8bf7a2d570ad74a0a465d5f5e4e03694e6886f7758bc0b62eb5b0666bb"
+  },
+  {
+    "prompt": "Calculate 10-2. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "b32cb713977377e952ff04cc4a25ad85b5390616bdbfd2d81f72909469495193"
+  },
+  {
+    "prompt": "Calculate 10-3. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "b527cefbb416db9df8f8e35fb8e8835a914f26e56b0ee9efb9b99d927aa7cfec"
+  },
+  {
+    "prompt": "Calculate 10-4. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "028623843fccd3196886cd8bfb5289852e7509eb06ca271c908feda303ba5729"
+  },
+  {
+    "prompt": "Calculate 10-5. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "f594654b6ce5f0798b9081f48a4321346edcb941fe08a7f55147c5d32fee27ec"
+  },
+  {
+    "prompt": "Calculate 10-6. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "877151ec5b0fd58cfaa978959304247b6fd4aaf53a19713c3e80928350005a66"
+  },
+  {
+    "prompt": "Calculate 10-7. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "579cae483d84d117d4e44c0f5371c5fdcfa2acaa8f63ffc37832f7a74afaa115"
+  },
+  {
+    "prompt": "Calculate 10-8. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "50c6543778a15799f25cd4ffbe1a1aca4cfbc66eb9cb85fee2dc285973b71ed8"
+  },
+  {
+    "prompt": "Calculate 10-9. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "78a81edafb0d5103fcddfa9507fff028da9e84dd483586a6bfe73bc68fc8ca5a"
+  },
+  {
+    "prompt": "Calculate 10-10. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "afb564e89d3251a4a7b335beb6d2cfbb1c90da3bb59c2d01a86f90b74ef262ee"
+  },
+  {
+    "prompt": "Calculate 10-11. Answer:",
+    "answer": "-1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "2339b5390eb76024ef37bea042799af960740249ea8f655990a66a71055e86ca"
+  },
+  {
+    "prompt": "Calculate 11-2. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "3713be807ad21fef2da67911ba8252ca1466a09513feebbb1639dfb544fb912a"
+  },
+  {
+    "prompt": "Calculate 11-3. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "3a670cb6e90bdc73fe32b11ffea3bb77bafab13bba2a01034440940c5f6753fc"
+  },
+  {
+    "prompt": "Calculate 11-4. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "c2141a4e143f30551a92640cfd332d2d777e01e015ebb5056fece6c0f292aa39"
+  },
+  {
+    "prompt": "Calculate 11-5. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "9ee5cab6897cb25b1d83e447a4382439ebd8f4e80d44329272b39e8eb4af8d6d"
+  },
+  {
+    "prompt": "Calculate 11-6. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "cee5247695f6649b888aab0d900d6c5ab944ab3f4b6dc74b9986f3317d26922a"
+  },
+  {
+    "prompt": "Calculate 11-7. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "2050f645d943278f4cbc2a22a096d422c3506420a3988f4df8a0aa73f5bf302b"
+  },
+  {
+    "prompt": "Calculate 11-8. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "447e2e066caffdafc7ffda047c52e3b6e366a7b9d89abbba0d543afb41f28c48"
+  },
+  {
+    "prompt": "Calculate 11-9. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "test",
+    "id": "27eff4bc0e4295bccdea2c0ce96d26cbee531cd68ba1b7ac80eadae624a40e52"
+  },
+  {
+    "prompt": "Calculate 11-10. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "91c62b2b0017cbd9a0f376f85c853d144a1cfc25933e5187db1f650919b074ae"
+  },
+  {
+    "prompt": "Calculate 11-11. Answer:",
+    "answer": "0",
+    "family": "subtract",
+    "difficulty": 1,
+    "split": "train",
+    "id": "31017923e3836de57833dd0dd375e8bd965aeea6ffc2d996d0bba6b2bfef7f2c"
+  },
+  {
+    "prompt": "Calculate 12-2. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a534707c46b4435d68fa380381cc3c793d301105a11835c21dfba9e2d38481fd"
+  },
+  {
+    "prompt": "Calculate 12-3. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "36663d0c664f2222f26872f69ef2140954385efa3237d7a2cc73e734b6600fbd"
+  },
+  {
+    "prompt": "Calculate 12-4. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6e352ab1043188a26c968cd413934fe93529086b5b7eb4e3615d8d1a35f15009"
+  },
+  {
+    "prompt": "Calculate 12-5. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "075f318b65234c38c4d7625e39b17f5b236c1cc72320ce8dcde1f0d72aafc800"
+  },
+  {
+    "prompt": "Calculate 12-6. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e06c8b3ff33eb9de39b95e434ab2d10e185995eea271bc4e1e131759d14ce635"
+  },
+  {
+    "prompt": "Calculate 12-7. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "18be58a765d03998ddbeea43b9af08ceeb8a98f2a28fe565f3eac94c44a6876a"
+  },
+  {
+    "prompt": "Calculate 12-8. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f09eba7c874d30248aac1adaf5873b7c345b1a0f7e7e0ca01d33ebcd9bcb026b"
+  },
+  {
+    "prompt": "Calculate 12-9. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "bf41ccde14f8d026e47654d53d20ca8f9f4cace9270069b736f4741643b969a5"
+  },
+  {
+    "prompt": "Calculate 12-10. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "6a3347a74daa6acbd466055242ee08842a9dd9bec696b4a2fb5562421f987c33"
+  },
+  {
+    "prompt": "Calculate 12-11. Answer:",
+    "answer": "1",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "5b4d8c9d2c2fd3f9e7ada6b9554cda420bb338c17b507b67f42bbde99b665fcb"
+  },
+  {
+    "prompt": "Calculate 13-2. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d7f7b0388989d3628b587a9eae6a5b219b86eea499f38f0a110f2c9c4a9f2651"
+  },
+  {
+    "prompt": "Calculate 13-3. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c349da8f33312861cdfb718c5542d73f046049959cf44ba792e075cdb6b27524"
+  },
+  {
+    "prompt": "Calculate 13-4. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2f73a9e22b9dee48d088813eade8f8fad94afb81895f8e5f35f5437ec5bc44c5"
+  },
+  {
+    "prompt": "Calculate 13-5. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2912ad90184a39c8a3668cd6813be9b79c79f15ce75adbe7846656c47d6ae60a"
+  },
+  {
+    "prompt": "Calculate 13-6. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9edcfe79bd204f9d4b6fe3cd552244609e9c99e96760fc964fafc3ff527818b1"
+  },
+  {
+    "prompt": "Calculate 13-7. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ffa73c31e451c33b3b1fd1d7f9e6138ecd22a59a811bda2b764a68e8ed84178f"
+  },
+  {
+    "prompt": "Calculate 13-8. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3652dd0ca00444f1fadfaefe39ac503446e2678edae9c12251964074444e4b4f"
+  },
+  {
+    "prompt": "Calculate 13-9. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d04c77fb987a52f3bbd570efad6da5953090c84b68a87a3ab9010f859a43c567"
+  },
+  {
+    "prompt": "Calculate 13-10. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "249dce71c8e6b2c1ec28eb73b36ded6345e7af4578efd9e8d535652fe0b4f61d"
+  },
+  {
+    "prompt": "Calculate 13-11. Answer:",
+    "answer": "2",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "cd97ffad2a8e515c991fbc6d6987e01ed50675487ca49e4ffe887fbcd27de365"
+  },
+  {
+    "prompt": "Calculate 14-2. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8762cd91914c03a54d8a1b57f2599946eb43077904985240617301f606bdd953"
+  },
+  {
+    "prompt": "Calculate 14-3. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9a0d3220df4e0e40d717b36cc5ab243c04ea1e316512ab01bfce37c2b78f1d4a"
+  },
+  {
+    "prompt": "Calculate 14-4. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6cd690489b1ed99ab42046b972d07907aa4883a58dc47f5ae4564e85639e1c61"
+  },
+  {
+    "prompt": "Calculate 14-5. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "aca8d526d0f200ca242e45e8d8742d25ee0b916cda72a4257d8097ad43171f4a"
+  },
+  {
+    "prompt": "Calculate 14-6. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f1a11972684a52aef3538e860d4c6cae72442664e5f87c611504b2a38bcd051d"
+  },
+  {
+    "prompt": "Calculate 14-7. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3a8dbec3faecdd71b835faff612eb062f60fd1f513be59b0d386b4ccab86a1ca"
+  },
+  {
+    "prompt": "Calculate 14-8. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d795d9718d202e7f764a5efcae5275497119b8ce2f99a9780d733dbd957fdfc0"
+  },
+  {
+    "prompt": "Calculate 14-9. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "e49e0f77ec16fc748925e8c8c64a659a84b1a5a06b3b198f2af9e17906a9e77e"
+  },
+  {
+    "prompt": "Calculate 14-10. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d578383fe0be16f77826b48f8f611a73c5b98e2004a81288d3fb91d5d68d17f5"
+  },
+  {
+    "prompt": "Calculate 14-11. Answer:",
+    "answer": "3",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "371c0e47ac7f308bdd79d8a5a3f3558c9e61db9ed3ed42cc0a0fe093f45bdfd7"
+  },
+  {
+    "prompt": "Calculate 15-2. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ac301b0cd6eaa2f2f81e1558b36cdd85d21615fbdee5d61e457a8c860810e659"
+  },
+  {
+    "prompt": "Calculate 15-3. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "9c544fe7fec2ae39cece905e54fae3a73b3efc54c305dd913aff2fcc3aa2a557"
+  },
+  {
+    "prompt": "Calculate 15-4. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "c466874d3fac5c0aaff3ace3291f7762715d580376ff4ec21a77b2e99882c26b"
+  },
+  {
+    "prompt": "Calculate 15-5. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "61a6ead1591293a1f88b2a1c6fb4430dc0039f12aa461ca8836a7972fdc054ab"
+  },
+  {
+    "prompt": "Calculate 15-6. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3a11d4bf3f999e8b8cbce2a5817b11a86eb3dc1858a4c9c8b63dfab5bb2e6475"
+  },
+  {
+    "prompt": "Calculate 15-7. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2a765c405f7f47a0f0b459a6502b57300ba5105317992df846a1c2a06bd5f7ce"
+  },
+  {
+    "prompt": "Calculate 15-8. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "bdb5eeacb580bd865c1dd28f4d3b2858dda83b4271211da859ed6ed96319644c"
+  },
+  {
+    "prompt": "Calculate 15-9. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d768e86bf24f998e37e34cc57c996c55e651d78a07d9897a17248af9c1dcd24b"
+  },
+  {
+    "prompt": "Calculate 15-10. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "89891d0f94e636470d1131df7f7be0465af46241bce1ff21b62e120c987a3b1b"
+  },
+  {
+    "prompt": "Calculate 15-11. Answer:",
+    "answer": "4",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "44e3d47e73208b0fdc2c7eef0f7066dcc68f15011cde74eea40e434150fcfd19"
+  },
+  {
+    "prompt": "Calculate 16-2. Answer:",
+    "answer": "14",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "cdbcae78d6428afecaf100e26df3da3ed9879e75d00ebe809e309efdf0f2ebb9"
+  },
+  {
+    "prompt": "Calculate 16-3. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "52ecb6111f4e0a5108edf7ee4347132e2c55d0f3507015e5b934b9d10ea2bbf1"
+  },
+  {
+    "prompt": "Calculate 16-4. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e2754fd3568371c2ab2d2a22a20d7422c5e1b9a970891765d6b614d7de267d40"
+  },
+  {
+    "prompt": "Calculate 16-5. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "7de666da5fe1f8336f11b35113f8c44fbc8f180cfc261a09bea28281a8dac4b9"
+  },
+  {
+    "prompt": "Calculate 16-6. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "43fa0a5178077ccc64a942a5eae94d44899968de34db609c9c75573d63e43ad3"
+  },
+  {
+    "prompt": "Calculate 16-7. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "0618cae5269d130b082bb87a75166718888fa9b031efac260ea671211d105862"
+  },
+  {
+    "prompt": "Calculate 16-8. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "7fb42ff6fe8a81e553361d91a658a080d00d31408c28c9d440371331f1bd296e"
+  },
+  {
+    "prompt": "Calculate 16-9. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "bdcb5e93dcd2060bbe830bc3fa8c9f419748d941dee9ee111efc2b1e3211f85a"
+  },
+  {
+    "prompt": "Calculate 16-10. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "c42b5899a4aed7a8c7719c818d07cda90086f4fb2b461dd1e806970b14497b90"
+  },
+  {
+    "prompt": "Calculate 16-11. Answer:",
+    "answer": "5",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "89ddac511636e09b4efefe40044384f0bfae110b767e4c53516be9e505b2b634"
+  },
+  {
+    "prompt": "Calculate 17-2. Answer:",
+    "answer": "15",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "869cfb783bcac096ab03556bd2107c0980727a0dbdbccc64f89e61bceed4711b"
+  },
+  {
+    "prompt": "Calculate 17-3. Answer:",
+    "answer": "14",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "db70d501570bc82f9b39dc22c6e396d85b016a034a50bc32a051c93a61b8d160"
+  },
+  {
+    "prompt": "Calculate 17-4. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c46389bd9ce85330e53bda7ebfb175fd81937f970095424cdf692497f1c94953"
+  },
+  {
+    "prompt": "Calculate 17-5. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "fdf0a9b25758e307dd0042a8728a888d8513b4b1fc25b40ff41cd26634ce5012"
+  },
+  {
+    "prompt": "Calculate 17-6. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a95c1e1cae2016c30bfefc6a5ee1397ff5caeeac7d7e716d5440a734e2b582b3"
+  },
+  {
+    "prompt": "Calculate 17-7. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5aa2daf7fe103bec831cc5839ae4575e2a675936cb032f64b6dcde2a207025ae"
+  },
+  {
+    "prompt": "Calculate 17-8. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "dbd95e95c64a3be211ca659fa28d4a4f6a9e0766d7b25b1e7483557ad9474fea"
+  },
+  {
+    "prompt": "Calculate 17-9. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ba96963550f89e2030bb9b56b41bb1712528010a454346ec12d12bb869abd8a9"
+  },
+  {
+    "prompt": "Calculate 17-10. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f2479114ec76452006a515d9751fd00d2ee95cfaa25e59c62cc6497fc636d7f6"
+  },
+  {
+    "prompt": "Calculate 17-11. Answer:",
+    "answer": "6",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c226d4c185aeb702ed699b8a1e433565c1ac2d0d9a29cf9c4b3603c873c88b09"
+  },
+  {
+    "prompt": "Calculate 18-2. Answer:",
+    "answer": "16",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "51d7069524e53f11c6a9bf8e22cd88c1609776745496c4e388bd3035e72053c4"
+  },
+  {
+    "prompt": "Calculate 18-3. Answer:",
+    "answer": "15",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "14fb20cd1b4f037ce28b50294869ad4edd220dd3761c80e7177c438dd899be89"
+  },
+  {
+    "prompt": "Calculate 18-4. Answer:",
+    "answer": "14",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3541719e044ffc4d56c6ec100d2fd9cc66db1f89be225721d5d7967b4931ed8c"
+  },
+  {
+    "prompt": "Calculate 18-5. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b760583440073df7c41c04af2e58dbed9e44ff4c8eb35ad69e0bf3283a96cfbd"
+  },
+  {
+    "prompt": "Calculate 18-6. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "a2654c1fc8a5ee44528c1dabd8dbd06212f7c5389f7c21bf0ce2e4a429c61e8f"
+  },
+  {
+    "prompt": "Calculate 18-7. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b95c2b35aca40565cfe2034084e17228f23843891c232ba0b450b6de0dbeb87e"
+  },
+  {
+    "prompt": "Calculate 18-8. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5f361561c23655730242334872c1a4e6fe21cb875a2fb792b7564fd20e682640"
+  },
+  {
+    "prompt": "Calculate 18-9. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "49d5a4508755dc2e47bd596f13d036041821ab8c3092aa912652b4870638a280"
+  },
+  {
+    "prompt": "Calculate 18-10. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1cf2f6061a90b31751d43928236eed820a1efa564310783a68ad6f961b905675"
+  },
+  {
+    "prompt": "Calculate 18-11. Answer:",
+    "answer": "7",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a47763377b029a79c2bdf5504e2ec6c41e291423961dcecfd96ec7b1f26f2ca6"
+  },
+  {
+    "prompt": "Calculate 19-2. Answer:",
+    "answer": "17",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2fbd76c607f9b8efe059d972d562d212d9fb569febe81805fbf8a00fa59db904"
+  },
+  {
+    "prompt": "Calculate 19-3. Answer:",
+    "answer": "16",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "50741d9ae106d1b2426e9c8ca485528b0a89a99fa2a63f7c3aed7a5fa1abd883"
+  },
+  {
+    "prompt": "Calculate 19-4. Answer:",
+    "answer": "15",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6291d32f5efe5cf56be74aaf8d8e111a5f320158befab6300002d7e96c5d5603"
+  },
+  {
+    "prompt": "Calculate 19-5. Answer:",
+    "answer": "14",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1ce7b78118794e577132d015116292f2e8d7dc0f45131576cdbd9206c050d116"
+  },
+  {
+    "prompt": "Calculate 19-6. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "7185c62ecef77cef1a87416ba81d85c749ff44a6113903cf70f6a62aba22a1fd"
+  },
+  {
+    "prompt": "Calculate 19-7. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b763650ba198bf994a002736105a1d8894d465ae396f72c7469c960923e3beef"
+  },
+  {
+    "prompt": "Calculate 19-8. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d035de7b0ce53bb7834bdf82ea74a524e431938f25464c42c615df09fe161dc1"
+  },
+  {
+    "prompt": "Calculate 19-9. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "7da3cf68d7ceee79f042d09cef1c8a804674dbad69ea4ade1e077f19ea613477"
+  },
+  {
+    "prompt": "Calculate 19-10. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a39634fec36edf604656dfdee3cad1605040baa19aa4f370416ff8b3431099da"
+  },
+  {
+    "prompt": "Calculate 19-11. Answer:",
+    "answer": "8",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "01017a299c481575a2dd9a27e15fc82f360cb680efd0a5234aa839d345ceb266"
+  },
+  {
+    "prompt": "Calculate 20-2. Answer:",
+    "answer": "18",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "f83ebb807964e9c53e556c3d98394ff20e16a0c6ec6974b13b65b1a79a5afeb4"
+  },
+  {
+    "prompt": "Calculate 20-3. Answer:",
+    "answer": "17",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "02e567bcb7100fae5753fa50dfca47fed9b5b62ae45172abcbd3730704c584a5"
+  },
+  {
+    "prompt": "Calculate 20-4. Answer:",
+    "answer": "16",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "7127c55fc9a7dcd5c84ffe9e25d2a299b2b8b50cb124c7a087cc265e72a5b9c0"
+  },
+  {
+    "prompt": "Calculate 20-5. Answer:",
+    "answer": "15",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "15b5195f3041431218e7f6ecac5fac2d5567a5bf1ed61aa8c0cb6dad314a45e0"
+  },
+  {
+    "prompt": "Calculate 20-6. Answer:",
+    "answer": "14",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "fed7a0c7ff7990c17c29c69a7ae4ba21e896cf38d9463ab6ea288d09d445928e"
+  },
+  {
+    "prompt": "Calculate 20-7. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f9b2592f452fda68aa4de3a461441f5d048a3adb814f118893ad2fa57d12e848"
+  },
+  {
+    "prompt": "Calculate 20-8. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "4c4b9abe76ebb428d097d4af34cf1756149f50e852a956ac751ee5c8f65d715d"
+  },
+  {
+    "prompt": "Calculate 20-9. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "0deadd90a0428a874ff065d8e8089b6871c95135d24b6fed20da284ba9c2e106"
+  },
+  {
+    "prompt": "Calculate 20-10. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5524be79186631e5b6f2bd417694ca54d82c68a44490052a509f81db6a0980a6"
+  },
+  {
+    "prompt": "Calculate 20-11. Answer:",
+    "answer": "9",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "499271a009e202b501419aa8ceaead5e870fef43ffe8cb1144a65d2b9ebb8be5"
+  },
+  {
+    "prompt": "Calculate 21-2. Answer:",
+    "answer": "19",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "1c6b6e7d261014ff47f5cc8b58321b0618f0eff1fb11935a08f6bb8992898d08"
+  },
+  {
+    "prompt": "Calculate 21-3. Answer:",
+    "answer": "18",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "aa64cd5a191f224d796249022ccc351cbb2c1695bd605e398914b240bba8e6c4"
+  },
+  {
+    "prompt": "Calculate 21-4. Answer:",
+    "answer": "17",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "16a2a61f058656b1b85a62501187d9d7d43282e60a9ab477effac063a0a0d144"
+  },
+  {
+    "prompt": "Calculate 21-5. Answer:",
+    "answer": "16",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e971939ad3add9c3beef859400de224bbc088df44638731268f3540d0124cfc8"
+  },
+  {
+    "prompt": "Calculate 21-6. Answer:",
+    "answer": "15",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5cc8087294880ba2e4c6e47d35d5f36dc7c9fba68a6d6cc6bebac671fddf557e"
+  },
+  {
+    "prompt": "Calculate 21-7. Answer:",
+    "answer": "14",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "7826be112a6e538b99a720341d1f85138caeda98e10c27622da065241aff6c93"
+  },
+  {
+    "prompt": "Calculate 21-8. Answer:",
+    "answer": "13",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6ee171882254b8b8b82d935c835120310d5ae930f7b295161b1e2a2192ea4982"
+  },
+  {
+    "prompt": "Calculate 21-9. Answer:",
+    "answer": "12",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "test",
+    "id": "0279dfea643c7b168564848988844a1527d3b619797020dbe7bd89572f8a8eda"
+  },
+  {
+    "prompt": "Calculate 21-10. Answer:",
+    "answer": "11",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "29ad1b65a32ccc04607958c5a05b65b366ad5596cc5be45132726bb09d0c661b"
+  },
+  {
+    "prompt": "Calculate 21-11. Answer:",
+    "answer": "10",
+    "family": "subtract",
+    "difficulty": 2,
+    "split": "train",
+    "id": "0d9e89b7b98bd22acd3a5f1eba857b9e7a41459fb8d13e3292e72107e32f8bb6"
+  },
+  {
+    "prompt": "Calculate 2*2. Answer:",
+    "answer": "4",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c74f37ce572e1a522c640fce38a96f4fa57811b4fed751643c5a662a2952f746"
+  },
+  {
+    "prompt": "Calculate 2*3. Answer:",
+    "answer": "6",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "cbd2af5758099739b82471f88dd77ccef1dcfab00fb7d5963f3e355678cc38f3"
+  },
+  {
+    "prompt": "Calculate 2*4. Answer:",
+    "answer": "8",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3ae8d49a7e439a271867fd83c70fe5d3f338449360184243e428a927ed8ceb7e"
+  },
+  {
+    "prompt": "Calculate 2*5. Answer:",
+    "answer": "10",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "0a66a0c16332041db080539d27152a268db38a951a167381987b0d370897e138"
+  },
+  {
+    "prompt": "Calculate 2*6. Answer:",
+    "answer": "12",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "6666121203a1421d5cf5f35c1e1cc37249d55d707bdc53644da29ea3bf22908e"
+  },
+  {
+    "prompt": "Calculate 2*7. Answer:",
+    "answer": "14",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f3d9189ad5b3a099e3db3f42b7e81421fe050ccbb30f7cbebc09f49b8269c29a"
+  },
+  {
+    "prompt": "Calculate 2*8. Answer:",
+    "answer": "16",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8a4909ea5b5758866b804b021aa2d3c4b3f9d9cdf5d87876765f184cc04d898c"
+  },
+  {
+    "prompt": "Calculate 2*9. Answer:",
+    "answer": "18",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ec56888ac41227f4674c54ec440746bd59147a3d877c41a4bc34934674c0e42a"
+  },
+  {
+    "prompt": "Calculate 2*10. Answer:",
+    "answer": "20",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5299dac11d7bb07dc60fdf96b774baf741e266c1d1d4b95a98e9ad6d3b108ebf"
+  },
+  {
+    "prompt": "Calculate 2*11. Answer:",
+    "answer": "22",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a36201dc5e0c1c49de00deb5366be773ddd89367637bcfcd12bb516b057272f6"
+  },
+  {
+    "prompt": "Calculate 3*2. Answer:",
+    "answer": "6",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6278009abdc01c7250cbaf57c1f3d40297ad0a6aa7511557ba619e2df95f0c43"
+  },
+  {
+    "prompt": "Calculate 3*3. Answer:",
+    "answer": "9",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "e8c312ca9b76e2818621c280eb66c5b2a8286e1bf7289c8515de783a84e504a0"
+  },
+  {
+    "prompt": "Calculate 3*4. Answer:",
+    "answer": "12",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f43cbdc85c49e453747f4c0b31e54cff614c04c92d70bd40fe67679075ca511f"
+  },
+  {
+    "prompt": "Calculate 3*5. Answer:",
+    "answer": "15",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "02aa99530b6523c8984450b61263e563a5a5ce32d4307852349466422266615d"
+  },
+  {
+    "prompt": "Calculate 3*6. Answer:",
+    "answer": "18",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b72e5e1f42239ada3b330acb4512dcc2901530597ba60857d0a0756b65abe21b"
+  },
+  {
+    "prompt": "Calculate 3*7. Answer:",
+    "answer": "21",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9e3bf2726715364be94713bf475984fae2036a2f0b6e9e46e5e26277bb37e7c9"
+  },
+  {
+    "prompt": "Calculate 3*8. Answer:",
+    "answer": "24",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "388f670d7510c453796b3ca416eb55f8209cb0c54daaad4f3078dd99d371d9cd"
+  },
+  {
+    "prompt": "Calculate 3*9. Answer:",
+    "answer": "27",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "f00ec63f999ec189b39f528bfc40ee0f5314b662717fd12b0e6cd77e74dd3019"
+  },
+  {
+    "prompt": "Calculate 3*10. Answer:",
+    "answer": "30",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "09e891eb010cf17e311f45bdbaf58341ad8852141c99ed096abd5fddc74e94de"
+  },
+  {
+    "prompt": "Calculate 3*11. Answer:",
+    "answer": "33",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4ef52155bebaab28b00b8f8ff1be1a4b895ab961b1f95e551a7d1ed4d0842705"
+  },
+  {
+    "prompt": "Calculate 4*2. Answer:",
+    "answer": "8",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "9ec71ad4fdb1d09073eaace73656ca6fb8567d1ef2bffb1da4285a91912e2713"
+  },
+  {
+    "prompt": "Calculate 4*3. Answer:",
+    "answer": "12",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "146c6ba5195207dabca71f1fd77ba604b1e22a66daf0c6f9c507b4619b874df1"
+  },
+  {
+    "prompt": "Calculate 4*4. Answer:",
+    "answer": "16",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1ff538003e6fcb4ab9a51154ed447cd0d116c8a53af832c2bce8f33f59f997c0"
+  },
+  {
+    "prompt": "Calculate 4*5. Answer:",
+    "answer": "20",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "72549e85d7574a77deddc4d8035fadc90a12a05a1aabb24563ed0b3c6cdcbd65"
+  },
+  {
+    "prompt": "Calculate 4*6. Answer:",
+    "answer": "24",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "2ada022de1aaae79031cc0b0de1438ebc31c66aabf4ac84d09b45ec181811a64"
+  },
+  {
+    "prompt": "Calculate 4*7. Answer:",
+    "answer": "28",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8f7066c2aa97de3955338d8726fb20cf0df14746705522586be1db83d0d2b143"
+  },
+  {
+    "prompt": "Calculate 4*8. Answer:",
+    "answer": "32",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "51f506dcff0b1d16ff49a212bfc2abf024ecf1182ca9d8e18fa2bc3a3605daaa"
+  },
+  {
+    "prompt": "Calculate 4*9. Answer:",
+    "answer": "36",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c88ec0a3de08d3cb66eac74b715ec2d045e5f58bcce92764185ae6cf87c361cc"
+  },
+  {
+    "prompt": "Calculate 4*10. Answer:",
+    "answer": "40",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "938833c333716ce96ab9dfa4112b84d399c1fc14d595073824da20999acf86ae"
+  },
+  {
+    "prompt": "Calculate 4*11. Answer:",
+    "answer": "44",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f0a9b913365fcee3cd9dc79863a7ad49defb808812b046d885662158eebbf786"
+  },
+  {
+    "prompt": "Calculate 5*2. Answer:",
+    "answer": "10",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f48c177ea20188f6bac34638f012002c5607541f700dddc7adf032139ba2b5eb"
+  },
+  {
+    "prompt": "Calculate 5*3. Answer:",
+    "answer": "15",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "05dc1605b08ab0ab479dd1c3518b223c06cc6ce892ad9fa87ec5a9f912885068"
+  },
+  {
+    "prompt": "Calculate 5*4. Answer:",
+    "answer": "20",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "44177a2a2c1fdfbf43237b888e76a9d69f1f17469921a0ef5ca8468fdb781415"
+  },
+  {
+    "prompt": "Calculate 5*5. Answer:",
+    "answer": "25",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "9d28e446d0ae9e3abddc730405eb2ce1b2d689e2435572dd2b710350eaa40668"
+  },
+  {
+    "prompt": "Calculate 5*6. Answer:",
+    "answer": "30",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "94fd545017c2053328e0033ab097094107785c4cf46012a74067d34ee2648fbd"
+  },
+  {
+    "prompt": "Calculate 5*7. Answer:",
+    "answer": "35",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "cc6cdf75e9f74d0a14a14d858640ceaaacfdc27e0e20e435d2c84836a90d8b7d"
+  },
+  {
+    "prompt": "Calculate 5*8. Answer:",
+    "answer": "40",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "f8ac5b2d308fc8d1eab8e60dbb502f225bb0611304e320acf617a79676848079"
+  },
+  {
+    "prompt": "Calculate 5*9. Answer:",
+    "answer": "45",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a9db3591427cdefab36c072788fedeed1c72d67942d8162788cf08125b61eaf2"
+  },
+  {
+    "prompt": "Calculate 5*10. Answer:",
+    "answer": "50",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "26fad7ea1e19ed9040272520aafae0fccf286df5c1bdd01fc0ee71e9a8ff0cd3"
+  },
+  {
+    "prompt": "Calculate 5*11. Answer:",
+    "answer": "55",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "414f78aa5320fd902d32ee69bf9b55b67b7f193c0214ca3df90f8f58d1c6a373"
+  },
+  {
+    "prompt": "Calculate 6*2. Answer:",
+    "answer": "12",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4e47fbe55f85742999b33df8fd16e32f31f7c0db33fd0d35b82f85d2eac24631"
+  },
+  {
+    "prompt": "Calculate 6*3. Answer:",
+    "answer": "18",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "96c72c250c390febd25c65f3e14fb57b111f91904640a147ea46134837a2a49f"
+  },
+  {
+    "prompt": "Calculate 6*4. Answer:",
+    "answer": "24",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "53d46891e3db4140d3cdfad87098d65065c4343fc6b5b81d9e2d0ec9f5b42cab"
+  },
+  {
+    "prompt": "Calculate 6*5. Answer:",
+    "answer": "30",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "156da2506a9b9062d2614c96dab539e8a48f16e77ea38bca5000197849eea718"
+  },
+  {
+    "prompt": "Calculate 6*6. Answer:",
+    "answer": "36",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "b6b49b451043ae7fc0971b49885a62c03702e8799fd5fc8ae0f95b037fcaea29"
+  },
+  {
+    "prompt": "Calculate 6*7. Answer:",
+    "answer": "42",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6179027569a8b7dc1ee678ad2abe795c18524b33371469e5672ad4342396e4bd"
+  },
+  {
+    "prompt": "Calculate 6*8. Answer:",
+    "answer": "48",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "43c4dc6bedf0aa9e2280f944038ff5c4d67a9cce4a6c0463bffe7773e51dac53"
+  },
+  {
+    "prompt": "Calculate 6*9. Answer:",
+    "answer": "54",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "6eb853e35499e8ef38b8bd57ead83c023d998fa8ee18e30252bf5280fb3563f4"
+  },
+  {
+    "prompt": "Calculate 6*10. Answer:",
+    "answer": "60",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9bf0f0ecee91205772340d2aed26cb0a66995524468d21714db7a57ca64f5e87"
+  },
+  {
+    "prompt": "Calculate 6*11. Answer:",
+    "answer": "66",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1491d3973d3687f0852938397a0136558ef3e9870c4f9f3a5a64f56bd9285c8f"
+  },
+  {
+    "prompt": "Calculate 7*2. Answer:",
+    "answer": "14",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "cd7f51cc6527939c188a4fc433c4f203377b9e8f42687c0c8cb226897305e9e5"
+  },
+  {
+    "prompt": "Calculate 7*3. Answer:",
+    "answer": "21",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "07e64e137f636e511b20518ebc548e55f2c4d51a244259dcb74158f83f321c84"
+  },
+  {
+    "prompt": "Calculate 7*4. Answer:",
+    "answer": "28",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8216eb9066335576e339d8885a6dfc636cf5a87abe46c9997fb17348cdeed66c"
+  },
+  {
+    "prompt": "Calculate 7*5. Answer:",
+    "answer": "35",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "7de8fb11e61a3de1a9dc218463e404f1b95c0ebdcdddda363d19c81f483119cc"
+  },
+  {
+    "prompt": "Calculate 7*6. Answer:",
+    "answer": "42",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "639a964af42bb809559a78fb4985cf10b500cda8f704893dee1cc3b3b60e0276"
+  },
+  {
+    "prompt": "Calculate 7*7. Answer:",
+    "answer": "49",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "6b080230034baf0e33a3f2b88fc4b47d13e53e7e7b7bd88f6588f2d09fa94535"
+  },
+  {
+    "prompt": "Calculate 7*8. Answer:",
+    "answer": "56",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "808c1d7cff974fa6581048b11302a62f7d3d918b2c21ffd245ee58b59c75debb"
+  },
+  {
+    "prompt": "Calculate 7*9. Answer:",
+    "answer": "63",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a8bc22f96649950684ca50e94280bfdd23374fc33b4a69e8e07170f047980eaa"
+  },
+  {
+    "prompt": "Calculate 7*10. Answer:",
+    "answer": "70",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "a40e3d9b76640f723d9fd98a4f12ebce03d08d999305f8c712dda69ad8dce9ad"
+  },
+  {
+    "prompt": "Calculate 7*11. Answer:",
+    "answer": "77",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "bd841972ee5bdc3e08c785b5d4bc92197685b2bd31ec1c228c050f684f2142ef"
+  },
+  {
+    "prompt": "Calculate 8*2. Answer:",
+    "answer": "16",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "bb9de6eed3f236428bfbaa361e2f035451c2d4adadfefccc0a6e258e472c17c2"
+  },
+  {
+    "prompt": "Calculate 8*3. Answer:",
+    "answer": "24",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5ebecbb3d9c777a1989f9e5c24e82ceb6d09bf20aa21c3d86958c3b53aa60b88"
+  },
+  {
+    "prompt": "Calculate 8*4. Answer:",
+    "answer": "32",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "13fe6413be0370e9ea9e50a595312511eb3ee74146ec5f9a0b2de660dfa20141"
+  },
+  {
+    "prompt": "Calculate 8*5. Answer:",
+    "answer": "40",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ffa1dcb7ced71c720aa0171309ea4e0b66ec7f9c9caca91928980245b5e0600f"
+  },
+  {
+    "prompt": "Calculate 8*6. Answer:",
+    "answer": "48",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "54079621bb2e285cb341b09b3cd277ccf17eb22d0de691286daf98392dc54edf"
+  },
+  {
+    "prompt": "Calculate 8*7. Answer:",
+    "answer": "56",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "439603c367d07b8a68387d398951212930792b7c9e186935de24efdc7eba54d0"
+  },
+  {
+    "prompt": "Calculate 8*8. Answer:",
+    "answer": "64",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ddf876200987710ad0609cae30e53975d20e9fbdfca8cc3836b84bc0ea9cc22e"
+  },
+  {
+    "prompt": "Calculate 8*9. Answer:",
+    "answer": "72",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "fbb56aa645b9a8ae6105e3a6a0c294646339e5f9c055906f7004c891f16c537e"
+  },
+  {
+    "prompt": "Calculate 8*10. Answer:",
+    "answer": "80",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "cd9211c93ecc786a28500e550ad88a946efdeeb372b6d4e75423c56aa5b734e9"
+  },
+  {
+    "prompt": "Calculate 8*11. Answer:",
+    "answer": "88",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4af625b0612ed40f2887da976068c53df47b074191ccea744bb45fa4f6469dd5"
+  },
+  {
+    "prompt": "Calculate 9*2. Answer:",
+    "answer": "18",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "044aa86e07da79216df221fb0f2fbb3dde0a764ae1fd7b8031f2adc809922085"
+  },
+  {
+    "prompt": "Calculate 9*3. Answer:",
+    "answer": "27",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5a5c33817f6e4af66d2c7b0c92418a8c779571031cb7033d7ab5c440fbaa8882"
+  },
+  {
+    "prompt": "Calculate 9*4. Answer:",
+    "answer": "36",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "74f5999f74f1f46dcf21a622175b5144ddcff4a87845dbd84d2253d54b9c7d5f"
+  },
+  {
+    "prompt": "Calculate 9*5. Answer:",
+    "answer": "45",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "19116c057ff4c8d6fbaaf3af8f1413bfab6dd0ad5f85464c958c0638188004b5"
+  },
+  {
+    "prompt": "Calculate 9*6. Answer:",
+    "answer": "54",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "08db82129a0f7589fab37b61510881f053d6cc04bd1c7949df6d1c910e771164"
+  },
+  {
+    "prompt": "Calculate 9*7. Answer:",
+    "answer": "63",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "38ed14abdc3b36ed96236f2e3258f9b77a205c2cdabf0089a73b9ba0bc44d4a2"
+  },
+  {
+    "prompt": "Calculate 9*8. Answer:",
+    "answer": "72",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "fc72311423d40023ac8f8e551c3d69c7cafa0e71fc92f3b8f60f1929d5fac0bf"
+  },
+  {
+    "prompt": "Calculate 9*9. Answer:",
+    "answer": "81",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9f166aa5099a91f2cd00e63304129729c255e4e3dd467bc8caccfbd6ae006431"
+  },
+  {
+    "prompt": "Calculate 9*10. Answer:",
+    "answer": "90",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "625279bdebbd193b895bba7d891f30a6c37ee5a1402042a824ba5650d5500360"
+  },
+  {
+    "prompt": "Calculate 9*11. Answer:",
+    "answer": "99",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "74ab2036811aec7ed6e80926ae0b69136bc1f3b4eb035d42fb006b2714b83a94"
+  },
+  {
+    "prompt": "Calculate 10*2. Answer:",
+    "answer": "20",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "638b0463583bd208674a59c4dac6eacd46a73e423cb9f37e87d27c83239ad710"
+  },
+  {
+    "prompt": "Calculate 10*3. Answer:",
+    "answer": "30",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "095db94e86fd70c6f52441978d1bd1dcbe8a6cac0cc8762c440180f9abff0272"
+  },
+  {
+    "prompt": "Calculate 10*4. Answer:",
+    "answer": "40",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "test",
+    "id": "23b6913a3ab4168fb2ed7f0e596e87414823c0d9f49765fd894fb72befa19840"
+  },
+  {
+    "prompt": "Calculate 10*5. Answer:",
+    "answer": "50",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "07a0b4547bd525e4e3c2af5e378bceb09b79df7d895b1832a1c6372fc7695585"
+  },
+  {
+    "prompt": "Calculate 10*6. Answer:",
+    "answer": "60",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8e84a5bef08c3a1ce51d533fe3ce74ef4b0697e93d6b090dc1c661f897f8e7c0"
+  },
+  {
+    "prompt": "Calculate 10*7. Answer:",
+    "answer": "70",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4974801dfe16f1ac0c09cf551eb4d36cf09bb90ff18bfcd10b555575c6855d5c"
+  },
+  {
+    "prompt": "Calculate 10*8. Answer:",
+    "answer": "80",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "c87cb9b118cf768a8f0d942a7c8d7506053787099532ecf163ab2af7fbc2e190"
+  },
+  {
+    "prompt": "Calculate 10*9. Answer:",
+    "answer": "90",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "1b4b6c758e115b2eda9575dc51b3e0f3cf9a3fedd827e0b899c716839c8bca70"
+  },
+  {
+    "prompt": "Calculate 10*10. Answer:",
+    "answer": "100",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5027f985d555b54db916a618fd2c079cb0cbd13a33f840ed9695868e9116b6d6"
+  },
+  {
+    "prompt": "Calculate 10*11. Answer:",
+    "answer": "110",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "66e22246857d0672af177d23014b8ffdf78ab9c82978b6b324b1520a7970eb1e"
+  },
+  {
+    "prompt": "Calculate 11*2. Answer:",
+    "answer": "22",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "d7602027b4a60bd4710b7902616ccd1126356d383315a1a9667fc433c63b5df7"
+  },
+  {
+    "prompt": "Calculate 11*3. Answer:",
+    "answer": "33",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "5cf8acbecec0694254ac4c92c478ea2f9fd49dcdedfa5a0ff4ebbd24312a4a94"
+  },
+  {
+    "prompt": "Calculate 11*4. Answer:",
+    "answer": "44",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "eaaed6c8abe69a6b31af11c2243a0b921e3e868381479ea36d1a6ace155d2789"
+  },
+  {
+    "prompt": "Calculate 11*5. Answer:",
+    "answer": "55",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "8b0b0afc405c59754896cf79a974bdf47403cf7cb03e322a11cf700cd5a27192"
+  },
+  {
+    "prompt": "Calculate 11*6. Answer:",
+    "answer": "66",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "4a3b44d913a173af1f90dcc2661a3f0d394951de9d14191c25594d28f0d70fc6"
+  },
+  {
+    "prompt": "Calculate 11*7. Answer:",
+    "answer": "77",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "9832c85e05ab60e4b38b84261d66a15d3abb4f63f85c32d1051d6b92205e8b81"
+  },
+  {
+    "prompt": "Calculate 11*8. Answer:",
+    "answer": "88",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "3c4ac1390fe613a8c4ff29373fb5b8e26fd0a4df802dcc76ee6f2f6bbb2a3c38"
+  },
+  {
+    "prompt": "Calculate 11*9. Answer:",
+    "answer": "99",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "81d9cfd7bc088ed86be3c7211a05e60db0c6b193746aeaab6cbc219260f466b3"
+  },
+  {
+    "prompt": "Calculate 11*10. Answer:",
+    "answer": "110",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "ff2379ed75712d63533c7b174f231d78fda2f1e1fd4d113455ad4817631d9c0c"
+  },
+  {
+    "prompt": "Calculate 11*11. Answer:",
+    "answer": "121",
+    "family": "multiply",
+    "difficulty": 2,
+    "split": "train",
+    "id": "08e40fb05f79b9201a65a720b304176b5d857c16bb21add50288d83ee1d06cb9"
+  },
+  {
+    "prompt": "Calculate 12*2. Answer:",
+    "answer": "24",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "1adf7bf03498c47e4a3a50a663212f5c18db4cc3f1afbbdda0c1eb713057f2f0"
+  },
+  {
+    "prompt": "Calculate 12*3. Answer:",
+    "answer": "36",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "25b29818ae992df97397f8e791934c7e585e5bedeb997d6c53f5072a0b65c883"
+  },
+  {
+    "prompt": "Calculate 12*4. Answer:",
+    "answer": "48",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "99d8f2fe4d3131562818efa4ea08ed8c7d63ea5164acdbd72063a748d7464f3d"
+  },
+  {
+    "prompt": "Calculate 12*5. Answer:",
+    "answer": "60",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "38092a158f69dc961892ddb8a5d107ee4fb48145277a8c22ea1c0abec0371c15"
+  },
+  {
+    "prompt": "Calculate 12*6. Answer:",
+    "answer": "72",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "cd0ec1b569dede773f7a75d390d3207a9948aa159897b20350efc3ede444bd0e"
+  },
+  {
+    "prompt": "Calculate 12*7. Answer:",
+    "answer": "84",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "460117a7230f6d41fe9bf6f3c0678d1417d454cd614620ffe5bd30a5cd72c2d3"
+  },
+  {
+    "prompt": "Calculate 12*8. Answer:",
+    "answer": "96",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "77d7d9d4ac83a81c1466c3c425f08d8c1d59f57c7c24038489f9f0e73767ce7f"
+  },
+  {
+    "prompt": "Calculate 12*9. Answer:",
+    "answer": "108",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "c8072af9bebc11bad7dbc9cd3065fce851dd379fdffb80c221e7ebef70660cd6"
+  },
+  {
+    "prompt": "Calculate 12*10. Answer:",
+    "answer": "120",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "4cc7443867845764d696b303678dcc1080dd05d13fe1bf2565faab074785b67f"
+  },
+  {
+    "prompt": "Calculate 12*11. Answer:",
+    "answer": "132",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "11c6a1d8a98bd700af1c17917b7c94b84cb51c986581105a6f85048927314282"
+  },
+  {
+    "prompt": "Calculate 13*2. Answer:",
+    "answer": "26",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "78522bde33b7aed180d7a6af71e13b24557b55625232c03dd1ed55b01b46e3ed"
+  },
+  {
+    "prompt": "Calculate 13*3. Answer:",
+    "answer": "39",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "5b37738088cfea837bf77983424eb112664d55ab3c0da6d8ef5d6f41a784a9ea"
+  },
+  {
+    "prompt": "Calculate 13*4. Answer:",
+    "answer": "52",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "6f218777e1a19ff0ae428b98c43843a2a054cda96c33a4500b694112915ae758"
+  },
+  {
+    "prompt": "Calculate 13*5. Answer:",
+    "answer": "65",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "9e732640699e1a5657c899e0c185ae08b64b3e5671b7afa05e68a3cc6b497808"
+  },
+  {
+    "prompt": "Calculate 13*6. Answer:",
+    "answer": "78",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "1b44a6be7fa0818496daadf8c0fde5f6d9b5058e7195972117218259c4f709be"
+  },
+  {
+    "prompt": "Calculate 13*7. Answer:",
+    "answer": "91",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "1e0c5c1034e45c3de1fcd32229a7a97e7d8d8958879d66b9dee085599dc83a2b"
+  },
+  {
+    "prompt": "Calculate 13*8. Answer:",
+    "answer": "104",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "ecb7fa59f299cd4324308c57508b3d59d6126e4ade166fd311c9845a68b3d103"
+  },
+  {
+    "prompt": "Calculate 13*9. Answer:",
+    "answer": "117",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "d5966ce90bf4d99b924f2c2931cef04ecce194a660fce19a9d3a29ca63298dd9"
+  },
+  {
+    "prompt": "Calculate 13*10. Answer:",
+    "answer": "130",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "35d0c1c2461f5a1a5e39aa09c77b8192dc3e0b4ffa1dd8fa31595f5a78254470"
+  },
+  {
+    "prompt": "Calculate 13*11. Answer:",
+    "answer": "143",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "3b3790ade4bbaef1fe0dc70f0a14371621c7d18928afeeaaa10945a45610cfc6"
+  },
+  {
+    "prompt": "Calculate 14*2. Answer:",
+    "answer": "28",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "08c58a609035fac2d4abdc6687aa5082c986e74d3d39110ee69f4d4d80c216cf"
+  },
+  {
+    "prompt": "Calculate 14*3. Answer:",
+    "answer": "42",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "d61d46eb65692c764e78a7bad5f94faa2eb8da23d40212e7dfc0cf7d26bf3440"
+  },
+  {
+    "prompt": "Calculate 14*4. Answer:",
+    "answer": "56",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "ee74542d5e94fabccdbcb8b9f45ba06edc694db106ece70a8522fe496dcebadb"
+  },
+  {
+    "prompt": "Calculate 14*5. Answer:",
+    "answer": "70",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "63bb57b39e9a9e7f75fc2ca2037859a158b49fddcbea18badfc2b59193a8ecf0"
+  },
+  {
+    "prompt": "Calculate 14*6. Answer:",
+    "answer": "84",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "cd20c6659c38424989a50844367f6c07e5d8a3b0cb2396612efc18141086b212"
+  },
+  {
+    "prompt": "Calculate 14*7. Answer:",
+    "answer": "98",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "1639b7c1424e2b9c9f3f3df93ace30f2de294929b90745c233ab530af095e7fb"
+  },
+  {
+    "prompt": "Calculate 14*8. Answer:",
+    "answer": "112",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "191b55182ee2c2813cb70198293f1ce4fb14bb11374095f1e8886c72f152f7a6"
+  },
+  {
+    "prompt": "Calculate 14*9. Answer:",
+    "answer": "126",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "612d579892b66e5b7a555a57d5527ab943aa67e8685730da6b3bd9d8a95d4204"
+  },
+  {
+    "prompt": "Calculate 14*10. Answer:",
+    "answer": "140",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "8e1d88840d093ab31300069538bdf01387aeb9d62debd5070e4a724f4de2c034"
+  },
+  {
+    "prompt": "Calculate 14*11. Answer:",
+    "answer": "154",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "14cb9b6d3ffeba6bdef582b1de72bc6619e9e3ec93acdda9607f464522ec96db"
+  },
+  {
+    "prompt": "Calculate 15*2. Answer:",
+    "answer": "30",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "eebdc0ef3c2579aab269b47e432d8695eaa56ddffc300c0d439abbd6512e4838"
+  },
+  {
+    "prompt": "Calculate 15*3. Answer:",
+    "answer": "45",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a24c3012a068e07bd23e6156549f7a75fa3612a540089c1ff161a559e00013c2"
+  },
+  {
+    "prompt": "Calculate 15*4. Answer:",
+    "answer": "60",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "1b19d5edb7be6ad94b53b8ca00d2878d34da1d01be08380e3710d5783fce31da"
+  },
+  {
+    "prompt": "Calculate 15*5. Answer:",
+    "answer": "75",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "f580902065b919cbb98094aba7debd9789820eb2b2226a11e5bda52ede65f3a6"
+  },
+  {
+    "prompt": "Calculate 15*6. Answer:",
+    "answer": "90",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "07392bb97b0ea6d695bc985e8e0f0506d61454c6fafa49deae08b98c80fa7cda"
+  },
+  {
+    "prompt": "Calculate 15*7. Answer:",
+    "answer": "105",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "08ab6c36e76819dbdc12f7ae7faba2fc5d3e5641ea2971d3f06c3b0a4c1da391"
+  },
+  {
+    "prompt": "Calculate 15*8. Answer:",
+    "answer": "120",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "bebbbbb5939266d7b5030c348e7b22a5c0e69d0482d8489ea163a87426721ace"
+  },
+  {
+    "prompt": "Calculate 15*9. Answer:",
+    "answer": "135",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "688125053cf9a5a1b8d87b399a421c4d76f16035fef01329c5b7ea1be02e8d26"
+  },
+  {
+    "prompt": "Calculate 15*10. Answer:",
+    "answer": "150",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "d6fdc16d5d345777e8ef9006dd875bf19ed4897b9ebcbd4254e2af51e38d5ecf"
+  },
+  {
+    "prompt": "Calculate 15*11. Answer:",
+    "answer": "165",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "9258f541b98e3ec6b979240104123bd82ee652f559a8532e54f480d73023badd"
+  },
+  {
+    "prompt": "Calculate 16*2. Answer:",
+    "answer": "32",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "b9e3c5c80f53edd3a0a641cd441594987130e03e0a729255c399d8bf4fa7fa5c"
+  },
+  {
+    "prompt": "Calculate 16*3. Answer:",
+    "answer": "48",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "341fdf40fb02de85b1475bafb301a381dd084513f94f6e2d68ba87aef264a3fc"
+  },
+  {
+    "prompt": "Calculate 16*4. Answer:",
+    "answer": "64",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "d11d3c93512372c5824914b37912eab56f4552716ab556a8cce25efe1b45f826"
+  },
+  {
+    "prompt": "Calculate 16*5. Answer:",
+    "answer": "80",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "bd4110f6198a8d80fc593c64d220082de9523d618d131e77c1497e76ac4465e7"
+  },
+  {
+    "prompt": "Calculate 16*6. Answer:",
+    "answer": "96",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "4903ff7d62dad514644b8f18a3714e652d69d4e648a96fc364bc859e1677f733"
+  },
+  {
+    "prompt": "Calculate 16*7. Answer:",
+    "answer": "112",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "2f908553c50bb6d804220dfbf788e8b0c8eb03dba1d3465068497c34fe5493b8"
+  },
+  {
+    "prompt": "Calculate 16*8. Answer:",
+    "answer": "128",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "4db0439295b549ac783f5723e7616d9805239bd7c1ffdf922247e3601ba3df17"
+  },
+  {
+    "prompt": "Calculate 16*9. Answer:",
+    "answer": "144",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "c60a551e6726ba06e80db95049d79caf7ac503c5440a74ce14497c76d031003e"
+  },
+  {
+    "prompt": "Calculate 16*10. Answer:",
+    "answer": "160",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "50145d201521efca0fdb7e9ef1d0255ada16f2317167a9563aa4c6606e984f7d"
+  },
+  {
+    "prompt": "Calculate 16*11. Answer:",
+    "answer": "176",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a89dd3b575fb7bbb4afb3a055031d0e87352a2b07fc0ac932a3e962ef07bb1d9"
+  },
+  {
+    "prompt": "Calculate 17*2. Answer:",
+    "answer": "34",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "7592d0e0223ddbc346c2f5a8f6da2661643c23b6c4683284e8a928c98f260e7a"
+  },
+  {
+    "prompt": "Calculate 17*3. Answer:",
+    "answer": "51",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "70f0cdeb0c3d74704fc0b4409ce9c53272a250601a8b100a5a20c2839bfcc2e4"
+  },
+  {
+    "prompt": "Calculate 17*4. Answer:",
+    "answer": "68",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "03aa07c4403390eb02c852b34dbf063b6485a6810312d5133696d68c77287b6a"
+  },
+  {
+    "prompt": "Calculate 17*5. Answer:",
+    "answer": "85",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "feb1467d8aa734ee721becb4b69f793369861d5f284a5d4ac67f758ef3d98610"
+  },
+  {
+    "prompt": "Calculate 17*6. Answer:",
+    "answer": "102",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "1a18ed4e99fa837003b589bc3b409bc38366600644f37b5c5b9ada57f8be3bdb"
+  },
+  {
+    "prompt": "Calculate 17*7. Answer:",
+    "answer": "119",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "75c2b8fa8a790cabb2c137d865f85a643df6df9a2d850a6b52620abe26c27b63"
+  },
+  {
+    "prompt": "Calculate 17*8. Answer:",
+    "answer": "136",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "0e8e69e84e6bad2dd9194dfb41d638e2d9088ec8ac8533173602ee5da1b89615"
+  },
+  {
+    "prompt": "Calculate 17*9. Answer:",
+    "answer": "153",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a0d35eae4cf86b8f3d7b01e5c2891ee3cb69334a42d2dd91e0b934f13f9ddf3c"
+  },
+  {
+    "prompt": "Calculate 17*10. Answer:",
+    "answer": "170",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a880eb3ee17360e51cff83b8f0f526ab6312d43715ce63f4202e6ee80ba2c6bb"
+  },
+  {
+    "prompt": "Calculate 17*11. Answer:",
+    "answer": "187",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "e8e7c7796077bd1fc9a49889768cda93e9e4fa9c8ffd004427e262c3bf092f80"
+  },
+  {
+    "prompt": "Calculate 18*2. Answer:",
+    "answer": "36",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "f2e1d29d4a94d91b27218d29f1b46821ca4777841ee1b0a7570afdcc64d4d1c2"
+  },
+  {
+    "prompt": "Calculate 18*3. Answer:",
+    "answer": "54",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "bd15ca0f28545d4c678a2d201a1a344fa043357d8d4d4f4d7fc3eefbf4d9b83b"
+  },
+  {
+    "prompt": "Calculate 18*4. Answer:",
+    "answer": "72",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "7e6a88addffe28706f77fabc675fc3e4894d0702969ceeea409faae13640dbeb"
+  },
+  {
+    "prompt": "Calculate 18*5. Answer:",
+    "answer": "90",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "04ce40e5ac0f34787eb0832b07d343a13d5eb9176c5aff669370799ebc3319cc"
+  },
+  {
+    "prompt": "Calculate 18*6. Answer:",
+    "answer": "108",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "c9244b063a599d2b9de7b4970f72a175319b466af56b4966776cd777946a13b1"
+  },
+  {
+    "prompt": "Calculate 18*7. Answer:",
+    "answer": "126",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "968d7cb397f73e54e19cb73c5deab3707d42513562a58dc2342aa4f1a6aacc01"
+  },
+  {
+    "prompt": "Calculate 18*8. Answer:",
+    "answer": "144",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "f95c3167ec7e09fc52ae1c15d92bc755dff0f59ba307eed92a74adb3db8ebe6a"
+  },
+  {
+    "prompt": "Calculate 18*9. Answer:",
+    "answer": "162",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "4a62dfd9c9c379bbd7d025d59cf5e404fb23e3591a11e9c6bf7c4bf53b8236a5"
+  },
+  {
+    "prompt": "Calculate 18*10. Answer:",
+    "answer": "180",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "9ec4285a9dc72e0f490e75a7b65b4b7f07048cd5c6dea40f7803dc8e4e0ef70f"
+  },
+  {
+    "prompt": "Calculate 18*11. Answer:",
+    "answer": "198",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "d32bed9874815e29571d2e6e822a0d5adfdad1a7e03a401f36cccf88dff4062f"
+  },
+  {
+    "prompt": "Calculate 19*2. Answer:",
+    "answer": "38",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "ca9f3f41ffbd6e20915367208e467070f85a828f9f94da15d6a915e84011da94"
+  },
+  {
+    "prompt": "Calculate 19*3. Answer:",
+    "answer": "57",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "9bbbdb01e237e6960d7836593fb34fa04df8ab276536b32635c560975dc5ab2c"
+  },
+  {
+    "prompt": "Calculate 19*4. Answer:",
+    "answer": "76",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "522f8c145891686b6b24f473d7987b9b50cc0f2e719c140d17d39bb44a484434"
+  },
+  {
+    "prompt": "Calculate 19*5. Answer:",
+    "answer": "95",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "030aae698fed858d9bf026dc6b99fc8d918f1f4b696ee4142faf458b075a30e2"
+  },
+  {
+    "prompt": "Calculate 19*6. Answer:",
+    "answer": "114",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "c2e7cecace2562eb255ef2caf6793fc40c4f436ef1e4997afc594e47a21836a0"
+  },
+  {
+    "prompt": "Calculate 19*7. Answer:",
+    "answer": "133",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a508fd53e07b53fa4702fbbb7b32cc42ba88b3490cb435006d40df614b49097f"
+  },
+  {
+    "prompt": "Calculate 19*8. Answer:",
+    "answer": "152",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "8b690174e144fed5db14429d43643088404cbf9ca1aa2e05c4b466469e67f2e0"
+  },
+  {
+    "prompt": "Calculate 19*9. Answer:",
+    "answer": "171",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "874d75b8c1e386fbe71fe2ea62242c0e87a274d0ffc5c65095e955b1f54039ba"
+  },
+  {
+    "prompt": "Calculate 19*10. Answer:",
+    "answer": "190",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "80608c770027ddd53655b3da42eaa0c1bdc346ff9957ed03db1a0e5aafa6c629"
+  },
+  {
+    "prompt": "Calculate 19*11. Answer:",
+    "answer": "209",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "cdc5e3a0283ae6d77cacecd9a9f1f372885822fe25464d339ee1118f9f189bda"
+  },
+  {
+    "prompt": "Calculate 20*2. Answer:",
+    "answer": "40",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "223040ce56e5df71011ca7abc2fc026e28f941b9b6e791353cb52dc863d6c2d1"
+  },
+  {
+    "prompt": "Calculate 20*3. Answer:",
+    "answer": "60",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "242974ced1db799771b039633740d90053769002f1a7f61cf7c2fb326291985d"
+  },
+  {
+    "prompt": "Calculate 20*4. Answer:",
+    "answer": "80",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "5aaed3836ad5e67c023fb1f7d8e1e12dc893f642af8f35cd7f49998a458517d2"
+  },
+  {
+    "prompt": "Calculate 20*5. Answer:",
+    "answer": "100",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "8cf255525e0e5c78d99cdf39bc2ca3fa74284a5b893ad38f6fc683eb0bc3df98"
+  },
+  {
+    "prompt": "Calculate 20*6. Answer:",
+    "answer": "120",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "d415916fe9acea683242be1d47d5fec19988a1dba7fc7057c4410667a45d92bd"
+  },
+  {
+    "prompt": "Calculate 20*7. Answer:",
+    "answer": "140",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a9baab17d04cb356803aa20298320591685b87b4f579b45c782755a78ce64dcb"
+  },
+  {
+    "prompt": "Calculate 20*8. Answer:",
+    "answer": "160",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "61e209cb03a6140a24fb4463c2ba456536f3d5c3f85b90e268ce5c0ddb8382ca"
+  },
+  {
+    "prompt": "Calculate 20*9. Answer:",
+    "answer": "180",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "829c9ef673a991199539bf50f959a371dfa691fd8c7eb4aadcb09585bc73ecd5"
+  },
+  {
+    "prompt": "Calculate 20*10. Answer:",
+    "answer": "200",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "3ca151d577df94ba48d199649d955f1fb4838421558a313c019ee875cee923bf"
+  },
+  {
+    "prompt": "Calculate 20*11. Answer:",
+    "answer": "220",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "8bc98f5ce75b672346edd6979005535d51abbee5d90a1285ce55645a4f06fc02"
+  },
+  {
+    "prompt": "Calculate 21*2. Answer:",
+    "answer": "42",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "49b883af1201a6393d7eff0d0768732a98c24bfa80f3ea961c1c882bfed7707b"
+  },
+  {
+    "prompt": "Calculate 21*3. Answer:",
+    "answer": "63",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "2497287979ee7b7a0f05333145e055e889c006d701ac006770c854da7cec732d"
+  },
+  {
+    "prompt": "Calculate 21*4. Answer:",
+    "answer": "84",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "352e5b61a5cce6f4df1fda5a4718a02181dcbb687bb5a359391a821f705f42fa"
+  },
+  {
+    "prompt": "Calculate 21*5. Answer:",
+    "answer": "105",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "051bbec9daa32703e29d4e0e1a64f20908831770ca2a5aaf005ea71d1ee712d6"
+  },
+  {
+    "prompt": "Calculate 21*6. Answer:",
+    "answer": "126",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "e6259483323b13ac784cb874aefb1063acc26fff88f332f9b58c6b764c734809"
+  },
+  {
+    "prompt": "Calculate 21*7. Answer:",
+    "answer": "147",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "0b77e7d3077435c403088cf0c6b254ff75b98abd51b4acd96ed78f6c9d78e012"
+  },
+  {
+    "prompt": "Calculate 21*8. Answer:",
+    "answer": "168",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "da2ad401b131d146c0f277cba9651387abdc058300a193866c94be26c313f627"
+  },
+  {
+    "prompt": "Calculate 21*9. Answer:",
+    "answer": "189",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "test",
+    "id": "1c4927e6f961f6384f8097dcc7f531d3075bb2efd5c5f8e3587e9b543ebde327"
+  },
+  {
+    "prompt": "Calculate 21*10. Answer:",
+    "answer": "210",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "bfdace4989bfa9296d2f69ed93efd2ed80cf54c740b5710759e0020e1520ef28"
+  },
+  {
+    "prompt": "Calculate 21*11. Answer:",
+    "answer": "231",
+    "family": "multiply",
+    "difficulty": 3,
+    "split": "train",
+    "id": "a8c0587931cd0bbf49fd8547378c3f211ff662d7f20c4cce045d34cba0fe79e1"
+  },
+  {
+    "prompt": "Calculate (2+2)*2. Answer:",
+    "answer": "8",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "8eca1c6389bb1243f59588d2e2b11c3963560820d221ed24c8a02434c7c86686"
+  },
+  {
+    "prompt": "Calculate (2+3)*2. Answer:",
+    "answer": "10",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f83ac8f6cb350ed7922b26c04aa26fe33b7ab88f3da082630ea83aadee108095"
+  },
+  {
+    "prompt": "Calculate (2+4)*2. Answer:",
+    "answer": "12",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "de273323a2c638362ff2ead82f3143cbf72ade5f9ae78884176f5087ed2f36a1"
+  },
+  {
+    "prompt": "Calculate (2+5)*2. Answer:",
+    "answer": "14",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "b458a377d1e8573eeeb0af6414be2ca885ebd6f54909c60f8283c14155dcfea3"
+  },
+  {
+    "prompt": "Calculate (2+6)*2. Answer:",
+    "answer": "16",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "dc4d6101971e79cd72b8b0d802b4b3090edf0f1b7dac2b90131e5b38070c86a7"
+  },
+  {
+    "prompt": "Calculate (2+7)*2. Answer:",
+    "answer": "18",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "e2e53801836c9bb24720451b163408155dfbc4dd9a1aee33cbaee8bc061168bc"
+  },
+  {
+    "prompt": "Calculate (2+8)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c3b396b99859d901dad4ba4cd9253c21fde22ff15b425a8a9c9e7d452f73401a"
+  },
+  {
+    "prompt": "Calculate (2+9)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "bd7270b185c86c47f12c4d906cc53a809eb9d3992a3530018aaaed89cb05f15c"
+  },
+  {
+    "prompt": "Calculate (2+10)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f90ed7830d2ae13cbc79363b4bfa7dca9beba8d07e30bfa48a1d7ef625579f8a"
+  },
+  {
+    "prompt": "Calculate (2+11)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "e8cd0d40af9af24b62b9abcc01732f6b94005c37320facbedd0ad5047448cc5c"
+  },
+  {
+    "prompt": "Calculate (3+2)*2. Answer:",
+    "answer": "10",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c229d4a383e464b2c69fe1ad0a4a2777aa2815db54bb0eac3e4af8ed47d3e15b"
+  },
+  {
+    "prompt": "Calculate (3+3)*2. Answer:",
+    "answer": "12",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "60090e76a0dda5c9743267033aa71dd6261069a099ebc8924091eff2de4080d1"
+  },
+  {
+    "prompt": "Calculate (3+4)*2. Answer:",
+    "answer": "14",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "9c0957077e592dbaf91ebcbd66241e013a993a31559c50849e3527af034ada91"
+  },
+  {
+    "prompt": "Calculate (3+5)*2. Answer:",
+    "answer": "16",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "5c4abe79a5bf2be679f3c76c9f962864e435b2f06d44ccb50eb66814e6b2833e"
+  },
+  {
+    "prompt": "Calculate (3+6)*2. Answer:",
+    "answer": "18",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "8712223c269b7a1647281dc63f02a7ff42c966e4bbbdfb689ca7025502feb89e"
+  },
+  {
+    "prompt": "Calculate (3+7)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c5c8dd8709b9ded302044b316c3af53f58473ca525fd36a58993bad004d33443"
+  },
+  {
+    "prompt": "Calculate (3+8)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "141a8b10d006b054bb8b217b657bdf2920a91584e8b6a92cfcb09cc0694a7001"
+  },
+  {
+    "prompt": "Calculate (3+9)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "87c4b18854bdc8abd1eba3b793c9b1f93ffd2b76f4e92c35de47ff09233f85fc"
+  },
+  {
+    "prompt": "Calculate (3+10)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "e9c87239509e46ba494a8ff2ab7cfd28906704e9c79b4187fb4e551bcea6320d"
+  },
+  {
+    "prompt": "Calculate (3+11)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "4d46d5f607dec7dc929668cde7656e924133fe8e744dbea972b0cb3ac01b7c3e"
+  },
+  {
+    "prompt": "Calculate (4+2)*2. Answer:",
+    "answer": "12",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "a3b8e99812dc9b223c32fc613a85fd64ffe4fa6a8f924eaa21c9ced14a039df5"
+  },
+  {
+    "prompt": "Calculate (4+3)*2. Answer:",
+    "answer": "14",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "b151d04a272f7705c8de3bc41b343b1939ef6687c243782edf5aa6fd2cfdb7e8"
+  },
+  {
+    "prompt": "Calculate (4+4)*2. Answer:",
+    "answer": "16",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "e4053f99ef9fe7bd7ed6a8447ed8e6b8305e5b33deaac65a42fecd19f9ec7db4"
+  },
+  {
+    "prompt": "Calculate (4+5)*2. Answer:",
+    "answer": "18",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "6b1c69490a83f6e17c394f94f12dc1074ee3d5b0ec6db7e47ae05be424fbd7a5"
+  },
+  {
+    "prompt": "Calculate (4+6)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "ee6dd088261b8ca659add3cf10e84db3a8467e760693e60bb622d05f78e8d0d0"
+  },
+  {
+    "prompt": "Calculate (4+7)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "5c1cb04a6fe92d5bae674e05ab31c3008a031192f0489e9a5486820e7420ca29"
+  },
+  {
+    "prompt": "Calculate (4+8)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "a4a30fdccf6b7c250473d8c5ea5c75f3240915b161e2a9e02a353a8df11c79d0"
+  },
+  {
+    "prompt": "Calculate (4+9)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "586d8745c80769daa1d69f037795e0e41378a954ce488bb7c9e9fbc7b60aa1a1"
+  },
+  {
+    "prompt": "Calculate (4+10)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "a3bd7a2c50b44bb02e9cd750745311be6761bbea788c53d8386b46841ccb3e1c"
+  },
+  {
+    "prompt": "Calculate (4+11)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "0589a478edc45acef89b787d77e4636e367844d26d03f42805d948e3cddb110d"
+  },
+  {
+    "prompt": "Calculate (5+2)*2. Answer:",
+    "answer": "14",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "78864f069cc0cba884d3f7af0d6c383f997d23aed1eab23e7ff7ac16351049de"
+  },
+  {
+    "prompt": "Calculate (5+3)*2. Answer:",
+    "answer": "16",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "766aed14cc38a84ff6de87f9886a7b8c6d5934669c715f18483e83cd11d8cfd2"
+  },
+  {
+    "prompt": "Calculate (5+4)*2. Answer:",
+    "answer": "18",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "37ab16fa3b8de1d7555d3f9675592fe4f28331150ca65ce0d3a23b2172dd0289"
+  },
+  {
+    "prompt": "Calculate (5+5)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "2bc35fe95cfac1813207715520ede7452703af656ef382fcc84a06c7c1328f05"
+  },
+  {
+    "prompt": "Calculate (5+6)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "a6821d3686188023e7356a5202437b2c8429752e26f0950e74a46e12dc452275"
+  },
+  {
+    "prompt": "Calculate (5+7)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "b85c8a7b8e9150624793788dfabc9ad20af52561a242611883d9d727b6092e43"
+  },
+  {
+    "prompt": "Calculate (5+8)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "71ac1840cdef2a10a37447abc443e78e084c163ae3b4a8103c7e75e035c2f4f6"
+  },
+  {
+    "prompt": "Calculate (5+9)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "2d8c14a92da5600d03072c0036dbabab6005e8526a160b11cb8f318c4847e96b"
+  },
+  {
+    "prompt": "Calculate (5+10)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "9a2f66db02dbe7cc6a9b31e961f1ef97d67d7ee59443e20f3e62d876779f941f"
+  },
+  {
+    "prompt": "Calculate (5+11)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "cae007650bae2ea0c67fe593426fdb34d558f048ddd15410868cc1efe21a75ab"
+  },
+  {
+    "prompt": "Calculate (6+2)*2. Answer:",
+    "answer": "16",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "2f7d734596b6e05aa239de441107116a6a05b727fdf9bb45cef4cd8337de2521"
+  },
+  {
+    "prompt": "Calculate (6+3)*2. Answer:",
+    "answer": "18",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "611c0925e2d3b9cfbeba8ca42614c8caecdf2a391fbb67a4806845fa4f5de770"
+  },
+  {
+    "prompt": "Calculate (6+4)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c028a6844ede3fc4549e357180b316f94f7cbaff481b83032c2bc0e9e76da872"
+  },
+  {
+    "prompt": "Calculate (6+5)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "d25304cc9432a765d9e41a8bf532d91ff611cbf8c796915c31ea74ff461ff282"
+  },
+  {
+    "prompt": "Calculate (6+6)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "d4e9d5a1a35749169a3b2da394af53abf4a4ff76a695079e0da237098fd9815e"
+  },
+  {
+    "prompt": "Calculate (6+7)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "2ebade3580f72dce5a04d19c7d0be7057d0035512ac642c29f42a9ff9b7709ab"
+  },
+  {
+    "prompt": "Calculate (6+8)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "20d6536674d07eac1de799151c3b6e97ca2d09b6fb6581a887ca9268020c6b9a"
+  },
+  {
+    "prompt": "Calculate (6+9)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "41aadc1421ea11c2e1ec55900a9bcb0fa4e968d52982702555ebed10ad0d5c6d"
+  },
+  {
+    "prompt": "Calculate (6+10)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f7aa8e7885bc74fe0fdd72964fe599dbfd7d75fb4207c5fb291cc4736bc0facc"
+  },
+  {
+    "prompt": "Calculate (6+11)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "ab0879356db509d1588f3d6c800539ab10fa37b2adb449887feaa4fb606b828e"
+  },
+  {
+    "prompt": "Calculate (7+2)*2. Answer:",
+    "answer": "18",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "00b751fa9f679d71ffeb68591da35e35950b6deb92e56df8aad14c6a12f8ad1e"
+  },
+  {
+    "prompt": "Calculate (7+3)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "b06e45cec22fc6c56ce6bb6dba56ec91044c98b47cea5438e3459c974db8b216"
+  },
+  {
+    "prompt": "Calculate (7+4)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "caef692fa76ad95deb384f426b8a6df773169d28e0c9f821c72c5449441f005f"
+  },
+  {
+    "prompt": "Calculate (7+5)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "33556cc86033d0d207f860d3f2f057e7a211dec9bee9ba0fdc5c7aa128c9ee52"
+  },
+  {
+    "prompt": "Calculate (7+6)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "b9a403b35a40edcfdd207a358b0da65c883d9798c985da5c46af1014d40a45ea"
+  },
+  {
+    "prompt": "Calculate (7+7)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "347dca689363cfb859ed8ba549445d92d3c786a4a349c7e0bf488e671bd850e6"
+  },
+  {
+    "prompt": "Calculate (7+8)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c726c204fbbe2e0db86fb4a417a8bc0ea1b55dd2d4ea0b59d225c698a5be56b5"
+  },
+  {
+    "prompt": "Calculate (7+9)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "d92c7409099fa0b61ab332d1b0eecfdaf7c7b2ec40c5c2520058183a52be4e61"
+  },
+  {
+    "prompt": "Calculate (7+10)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "8abc96a99d7607a7052483654714ae2090da30ddc5ae81afbdea841311494cbc"
+  },
+  {
+    "prompt": "Calculate (7+11)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "add1cd28a3f35d564b65a1ad4ee5fd48ef8220a74e4106aa6edbf337d5578e59"
+  },
+  {
+    "prompt": "Calculate (8+2)*2. Answer:",
+    "answer": "20",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "7eb28e405089e59adb414d2c07db1bad57df97458247a44ed74a24f823b9df7a"
+  },
+  {
+    "prompt": "Calculate (8+3)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "0cb18598ac83e89e105038469d8b291f8c33a8633c02bc49edf06952806db7a9"
+  },
+  {
+    "prompt": "Calculate (8+4)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "d98726a089071ad78fad9538c6a17452b80fdef98b012e02fa14a2e0e98b6324"
+  },
+  {
+    "prompt": "Calculate (8+5)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c7e700e4659e9ec950fb81b8486c7309d445752e32c46250bdd02eb85e38ee7a"
+  },
+  {
+    "prompt": "Calculate (8+6)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "90261e2ded83dd50561a045181f8eb9afce42e98e2a00d385e7f7c6c20296809"
+  },
+  {
+    "prompt": "Calculate (8+7)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "caf2ca851b29e146eb9262a6f5e9bbb388e96f5a351393e0173ac42ab0456702"
+  },
+  {
+    "prompt": "Calculate (8+8)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "3235338192cae8c914d70d4c4e99c0418f858d08577d97eafb3710506bd57d9f"
+  },
+  {
+    "prompt": "Calculate (8+9)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "9e385151fe09ce7e7ab9f34d32109e4570e06e2fe33c77493951a034194558c2"
+  },
+  {
+    "prompt": "Calculate (8+10)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f9d54c50e20095a0bfc97c7833b0841909622cf7768d7e39af968ab14be8681b"
+  },
+  {
+    "prompt": "Calculate (8+11)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f54cf934a260ba2724344fb8495e443aa1550262fca2998bbf3679ef52113b18"
+  },
+  {
+    "prompt": "Calculate (9+2)*2. Answer:",
+    "answer": "22",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "eeac4b339ca1762c4d32324532487ac7df5e05c083361a71d49c24966e0d9b31"
+  },
+  {
+    "prompt": "Calculate (9+3)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "6b81983339315b24371c36c6bfe81ddc94f5e280dc1d09fa2640e2fb0fe6769c"
+  },
+  {
+    "prompt": "Calculate (9+4)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c9d2726f16adb761fe9dc2a68533d53a1175e5aae53c875d338551e4d5eddb9f"
+  },
+  {
+    "prompt": "Calculate (9+5)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "a3204779c78fdaefc427f428cbf8db6e830ae14b71283940e3ba5ae9076d2b46"
+  },
+  {
+    "prompt": "Calculate (9+6)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "ede4444df7de36988645d4b6d0ef9ac36465ea7bd8b5443815e2173dc01a9903"
+  },
+  {
+    "prompt": "Calculate (9+7)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f7e36c022cb222900d5bbc2e024d51506094d54709a4f01767c2f313074583ae"
+  },
+  {
+    "prompt": "Calculate (9+8)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "c6fada488c877c2f72453b12c8561ddbce41f0048c67757f289992cb844ceec6"
+  },
+  {
+    "prompt": "Calculate (9+9)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "7ea4187d751a9ed5c7827139bf1de8c49f7f55c381fbf839a48a01d8c53924f2"
+  },
+  {
+    "prompt": "Calculate (9+10)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "037cebf440f85ba264183643ffdb281b5cd19bea6ea42a58483e553dcf745f35"
+  },
+  {
+    "prompt": "Calculate (9+11)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "41e1c4f7dcc3e0dc4bd523d9a19aaa43883c08d5a18f254550d2dd0a120cd158"
+  },
+  {
+    "prompt": "Calculate (10+2)*2. Answer:",
+    "answer": "24",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "b328f3746e22c562f3c7747be85deafa8c033bcc038831ee88138503d564e0cd"
+  },
+  {
+    "prompt": "Calculate (10+3)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "4dbd2f6cbe3b728ad076ce32b9321144a15b23691e46a1b7681e4c69a28bbb63"
+  },
+  {
+    "prompt": "Calculate (10+4)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "e5db0b1150f08e9936725ef6760f00cd722f5dc65ddfb890b44a3a55008a6fe3"
+  },
+  {
+    "prompt": "Calculate (10+5)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "bf3573e6e69b9991956b56a95294a99431a9b8f92d9084198d0f5d1a41bd7c16"
+  },
+  {
+    "prompt": "Calculate (10+6)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "3522e28a1b6de24143c5a591253c8e6cda0978c1b37ed61593ff6dbb6c2b2ab8"
+  },
+  {
+    "prompt": "Calculate (10+7)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "1f04aa38a5e673e17e8b3ec291a0ce185202c11d9d161f313014cd634ca0cc8a"
+  },
+  {
+    "prompt": "Calculate (10+8)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "5d8a9d18da81b90e602a342b7d95598a73a483667e63edc6d44f63407009532a"
+  },
+  {
+    "prompt": "Calculate (10+9)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "f771e703852b7fefbcd41bb1b2a20fdd2fe8e47b637f82c97b8896a5f71ba755"
+  },
+  {
+    "prompt": "Calculate (10+10)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "73a6cde88f6a0a03df67759ab4cb7267cd1f26090900310b9d39348fd61bf47a"
+  },
+  {
+    "prompt": "Calculate (10+11)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "919e85fae775fe510ebb92a1214626a5bf69f9dc94e4510e80a403120d997e5d"
+  },
+  {
+    "prompt": "Calculate (11+2)*2. Answer:",
+    "answer": "26",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "eaf1d19afb1e7380a3bf56785c0410f7c4d53316f75df3abb2be20cfcb3d1de2"
+  },
+  {
+    "prompt": "Calculate (11+3)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "6f12a9999675b57135f67379bdcdf8ab99f6327948183c0f50caa84591387a3c"
+  },
+  {
+    "prompt": "Calculate (11+4)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "af55f417dc3ef13007bab71a8012a71097dc34de7f0f3172cf267107e8b4f42b"
+  },
+  {
+    "prompt": "Calculate (11+5)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "0449246e81c495fd997f746bdc0d72c926ce4afb1da3f1071d7c93a197e4bb4c"
+  },
+  {
+    "prompt": "Calculate (11+6)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "df600821329f153d0292ae7b9f099370eee4cfde0b9643c84ebc22b271835d7b"
+  },
+  {
+    "prompt": "Calculate (11+7)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "0845de903c972d97080ca73c4aa1c1d43f79f1d88c690cfd09599deb4117c2c3"
+  },
+  {
+    "prompt": "Calculate (11+8)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "1ccdd9dbb577a5820656707293358d2bf7fc65f65035b41b2c2e6e578dd88059"
+  },
+  {
+    "prompt": "Calculate (11+9)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "96ecf853334bfa0966de1ce1b037451b580ed0937b750f57f99417c38174f2b1"
+  },
+  {
+    "prompt": "Calculate (11+10)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "e0751bf91d831fe7e84162755e7b92a72e6c58742321bfbe74edbfcd71430a22"
+  },
+  {
+    "prompt": "Calculate (11+11)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 1,
+    "split": "ood",
+    "id": "a3aec546eb886cbf695a0be66745783ed919e17e3e42fda2c301410ffa84938e"
+  },
+  {
+    "prompt": "Calculate (12+2)*2. Answer:",
+    "answer": "28",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "bc6b649b3d99010a674edfb29cee9c7b23010edcf254365586670be0e5da3d2d"
+  },
+  {
+    "prompt": "Calculate (12+3)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "232990c31d93b0b81a70c9a7d735191087b62894b6b0055578cfae717a79299f"
+  },
+  {
+    "prompt": "Calculate (12+4)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "ab458606e93558e728b72afb8e7a6bd5f4f4adf8320e70b96c649adcedb417a8"
+  },
+  {
+    "prompt": "Calculate (12+5)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "0e39497656ec98418fa811ff6055814218695344fdde96baf813fb52194f0b68"
+  },
+  {
+    "prompt": "Calculate (12+6)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "1d8ca38be06edc18ff4b25835caaa303034854e191caf5615cf64027a499fb85"
+  },
+  {
+    "prompt": "Calculate (12+7)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "8bc500a52b92a201af49ad011e9ab0822107fa3301060802271a3da50bc16acf"
+  },
+  {
+    "prompt": "Calculate (12+8)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "e7b55ef8db539165f9f95b678859a40c6fea0857e4408fcbc3c9c79ca9e98df3"
+  },
+  {
+    "prompt": "Calculate (12+9)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "bb7b31df1d961460c6a0d5f44647aad6a9bdc31ac5c7b590d95af1566750e1f5"
+  },
+  {
+    "prompt": "Calculate (12+10)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "dca23795b59c963c7d51c33ed50dcf43899740c40938f6d6afd3190f6bc2d7a7"
+  },
+  {
+    "prompt": "Calculate (12+11)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "46bf44fd44ced42d4eb262cd2bfcf1ab934b8ff9449376208b6f5803fd2f4e9e"
+  },
+  {
+    "prompt": "Calculate (13+2)*2. Answer:",
+    "answer": "30",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "5a9f239864ecb08605a4e9d00c5d77e83dfc74b3cfc28a163f5e3e9aab7783c2"
+  },
+  {
+    "prompt": "Calculate (13+3)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "76558b0bdba88be299cff870993efb13b1bfd870c9d3496ce966e0cc71d4c8fc"
+  },
+  {
+    "prompt": "Calculate (13+4)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "1d8f6accce0b0dd15ec7652ab96906eac13268a87ba49fd9c8f43dd65e70cc52"
+  },
+  {
+    "prompt": "Calculate (13+5)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "40e20efee6ca72f495e0e372102cc9effb1d948d694ec141fb0a7b431751d73a"
+  },
+  {
+    "prompt": "Calculate (13+6)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "36452773bb0936126a3ef090e264e9388efb1a4b9c1a0d43611346de1611ccd8"
+  },
+  {
+    "prompt": "Calculate (13+7)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "97deeced74aa4b90170c7d6dd2041bba576caf2f3a40672cee05c5e815f4f95f"
+  },
+  {
+    "prompt": "Calculate (13+8)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "8a4ff2d11910e7bd4e50363fbbc1974ee9c9d539ab3e54486f6c4e32446dbe22"
+  },
+  {
+    "prompt": "Calculate (13+9)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "d372d667f26c8fd6792ef93f8e5a6edcddcf507e5028c1cb9407d76531e6acea"
+  },
+  {
+    "prompt": "Calculate (13+10)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "db69d6c6d0c3ccaefe5b3c231c808dfde03141e1eb63ef2e0c54341df5dd02c8"
+  },
+  {
+    "prompt": "Calculate (13+11)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "62d0da80ab806de8ceb9ccddd9734ec4379abc5ddce81bafda95bca048df06ca"
+  },
+  {
+    "prompt": "Calculate (14+2)*2. Answer:",
+    "answer": "32",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "bff4e50ec76c3693b130cef03b07993a95b76b63164875ff73f436f13102679e"
+  },
+  {
+    "prompt": "Calculate (14+3)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "ff33e5c932d570b45114b4963e92762aae41ccef37af92583e40b40ec16a6421"
+  },
+  {
+    "prompt": "Calculate (14+4)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "dbc77bc772e4b276cbbc390d42059a808de4b702599bef962a4cdd022271c7ee"
+  },
+  {
+    "prompt": "Calculate (14+5)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "342d6036f22433a0d451c051f4acacd3cde9743d58ddbf6b5f047167e63e53fb"
+  },
+  {
+    "prompt": "Calculate (14+6)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "68ac96773d6715ce1ab2f2d3b1d2a923db2c5abedb8ed0e91dfc7d97a6c28819"
+  },
+  {
+    "prompt": "Calculate (14+7)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "b789a3ef1e328921619dc08563c3ce028d27750d80fa9a37026e598487682b87"
+  },
+  {
+    "prompt": "Calculate (14+8)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "24c9f893e14093ca4854ead6068585be5cb0d8e165e03f3e77c6b8bbf3bb8fd2"
+  },
+  {
+    "prompt": "Calculate (14+9)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "cbcb824efc47128d08c456abc4dc0e52d718dd8572e2586d79dac4782b2f31e1"
+  },
+  {
+    "prompt": "Calculate (14+10)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "8b8b11d6a59f88b6588fe487bbe386e7c89610c8ed1310066f6b9506341d6bc7"
+  },
+  {
+    "prompt": "Calculate (14+11)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "5f97bf80772f94bea39533c9e26776a7258a42971de859f7bc36c196a208fcd1"
+  },
+  {
+    "prompt": "Calculate (15+2)*2. Answer:",
+    "answer": "34",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "78295e6766ca64ab46c29b8ed01a09410534b5fe63fc9b22aa374116b187257a"
+  },
+  {
+    "prompt": "Calculate (15+3)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "309d188543f04edc51c4270e07607eec076e8446ce03bc3a9cc522826dc426a5"
+  },
+  {
+    "prompt": "Calculate (15+4)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "49afac4a5c2d9a52608521a6548bb168cb6410bddebc06cc3624207fb005dfb3"
+  },
+  {
+    "prompt": "Calculate (15+5)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "6946183dff719523d9a14be5519c58af58c1ab8dcc4be74e5385d28fdec11084"
+  },
+  {
+    "prompt": "Calculate (15+6)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "18409409fe0a55f54573bbbfc4c9dfacfcd79f09b3d60c57bd9f6d7af22695e1"
+  },
+  {
+    "prompt": "Calculate (15+7)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "6196241e328a063d8b926edc170e4bbb668f1a24c374e1c9c06ff150f2139536"
+  },
+  {
+    "prompt": "Calculate (15+8)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "22d0044731987b533a7cdf89afce08cda2eebfa72745676977a4dfb1e9cb17d4"
+  },
+  {
+    "prompt": "Calculate (15+9)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "bee4a81598290df44b1bfd693b42fadd62b8f453271bb067d300655f8dc17e4c"
+  },
+  {
+    "prompt": "Calculate (15+10)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "5b3359b93aa7751d02493757b4a7962dcb99864c19032ff42cfbee53ff5aa1f7"
+  },
+  {
+    "prompt": "Calculate (15+11)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "a763875fe695ab88f34fcfc608ef64246b0ea38ef7675127190d5b18dc8470da"
+  },
+  {
+    "prompt": "Calculate (16+2)*2. Answer:",
+    "answer": "36",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "b3737df33fe4020640c2c4cbb930afc6cb9c2ca4bc79fcdd98eda877698df189"
+  },
+  {
+    "prompt": "Calculate (16+3)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "81923ffc282d5b48c6932c0066ad22d6180192e5128d133eef639244e365788d"
+  },
+  {
+    "prompt": "Calculate (16+4)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "06cc1ecb3e2643abede1f5772cdfa1893d0b73839758b9b59696ea027a3e0733"
+  },
+  {
+    "prompt": "Calculate (16+5)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "f8126be2ac6c6f6cb769edc6c09ca14a0448b8cbb17548188f0c6053d601bfb0"
+  },
+  {
+    "prompt": "Calculate (16+6)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "210570278e6c1cac1e1239e441964d417c4f7e47aa0f99d3b89ff04fd5c8f805"
+  },
+  {
+    "prompt": "Calculate (16+7)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "d4bb161ef257c611d239295e7d872a928ba02d17f1c6e21f27dac58242936866"
+  },
+  {
+    "prompt": "Calculate (16+8)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "d00528b25d80be544e3205b451fa1d05d2420bf349cea56d630f45458a9d6ec7"
+  },
+  {
+    "prompt": "Calculate (16+9)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "fa88e7fd025bf98f5b4d3ee38c6101dc3419f985e79540646f28dec272c336a4"
+  },
+  {
+    "prompt": "Calculate (16+10)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "9996a864e5eb013732f549deb020f0252c736f0d3ce34b6fd16d63e39b4700a8"
+  },
+  {
+    "prompt": "Calculate (16+11)*2. Answer:",
+    "answer": "54",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "1986d87a9bb61f40fa60c6c2f72d83530750d9d6fcf7344ea59eab8fa8eba62c"
+  },
+  {
+    "prompt": "Calculate (17+2)*2. Answer:",
+    "answer": "38",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "367790f462fd227f97860b0b6336423c33f980543db0d172c5f8ae33257ad863"
+  },
+  {
+    "prompt": "Calculate (17+3)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "ea835602717c4b9d7eb4b82a784920da011a6a8bdb0ae20088febbc068f97948"
+  },
+  {
+    "prompt": "Calculate (17+4)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "26e08e23c80d3abd2b213170deb49ab0fee80b99ae37f99c7f27175bcab1cad0"
+  },
+  {
+    "prompt": "Calculate (17+5)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "1a0bc3ecbf85d4d0c8bf99d1d0b184e40e128ef548516db041aa09a20c8134ec"
+  },
+  {
+    "prompt": "Calculate (17+6)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "2e5649da782807be4bfbefa7257272e1ab8800d8d0ddd9a746fd84c34ca639c9"
+  },
+  {
+    "prompt": "Calculate (17+7)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "d99aa8bd4003c60f525ce91688720aae71dcac529b7471a8524a4424a1d8878c"
+  },
+  {
+    "prompt": "Calculate (17+8)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "549f6e8ad45a2004dfbee1b4b82f5c637fb5832df582b815b74a330148e829e4"
+  },
+  {
+    "prompt": "Calculate (17+9)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "a82e979296edbb96ca0b562c61f53e1ce49dfb6456f5b1b067c977ab223ad30b"
+  },
+  {
+    "prompt": "Calculate (17+10)*2. Answer:",
+    "answer": "54",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "cc2e75df4bb58d45ad5cb9fd44f3330b07304d094636aaadb7eceb5f5c79e2cc"
+  },
+  {
+    "prompt": "Calculate (17+11)*2. Answer:",
+    "answer": "56",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "f0e54a031a48bcf7d0d0286ba9cdc6cce1bc9153c75a324c35fe3141e086316f"
+  },
+  {
+    "prompt": "Calculate (18+2)*2. Answer:",
+    "answer": "40",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "f1b1fdba3de358a619cb8f37be2def298c745ff9b8f5eac9162a05fde73f5fd7"
+  },
+  {
+    "prompt": "Calculate (18+3)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "65ad23bcc9657c445ad53a3f03cef986bf7efba3ae0d56c382b9deb18375b8ad"
+  },
+  {
+    "prompt": "Calculate (18+4)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "986c57c5c964461186f12a8ef5f7bb834c438bfbe2bb8fea67e40d3746c730c4"
+  },
+  {
+    "prompt": "Calculate (18+5)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "d233148fd399dfb4996251e577e288eb2debafedb175047b32fc69e4f200a67d"
+  },
+  {
+    "prompt": "Calculate (18+6)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "bb5580b5e8fc5f3549698dfcb3a658923b469c8e4b4899983148545c7f748885"
+  },
+  {
+    "prompt": "Calculate (18+7)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "4eb62cc948bbbf34decdca1b71dd790557fd24300055e7e466f98c959c42178f"
+  },
+  {
+    "prompt": "Calculate (18+8)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "592f7896e48c0b22a43551b1868a9f7bc36773088d4fafb146a9a440b32cedac"
+  },
+  {
+    "prompt": "Calculate (18+9)*2. Answer:",
+    "answer": "54",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "504dbf1c1e28ade2af3925b4d915bc0542d48c0f4eb0c4dfaf307596015acc83"
+  },
+  {
+    "prompt": "Calculate (18+10)*2. Answer:",
+    "answer": "56",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "fcc259c325a87eefdaae13955b14b8e4b863fe8889dd82013757026b273866a7"
+  },
+  {
+    "prompt": "Calculate (18+11)*2. Answer:",
+    "answer": "58",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "6dfd8f36d93aad3b0162a7dad6cd22ae63f5fa32091166ea3b4e903a1d1850a0"
+  },
+  {
+    "prompt": "Calculate (19+2)*2. Answer:",
+    "answer": "42",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "98e1e5d1d55b46bb512c8c7d947ed97bd6801dd83d1ab09eecd355c4b318c5ac"
+  },
+  {
+    "prompt": "Calculate (19+3)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "87a3b2544524d8ffef615e40a39ba75870f687470ed8e3b660b82457773c162a"
+  },
+  {
+    "prompt": "Calculate (19+4)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "c61fb95fb38b07e6376b85dea67839c97dada4503522de763f60a6cb2eca1a89"
+  },
+  {
+    "prompt": "Calculate (19+5)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "2759fbd4cbe995a9b0e5bee528995805af698411b4981f9c107803dd296aabe0"
+  },
+  {
+    "prompt": "Calculate (19+6)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "c79357c1ef56db2925f482f18912f276ef4a9e729e097cb179915fba243aa2a9"
+  },
+  {
+    "prompt": "Calculate (19+7)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "ea2d04124e64dd9ec1ad786f2dbb44575d6ccb57a983e60d41e92efa7e4b4a53"
+  },
+  {
+    "prompt": "Calculate (19+8)*2. Answer:",
+    "answer": "54",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "2bce9e27983a2d21f95f40e4a303b13834c186baf2babd7f87eb4ffd1e5e5f45"
+  },
+  {
+    "prompt": "Calculate (19+9)*2. Answer:",
+    "answer": "56",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "137ddf1fde897f16ace2159eb6aaffd782fce44e9a71bfa02aa3c46b37ca985e"
+  },
+  {
+    "prompt": "Calculate (19+10)*2. Answer:",
+    "answer": "58",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "d3063374550ad0044f558845cb29ec23eaec628196919ae608ad40ae099914d6"
+  },
+  {
+    "prompt": "Calculate (19+11)*2. Answer:",
+    "answer": "60",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "eb79780055e05f4fd3cc840c8e34e45544afcb6fd732f9ec16bee7e6f0b3cd7f"
+  },
+  {
+    "prompt": "Calculate (20+2)*2. Answer:",
+    "answer": "44",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "47e065438372b3111efb3a343e35be8acffcafe2e19dc2f773afae015d7cfbc9"
+  },
+  {
+    "prompt": "Calculate (20+3)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "76c4adfaf31fc25fa4b044f1dded2a955670bd1da5502ec5096391964dad1001"
+  },
+  {
+    "prompt": "Calculate (20+4)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "5d882a0fa2f333878a5573d54aeccd7a9d124ac5fbd709cace603ce1a142b69c"
+  },
+  {
+    "prompt": "Calculate (20+5)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "b158b6dd92e0b266d6ddb58e5627c459e2aace4ef40ede6924ee017ff6d36342"
+  },
+  {
+    "prompt": "Calculate (20+6)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "1861dea2dfd5d4205254573043bcf3c14f3719e64d27c573236c4551985e7604"
+  },
+  {
+    "prompt": "Calculate (20+7)*2. Answer:",
+    "answer": "54",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "f2d7ac3faae5acf3bcccd9c810c9225804e10366fa1ac3296a91fddab5f9128c"
+  },
+  {
+    "prompt": "Calculate (20+8)*2. Answer:",
+    "answer": "56",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "edec2fe98641733bc3f72901c28bef8de2662896bd85a2d74f537032a6c546b4"
+  },
+  {
+    "prompt": "Calculate (20+9)*2. Answer:",
+    "answer": "58",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "083a2c9b39f62033cc127a7812e421dd4edc2f875e304b1871b5875ec5b62d71"
+  },
+  {
+    "prompt": "Calculate (20+10)*2. Answer:",
+    "answer": "60",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "9101ab0d47e829cbf45be4dbdca61e0183ec6338e5f2ce51a023a7433230513c"
+  },
+  {
+    "prompt": "Calculate (20+11)*2. Answer:",
+    "answer": "62",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "6c06910b156fc41e5f503f59100582f75c4c38cfdb5725b30d3ef02441e8e7ee"
+  },
+  {
+    "prompt": "Calculate (21+2)*2. Answer:",
+    "answer": "46",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "169cf08845dee21182faa8d880a6921d5d9338eb560cde5872040b834a5f2382"
+  },
+  {
+    "prompt": "Calculate (21+3)*2. Answer:",
+    "answer": "48",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "0c9b64681f499a3b4e9db6765a42c59f51c6acde2de8a04c7f50bf6a7b25a10a"
+  },
+  {
+    "prompt": "Calculate (21+4)*2. Answer:",
+    "answer": "50",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "4f040b31f059d3bb789f4f105645bccf299b598fec85e35a2578df2442277136"
+  },
+  {
+    "prompt": "Calculate (21+5)*2. Answer:",
+    "answer": "52",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "5bd444fc97277f4b4f6f90511f8ab46409f9def2a00e2b15bd52379027b9634f"
+  },
+  {
+    "prompt": "Calculate (21+6)*2. Answer:",
+    "answer": "54",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "c7f8b923eb851a2adefe855cbbde57165da4790891c647d8a721fc3fc46307e5"
+  },
+  {
+    "prompt": "Calculate (21+7)*2. Answer:",
+    "answer": "56",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "cf83e5bc8028729751cf2e7242fa4f3d3965ceb61523ea648dc39c8f417dc908"
+  },
+  {
+    "prompt": "Calculate (21+8)*2. Answer:",
+    "answer": "58",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "6e7ac5eb98f6853faeb5045594a30d046f93ee1bfbd0ecf9e6aaffae8f978442"
+  },
+  {
+    "prompt": "Calculate (21+9)*2. Answer:",
+    "answer": "60",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "c51aa979b0f8c59229a493c95a8188d085290a1658107dd30dfab5b88662ba7a"
+  },
+  {
+    "prompt": "Calculate (21+10)*2. Answer:",
+    "answer": "62",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "9b7d6333268a70c29b788df5e483c9ffdb9437f65f3d8b53b9a1833a8c7b47aa"
+  },
+  {
+    "prompt": "Calculate (21+11)*2. Answer:",
+    "answer": "64",
+    "family": "compose",
+    "difficulty": 2,
+    "split": "ood",
+    "id": "c82c87d9b50eb7f07b91e8df6d82343be09106c0479213536bf371ad59cf608a"
+  }
+]
