@@ -6,7 +6,7 @@
 
 **Initial result:** Qwen2.5-Math-1.5B-Instruct scored **0/3** on a small hard-AMC validation sample. All three outputs completed normally. No AMC training, final-test evaluation or curriculum comparison has been run.
 
-**Active follow-up:** two pinned 4-bit students, Qwen3-4B-Instruct and DeepSeek-R1-Distill-Qwen-7B, are being screened on the same three validation questions. [Frozen configuration and limitations](MODEL_COMPARISON.md). No new-candidate accuracy is claimed until its run completes.
+**Follow-up blocked on GPU access:** two pinned 4-bit students, Qwen3-4B-Instruct and DeepSeek-R1-Distill-Qwen-7B, are downloaded for the same three validation questions. The first CPU attempt has not yielded a scored trial; neither candidate has a new accuracy result. [Observed backend limitation and prepared GPU launcher](MODEL_COMPARISON.md).
 
 ## Which question types worked best?
 

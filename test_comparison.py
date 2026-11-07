@@ -1,7 +1,7 @@
 import unittest
 from decimal import Decimal
 
-from comparison_utils import extract_answer
+from comparison_utils import BudgetExceeded, check_budget, extract_answer
 
 
 class ComparisonScoringTests(unittest.TestCase):
@@ -18,6 +18,11 @@ class ComparisonScoringTests(unittest.TestCase):
         from verify_amc import polygon_area
         self.assertEqual(polygon_area([(0, 0), (2, 0), (2, 3), (0, 3)]), 6)
         self.assertEqual(polygon_area([(0, 3), (2, 3), (2, 0), (0, 0)]), 6)
+
+    def test_deadline_includes_prompt_processing(self):
+        check_budget(10, 300, 309.9)
+        with self.assertRaises(BudgetExceeded):
+            check_budget(10, 300, 310)
 
 
 if __name__ == '__main__':

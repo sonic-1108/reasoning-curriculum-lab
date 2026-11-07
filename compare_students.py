@@ -8,14 +8,16 @@ import time
 from decimal import Decimal
 from pathlib import Path
 
-from comparison_utils import extract_answer, frozen_validation
+from comparison_utils import BudgetExceeded, check_budget, extract_answer, frozen_validation
 
 
 def run(candidate, weights):
     root = Path(__file__).resolve().parent
     config = json.loads((root / 'comparison_config.json').read_text())
     settings = config['candidates'][candidate]
-    if hashlib.file_digest((weights / 'model.safetensors').open('rb'), 'sha256').hexdigest() != settings['weights_sha256']:
+    with (weights / 'model.safetensors').open('rb') as weight_file:
+        checksum = hashlib.file_digest(weight_file, 'sha256').hexdigest()
+    if checksum != settings['weights_sha256']:
         raise ValueError('Model weight checksum does not match the pinned release')
     rows = frozen_validation(root)
     output = root / 'amc_results/model_comparison'
@@ -68,16 +70,28 @@ def run(candidate, weights):
         response = None
         timeout = False
         started = time.perf_counter()
+        progress_path = raw / 'progress.json'
+
+        def prompt_progress(processed, total):
+            progress_path.write_text(json.dumps(dict(
+                problem=row['number'], stage='prefill', processed=processed,
+                total=total, elapsed_seconds=time.perf_counter() - started,
+            )))
+            check_budget(started, config['max_seconds_per_problem'], time.perf_counter())
+
         stream = stream_generate(model, tokenizer, prompt, max_tokens=config['max_new_tokens'],
-                                 sampler=sampler, prefill_step_size=256)
-        for response in stream:
-            chunks.append(response.text)
-            if response.finish_reason is not None:
-                break
-            if time.perf_counter() - started >= config['max_seconds_per_problem']:
-                timeout = True
-                break
-        stream.close()
+                                 sampler=sampler, prefill_step_size=32,
+                                 prompt_progress_callback=prompt_progress)
+        try:
+            for response in stream:
+                chunks.append(response.text)
+                if response.finish_reason is not None:
+                    break
+                check_budget(started, config['max_seconds_per_problem'], time.perf_counter())
+        except BudgetExceeded:
+            timeout = True
+        finally:
+            stream.close()
         elapsed = time.perf_counter() - started
         text = ''.join(chunks)
         (raw / f"problem_{row['number']}.txt").write_text(text)
@@ -108,4 +122,13 @@ if __name__ == '__main__':
     parser.add_argument('--candidate', choices=['qwen3', 'deepseek'], required=True)
     parser.add_argument('--weights', type=Path, required=True)
     arguments = parser.parse_args()
-    run(arguments.candidate, arguments.weights)
+    try:
+        run(arguments.candidate, arguments.weights)
+    except Exception as error:
+        destination = Path(__file__).resolve().parent / 'amc_results/model_comparison' / f'{arguments.candidate}.json'
+        if destination.exists():
+            failed = json.loads(destination.read_text())
+            if failed['status'] != 'blocked':
+                failed.update(status='failed', complete=False, error_type=type(error).__name__)
+                destination.write_text(json.dumps(failed, indent=2) + '\n')
+        raise

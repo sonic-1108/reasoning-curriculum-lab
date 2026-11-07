@@ -1,0 +1,37 @@
+{
+  "candidate": "qwen3",
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "source_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "settings": {
+    "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+    "source_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "thinking_prefix": false
+  },
+  "max_new_tokens": 16384,
+  "max_seconds_per_problem": 300,
+  "seed": 7,
+  "status": "running",
+  "complete": false,
+  "python": "3.12.14",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "training_performed": false,
+  "test_evaluated": false,
+  "results": [],
+  "device": "Device(cpu, 0)",
+  "software": {
+    "mlx": "0.32.4.dev20261106+36969c0",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.22.2"
+  },
+  "load_seconds": 0.861128667005687,
+  "quantization": {
+    "group_size": 64,
+    "bits": 4
+  }
+}

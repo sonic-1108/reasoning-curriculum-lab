@@ -5,6 +5,15 @@ import re
 from decimal import Decimal
 
 
+class BudgetExceeded(TimeoutError):
+    pass
+
+
+def check_budget(started, limit, now):
+    if now - started >= limit:
+        raise BudgetExceeded('Local screening deadline reached')
+
+
 def frozen_validation(root):
     baseline = json.loads((root / 'amc_results/calibration.json').read_text())
     local = json.loads((root / 'work/amc/data.json').read_text())

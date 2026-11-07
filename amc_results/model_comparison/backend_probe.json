@@ -1,0 +1,10 @@
+{
+  "metal_probe": "No Metal device accessible in this execution session",
+  "cpu_backend": "Official MLX v0.32.4 source, Metal disabled",
+  "observed_candidate": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "observed_stage": "running",
+  "completed_trials": 0,
+  "seconds_since_last_checkpoint": 681,
+  "interpretation": "CPU attempt has not yielded a scored trial; no new accuracy result is available. The token-level timeout cannot interrupt an in-progress prompt-processing operation.",
+  "next_action": "Run the prepared GPU launcher in a normal Terminal outside this restricted execution session."
+}
