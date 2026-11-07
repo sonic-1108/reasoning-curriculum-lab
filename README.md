@@ -4,7 +4,7 @@
 
 ## Project goal
 
-**Find out which training problems help an open-weight model improve most on hard, unseen mathematical questions for a fixed training budget.**
+**Find out which training problems help open-weight models improve most on hard, unseen mathematical questions for a fixed training budget.**
 
 The intended outcome is a reproducible comparison of three ways to choose the next training example:
 
@@ -14,7 +14,11 @@ The intended outcome is a reproducible comparison of three ways to choose the ne
 | Fixed curriculum | Problems ordered from relatively easier to harder within the hard-problem pool |
 | Adaptive | Problems selected using the student's current errors or estimated learnability |
 
-Start each run from the same model weights and match supervised training-token budgets. Compare against the untrained starting model on held-out questions that never guide training choices. Report accuracy, variation across seeds, and training and selection costs separately.
+Within each student model, start all policies from that model's identical pretrained checkpoint and match supervised training-token budgets. Compare each trained student against its own initial checkpoint and its matched-budget random-training control on held-out questions. Report per-model gains, variation across seeds, and training and selection costs separately.
+
+**Cross-model scope (planned):** Qwen3-4B-Instruct, DeepSeek-R1-Distill-Qwen-7B, Phi-4-mini-reasoning (3.8B), and SmolLM3-3B. These cover three declared pretraining lineages; DeepSeek's Qwen variant is not an independent backbone family. If all four qualify, **4 students × 3 policies × 3 seeds = 36 proposed training runs**, plus initial-checkpoint evaluations. None of these main-study runs has been completed. [Cross-model controls and evidence requirements](STUDY_DESIGN.md) · [Proposed matrix](study_plan.json).
+
+**Claim boundary:** comparing untrained models only selects students. Method effectiveness requires a within-model advantage over random training, replicated across multiple viable students. A gain in one student supports a model-specific finding, not a general improvement claim.
 
 **Why this matters:** selecting better examples could make mathematical post-training more efficient. The evidence must show whether an accuracy gain justifies the extra selection cost. A well-supported finding that adaptive selection offers no worthwhile benefit is also a valid outcome.
 
@@ -26,7 +30,7 @@ Start each run from the same model weights and match supervised training-token b
 
 **Initial result:** Qwen2.5-Math-1.5B-Instruct scored **0/3** on a small hard-AMC validation sample. All three outputs completed normally. No AMC training, final-test evaluation or curriculum comparison has been run.
 
-**Follow-up blocked on GPU access:** two pinned 4-bit students, Qwen3-4B-Instruct and DeepSeek-R1-Distill-Qwen-7B, are downloaded for the same three validation questions. The first CPU attempt has not yielded a scored trial; neither candidate has a new accuracy result. [Observed backend limitation and prepared GPU launcher](MODEL_COMPARISON.md).
+**Screening blocked on GPU access:** the four-candidate runner is configured. Qwen3 and DeepSeek weights are cached; Phi and SmolLM3 have pinned configurations but have not been downloaded or evaluated. There are no completed new-candidate accuracy results. [Backend limitation and prepared GPU launcher](MODEL_COMPARISON.md).
 
 ## Which question types worked best?
 

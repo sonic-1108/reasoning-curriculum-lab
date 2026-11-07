@@ -27,7 +27,7 @@ def summarize(document, name, annotations):
 
 
 def draw(root, documents, summaries):
-    figure, axis = canvas(7.2, 'local-student-comparison')
+    figure, axis = canvas(4 + 1.25 * len(documents), 'local-student-comparison')
     label(axis, .055, .945, 'S T U D E N T   S E L E C T I O N   /   L O C A L   S C R E E N', 8, MUTED)
     label(axis, .055, .86, 'A student must first finish and solve.', 23, weight='bold')
     label(axis, .055, .797, 'Same three hard validation questions · No training · Reserved test untouched', 10, MUTED)
@@ -36,8 +36,9 @@ def draw(root, documents, summaries):
     for horizontal, number in [(.49, 17), (.65, 18), (.81, 25)]:
         label(axis, horizontal, .695, f'PROBLEM {number}', 8, MUTED, ha='center')
     for index, (document, summary) in enumerate(zip(documents, summaries)):
-        vertical = .59 - index * .155
-        rectangle(axis, (.055, vertical - .06), .89, .125, PAPER)
+        step = .39 / len(documents)
+        vertical = .62 - index * step
+        rectangle(axis, (.055, vertical - step * .4), .89, step * .8, PAPER)
         label(axis, .07, vertical + .018, summary['name'], 10, weight='bold')
         label(axis, .07, vertical - .02,
               f"{summary['correct']}/3 numeric matches · {summary['eos_completed']}/3 EOS completions", 8.5, MUTED)
@@ -66,9 +67,10 @@ def main():
         raise ValueError('Independent key checks did not agree')
     documents = [json.loads((root / 'calibration.json').read_text())]
     names = ['Qwen2.5-Math 1.5B · historical']
-    for candidate, name in [('qwen3', 'Qwen3 4B · 4-bit'), ('deepseek', 'DeepSeek R1 7B · 4-bit')]:
+    registry = json.loads(Path('comparison_config.json').read_text())['candidates']
+    for candidate, settings in registry.items():
         documents.append(json.loads((root / 'model_comparison' / f'{candidate}.json').read_text()))
-        names.append(name)
+        names.append(settings['display_name'])
     summaries = [summarize(document, name, annotations) for document, name in zip(documents, names)]
     (root / 'model_comparison/summary.json').write_text(json.dumps(summaries, indent=2) + '\n')
     table = ['# Local student screen', '',

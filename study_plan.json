@@ -1,0 +1,385 @@
+{
+  "purpose": "Cross-model method validation; separate from untrained-student screening",
+  "status": "Planning only; no hard-math training runs are implemented or completed by this generator",
+  "readiness": "Blocked until students pass validation, trusted training solutions are available, and budgets are frozen",
+  "required_viable_students": 3,
+  "required_pretraining_lineages": 2,
+  "candidate_count": 4,
+  "pretraining_lineage_count": 3,
+  "planned_runs_if_all_candidates_pass": 36,
+  "seeds": [
+    7,
+    19,
+    41
+  ],
+  "policies": [
+    "random",
+    "easy_to_hard",
+    "adaptive"
+  ],
+  "primary_effect": "Within each model: accuracy after adaptive training minus accuracy after random training",
+  "secondary_effect": "Within each model: accuracy after adaptive training minus accuracy after fixed-curriculum training",
+  "baseline": "Evaluate each initial checkpoint before any experiment-specific training",
+  "runs": [
+    {
+      "candidate": "qwen3",
+      "policy": "random",
+      "seed": 7,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "easy_to_hard",
+      "seed": 7,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "adaptive",
+      "seed": 7,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "random",
+      "seed": 19,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "easy_to_hard",
+      "seed": 19,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "adaptive",
+      "seed": 19,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "random",
+      "seed": 41,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "easy_to_hard",
+      "seed": 41,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "qwen3",
+      "policy": "adaptive",
+      "seed": 41,
+      "initial_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "initial_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "initial_weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "random",
+      "seed": 7,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "easy_to_hard",
+      "seed": 7,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "adaptive",
+      "seed": 7,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "random",
+      "seed": 19,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "easy_to_hard",
+      "seed": 19,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "adaptive",
+      "seed": 19,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "random",
+      "seed": 41,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "easy_to_hard",
+      "seed": 41,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "deepseek",
+      "policy": "adaptive",
+      "seed": 41,
+      "initial_model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
+      "initial_revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "initial_weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "random",
+      "seed": 7,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "easy_to_hard",
+      "seed": 7,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "adaptive",
+      "seed": 7,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "random",
+      "seed": 19,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "easy_to_hard",
+      "seed": 19,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "adaptive",
+      "seed": 19,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "random",
+      "seed": 41,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "easy_to_hard",
+      "seed": 41,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "phi4",
+      "policy": "adaptive",
+      "seed": 41,
+      "initial_model": "mlx-community/Phi-4-mini-reasoning-4bit",
+      "initial_revision": "1d22fea642427b1b9baa949254d283b617349853",
+      "initial_weights_sha256": "d3f5d468827cb2dd39610ceb613e658782d3d629ad7102ed1aac0fc8af4f7969",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "random",
+      "seed": 7,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "easy_to_hard",
+      "seed": 7,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "adaptive",
+      "seed": 7,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "random",
+      "seed": 19,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "easy_to_hard",
+      "seed": 19,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "adaptive",
+      "seed": 19,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "random",
+      "seed": 41,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "easy_to_hard",
+      "seed": 41,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    },
+    {
+      "candidate": "smollm3",
+      "policy": "adaptive",
+      "seed": 41,
+      "initial_model": "mlx-community/SmolLM3-3B-4bit",
+      "initial_revision": "d3a7e0594d6642dbcfb7d149bed8b0bdf49f95ce",
+      "initial_weights_sha256": "d501e6193d7eb84e10d3c377007d1fc4b4b2fa08799dd10fa4f6a75033334a70",
+      "supervised_token_budget": null,
+      "status": "proposed_not_run"
+    }
+  ]
+}

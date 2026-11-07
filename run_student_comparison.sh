@@ -40,9 +40,8 @@ PY
 "$comparison_python" -c 'import mlx.core as mx; assert mx.metal.is_available(), "Run from a normal Terminal with access to the Mac GPU"'
 
 export HF_HOME="$project_root/work/hf"
-"$comparison_python" compare_students.py --candidate qwen3 \
-    --weights work/hf/hub/models--mlx-community--Qwen3-4B-Instruct-2507-4bit/snapshots/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b
-"$comparison_python" compare_students.py --candidate deepseek \
-    --weights work/hf/hub/models--mlx-community--DeepSeek-R1-Distill-Qwen-7B-4bit/snapshots/21848dbf533d2518a1ef895104820d5ee51317ea
+while IFS= read -r candidate; do
+    "$comparison_python" compare_students.py --candidate "$candidate"
+done < <("$comparison_python" -c 'import json; print("\n".join(json.load(open("comparison_config.json"))["candidates"]))')
 "$report_python" comparison_report.py
 echo 'Comparison finished. Saved results are ready for review and publication.'

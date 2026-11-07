@@ -36,7 +36,7 @@ def frozen_validation(root):
 
 
 def extract_answer(text, thinking=False):
-    if thinking:
+    if thinking or '<think>' in text or '</think>' in text:
         if '</think>' not in text:
             return None
         text = text.rsplit('</think>', 1)[-1]

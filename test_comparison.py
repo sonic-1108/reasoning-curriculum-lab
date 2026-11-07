@@ -13,6 +13,7 @@ class ComparisonScoringTests(unittest.TestCase):
         self.assertEqual(extract_answer(r'\boxed{8.0}'), Decimal(8))
         self.assertIsNone(extract_answer('#### 8/2 = 4'))
         self.assertIsNone(extract_answer(r'\boxed{8'))
+        self.assertIsNone(extract_answer(r'<think>Draft \boxed{8}', thinking=False))
 
     def test_exact_area_uses_all_vertices(self):
         from verify_amc import polygon_area

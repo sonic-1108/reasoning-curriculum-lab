@@ -15,6 +15,12 @@ def run(candidate, weights):
     root = Path(__file__).resolve().parent
     config = json.loads((root / 'comparison_config.json').read_text())
     settings = config['candidates'][candidate]
+    if weights is None:
+        from huggingface_hub import snapshot_download
+        weights = Path(snapshot_download(
+            settings['model'], revision=settings['revision'],
+            allow_patterns=['*.json', '*.safetensors', '*.txt', '*.model', '*.jinja'],
+        ))
     with (weights / 'model.safetensors').open('rb') as weight_file:
         checksum = hashlib.file_digest(weight_file, 'sha256').hexdigest()
     if checksum != settings['weights_sha256']:
@@ -119,8 +125,9 @@ def run(candidate, weights):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--candidate', choices=['qwen3', 'deepseek'], required=True)
-    parser.add_argument('--weights', type=Path, required=True)
+    registry = json.loads((Path(__file__).resolve().parent / 'comparison_config.json').read_text())
+    parser.add_argument('--candidate', choices=list(registry['candidates']), required=True)
+    parser.add_argument('--weights', type=Path)
     arguments = parser.parse_args()
     try:
         run(arguments.candidate, arguments.weights)

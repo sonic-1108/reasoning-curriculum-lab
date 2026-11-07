@@ -1,17 +1,17 @@
-# Local student comparison
+# Four-candidate local student screen
 
-Status: blocked on local GPU access. The Qwen3 CPU attempt has not yielded a scored trial; DeepSeek generation has not started. No accuracy result for either new candidate is claimed.
+Status: blocked on local GPU access. The original Qwen3 CPU attempt has not yielded a scored trial; no other candidate generation has started. Qwen3 and DeepSeek weights are cached. Phi and SmolLM3 are configured but not downloaded. No completed new-candidate accuracy result is claimed.
 
-The user approved comparing two alternative students before starting AMC training. The historical Qwen2.5-Math-1.5B run remains unchanged.
+The initial two-candidate screen was expanded to four at the user's request for cross-model coverage. The historical Qwen2.5-Math-1.5B run remains unchanged. This screen selects feasible students; it cannot establish that a training method improves performance. The proposed training experiment is defined separately in [STUDY_DESIGN.md](STUDY_DESIGN.md).
 
 ## Fixed before running
 
 - Use exactly the three validation questions previously selected by hash: 2022 AMC12B problems 25, 17 and 18. Keep all 2023 reserved test questions unevaluated.
-- Compare [Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) and [DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) through pinned 4-bit community MLX releases. Exact repositories and revisions are in `comparison_config.json`.
+- Screen [Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507), [DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B), [Phi-4-mini-reasoning](https://huggingface.co/microsoft/Phi-4-mini-reasoning) and [SmolLM3-3B](https://huggingface.co/HuggingFaceTB/SmolLM3-3B) through pinned 4-bit community MLX releases. Exact repositories, revisions and weight checksums are in `comparison_config.json`. Qwen3 and DeepSeek share Qwen ancestry; different names do not imply independent pretraining families.
 - Use local compute only. Load one model per process. Record the actual backend device, software versions, load time, quantization metadata, generation time, output tokens and completion status.
-- Both candidates receive the same problem text and user instruction, without a system message. Use each publisher's decoding guidance: temperature 0.7/top-p 0.8/top-k 20 for Qwen3; temperature 0.6 for DeepSeek. DeepSeek top-p 0.95 is a declared local setting, not a publisher benchmark claim. Both use the same fixed seed schedule.
+- Every candidate receives the same problem text and user instruction, without an explicitly supplied system message; native chat templates may add defaults. Use documented decoding guidance: temperature 0.7/top-p 0.8/top-k 20 for Qwen3; temperature 0.6 for DeepSeek; temperature 0.8/top-p 0.95 for Phi; temperature 0.6/top-p 0.95 for SmolLM3. DeepSeek top-p 0.95 is a declared local setting, not a publisher benchmark claim. All use the same fixed seed schedule.
 - Allow up to 16,384 new tokens and 300 seconds per problem. These are bounded local screening budgets. A timeout or token cap means incomplete generation, not proof of poor mathematical ability. DeepSeek benchmark-quality performance may require longer outputs and repeated sampling than this screen allows.
-- DeepSeek uses the publisher-recommended thinking prefix. Grade only text after a closing thinking tag; an unfinished reasoning trace is not a final answer.
+- DeepSeek uses the publisher-recommended thinking prefix. SmolLM3 uses its default extended-thinking mode and thinking prefix. Phi uses its native assistant prefix without a forced thinking prefix. Where thinking tags are present or required, grade only text after a closing tag; an unfinished reasoning trace is not a final answer.
 - Preserve raw generations locally, under ignored `work/model_comparison/`. Publish only problem identifiers, numeric predictions, correctness and timing, consistent with the source's unresolved underlying AMC redistribution rights.
 
 ## Interpretation
@@ -30,14 +30,14 @@ The first CPU attempt loaded the Qwen3 weights, but had no scored trial after mo
 
 ### Prepared GPU retry
 
-Both model downloads are cached locally. A standard Metal-enabled environment is prepared separately at `work/metal-env/`; the CPU environment is retained for provenance. From a normal macOS Terminal with GPU access, run:
+The first two model downloads are cached locally. The other two are fetched only when their screens are launched. A standard Metal-enabled environment is prepared separately at `work/metal-env/`; the CPU environment is retained for provenance. From a normal macOS Terminal with GPU access, run:
 
 ```bash
 cd /path/to/reasoning-curriculum-lab
 bash run_student_comparison.sh
 ```
 
-The launcher stops only the identified slow CPU attempt, preserves its record, checks GPU access, runs both candidates sequentially, and generates a comparison from completed records. If GPU access is still unavailable, it exits before starting another model. It does not purchase cloud compute. Review the saved outputs before publishing results. Recreating the GPU environment on another machine:
+The launcher stops only the identified slow CPU attempt, preserves its record, checks GPU access, downloads missing pinned weights, runs every configured candidate sequentially, and generates a comparison only from completed records. If GPU access is still unavailable, it exits before fetching or starting another model. It does not purchase cloud compute. Review the saved outputs before publishing results. Recreating the GPU environment on another machine:
 
 ```bash
 python3.12 -m venv work/metal-env
