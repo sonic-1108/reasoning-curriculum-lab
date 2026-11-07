@@ -25,7 +25,7 @@ def numeric(text):
 
 
 def extract(text):
-    marked = re.findall(r'####\s*([-+]?\$?[\d,]+(?:\.\d+)?)', text)
+    marked = re.findall(r'(?<!#)####(?!#)\s*([-+]?\$?[\d,]+(?:\.\d+)?)', text)
     boxed = re.findall(r'\\boxed\{([-+]?\$?[\d,]+(?:\.\d+)?)\}', text)
     if marked or boxed:
         return numeric((marked or boxed)[-1])
@@ -39,6 +39,19 @@ def extract(text):
 
 def prompt(question):
     return f'Question: {question}\nSolve step by step. End with #### followed by the final number.\nAnswer:'
+
+
+def training_tensors(row, pad_token_id):
+    tokens = row['prefix'] + row['target']
+    if len(tokens) > 256 or not row['prefix'] or not row['target']:
+        raise ValueError('Complete prompt and solution must fit; no label truncation allowed')
+    inputs = torch.tensor([tokens + [pad_token_id] * (256-len(tokens))])
+    mask = torch.tensor([[1]*len(tokens)+[0]*(256-len(tokens))])
+    labels = inputs.clone()
+    labels[:, :len(row['prefix'])] = -100
+    labels[:, len(tokens):] = -100
+    assert int((labels[:, 1:] != -100).sum()) == len(row['target'])
+    return dict(input_ids=inputs, attention_mask=mask, labels=labels)
 
 
 def download(split, cache):
@@ -101,14 +114,7 @@ def main():
     model.to('cpu')
     initial = {key:value.clone() for key,value in model.state_dict().items()}
     def loss(row):
-        tokens = row['prefix'] + row['target']
-        inputs = torch.tensor([tokens + [tokenizer.eos_token_id] * (256-len(tokens))])
-        mask = torch.tensor([[1]*len(tokens)+[0]*(256-len(tokens))])
-        labels = inputs.clone()
-        labels[:, :len(row['prefix'])] = -100
-        labels[:, len(tokens):] = -100
-        assert int((labels[:, 1:] != -100).sum()) == len(row['target'])
-        return model(input_ids=inputs, attention_mask=mask, labels=labels).loss
+        return model(**training_tensors(row, tokenizer.eos_token_id)).loss
     predictions, selections, costs = [], [], []
     def evaluate(seed, policy, step, supervised, training, scoring):
         model.eval()
