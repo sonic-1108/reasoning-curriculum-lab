@@ -1,6 +1,26 @@
 # What should a reasoning model learn next?
 
-## 当前研究 / Current study
+## 现在先做 AMC / AMC first
+
+**主线已改为 AMC12 后半卷竞赛题；旧算术和 GSM8K 仅保留为历史流程验证。**
+
+已获取 AI-MO 发布的 2022/2023 AMC12 **83 道整数答案改写题**，不是原版选择题，也不是 AIME。只采用原题号 **16–25**：2022A 训练候选 9 道、2022B 验证 9 道、2023 年保留测试 13 道。来源只有数值答案，没有标准推导；题文留在本地，GitHub 只发布代码、来源和测量记录。[准确来源、版权范围、模型和计划](AMC_STUDY.md)。
+
+模型改为 **Qwen2.5-Math-1.5B-Instruct**。先在 3 道训练年份的独立验证题上做限时作答校准：最多 2,048 个生成 token、每题 90 秒。**目前为校准准备阶段，尚未完成 AMC 训练或三策略比较，也没有 AMC 测试成绩。**
+
+```mermaid
+flowchart LR
+    A[AMC12 positions 16–25] --> B[2022A training candidates]
+    A --> C[2022B validation calibration]
+    C --> D[Check math model and generation budget]
+    D --> E[If viable: freeze later-year test]
+    B --> F[Future three-policy training study]
+    E --> F
+```
+
+这里的“喂题”先指让预训练模型作答；校准不更新权重。未解决模型能力、算力及可信训练解答来源前，不盲目开始微调。
+
+## 历史 GSM8K 流程实验 / Historical GSM8K pilot
 
 **GSM8K 固定子集实验已完成：9 次真实训练、3 个种子、456 条保存的评测回答。**
 

@@ -1,0 +1,411 @@
+{
+  "dataset": "AI-MO/aimo-validation-amc",
+  "revision": "69d78a4a2c840e82d69af6bc742bda09005f6316",
+  "sha256": "4de056fd006062cee46e3900727dd5d00094b8592ed0bfd6b5dfae2267f72dd7",
+  "source_rows": 83,
+  "variant": "AMC12-derived modified integer-answer problems; not original multiple choice",
+  "labels": "Publisher-provided adapted numeric answers; no worked solutions; not independently reverified",
+  "declared_license": "apache-2.0 on dataset card; underlying AMC rights not independently established; no problem text redistributed",
+  "all_counts": {
+    "2022_AMC12A": 22,
+    "2022_AMC12B": 21,
+    "2023_AMC12A": 22,
+    "2023_AMC12B": 18
+  },
+  "eligible_counts": {
+    "train": 9,
+    "validation": 9,
+    "reserved_test": 13
+  },
+  "threshold": "Original problem numbers 16\u201325 only; position is a difficulty proxy, not a guarantee",
+  "deduplication": "83 distinct whitespace-normalized question SHA256 hashes; semantic duplicates and pretraining overlap unknown",
+  "non_test_records": [
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_1",
+      "year": 2022,
+      "form": "A",
+      "number": 1,
+      "digest": "387dfad45af0341e4e1480b37703a9376611f166c9ee9c28aa6342d9c722ca01",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_10",
+      "year": 2022,
+      "form": "A",
+      "number": 10,
+      "digest": "60eca5836276e531bc35e4bec19aac349cd092c2ce40dac276ccb1c988beec38",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_11",
+      "year": 2022,
+      "form": "A",
+      "number": 11,
+      "digest": "74f03285f0c8b31da6d324dab5bb0b151de5db6d04a939e0123c805a1741fc00",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_12",
+      "year": 2022,
+      "form": "A",
+      "number": 12,
+      "digest": "e252a398e874ca2697cdb6ac802866cdb90306a0bf1c812dba98c7f0469b61b9",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_13",
+      "year": 2022,
+      "form": "A",
+      "number": 13,
+      "digest": "34b3cdf6f70996d3436995a6a66fd5786a4f5ae55422a4c63cd6c00a38dd490b",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_14",
+      "year": 2022,
+      "form": "A",
+      "number": 14,
+      "digest": "1e8b5233d63aa668bd8a34c8ff11f4958193488782978eb6570f756d83db5ee7",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_15",
+      "year": 2022,
+      "form": "A",
+      "number": 15,
+      "digest": "b8ba9809c7065f416eafc389c7e835a258659fba76bd662abe151cafed50acfb",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_16",
+      "year": 2022,
+      "form": "A",
+      "number": 16,
+      "digest": "c206c64ee612650644ac1c413a64cbefb1bc090f090baaa2c9825a5332abbf3c",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_17",
+      "year": 2022,
+      "form": "A",
+      "number": 17,
+      "digest": "21aad06902d77ca750558b4964a6ca5c7df5c054541f2ac330fba33885c32f26",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_18",
+      "year": 2022,
+      "form": "A",
+      "number": 18,
+      "digest": "514596284028dea9f2e943917a23a0d959ffb34287139977b53febbd377a038c",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_19",
+      "year": 2022,
+      "form": "A",
+      "number": 19,
+      "digest": "62a3cdccf14d77d0162492ed49ca88e5ceac45af4452f146d300e36b1e368b04",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_2",
+      "year": 2022,
+      "form": "A",
+      "number": 2,
+      "digest": "c5bfcc5fbb2debe52e7104e3bd4e7d410f4aaf60e488575b8b088f19163d9847",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_20",
+      "year": 2022,
+      "form": "A",
+      "number": 20,
+      "digest": "cfbfbd7fba5b0fbb43d52e990ddd0fd12dc58cb6fb3abd73e2f54a6efb34e5a1",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_22",
+      "year": 2022,
+      "form": "A",
+      "number": 22,
+      "digest": "982b406034b0d6034a569bdbd35b5b2cd6e6466d7e797432d6e121d85ccbfe89",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_23",
+      "year": 2022,
+      "form": "A",
+      "number": 23,
+      "digest": "a4739a825c8cc98be73f17f1fd72bbd56747d69c01c19955c8a067de64d3fa38",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_24",
+      "year": 2022,
+      "form": "A",
+      "number": 24,
+      "digest": "437caaeeb527f7eff10c7f2a59001bc27a8034d37c6bd160a33c826aff4b56b1",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_25",
+      "year": 2022,
+      "form": "A",
+      "number": 25,
+      "digest": "fc61ce866494183d7267a0f744a9c7ca3d928f16a225aefcad45f6974fd69880",
+      "split": "train",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_4",
+      "year": 2022,
+      "form": "A",
+      "number": 4,
+      "digest": "35cf757ad2819bd07959771b9e01aebab4b646572702a1285cd69c43d94c787a",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_5",
+      "year": 2022,
+      "form": "A",
+      "number": 5,
+      "digest": "31b65edc8f2facd33198323fac9ebe5f8f21727f30b225feeaa3354f8fabc9a3",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_6",
+      "year": 2022,
+      "form": "A",
+      "number": 6,
+      "digest": "b26cc257cd9c18729d8c1a9e5ea994f086eafe6eb290bfbd8b2607d9d3b7bd7f",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_8",
+      "year": 2022,
+      "form": "A",
+      "number": 8,
+      "digest": "f7b32c6cabc435e56a18a16ab2da619b0028f269eecbba060801740b655bb92e",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_9",
+      "year": 2022,
+      "form": "A",
+      "number": 9,
+      "digest": "53c157279f291bc2f52c932c11349e163cae679dbba1cb8159b1ff059da0ff27",
+      "split": "train",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_1",
+      "year": 2022,
+      "form": "B",
+      "number": 1,
+      "digest": "497a1eac7138f57494a0b561f0de2294a93cc0a4e489198caebb5d81f7bea6a0",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_11",
+      "year": 2022,
+      "form": "B",
+      "number": 11,
+      "digest": "4896efaff0153a7af187378431361b5387c86a545e45bad7e12d9e94e77daa43",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_12",
+      "year": 2022,
+      "form": "B",
+      "number": 12,
+      "digest": "9401270b78aac8a18475d5ae93d7e61a41ec8152b5eed1cc495b11639fd9b575",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_13",
+      "year": 2022,
+      "form": "B",
+      "number": 13,
+      "digest": "90088d875580f3bf6dcbe2dbfc6ed53f044c7084efbc64b7357b2b1246841efe",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_14",
+      "year": 2022,
+      "form": "B",
+      "number": 14,
+      "digest": "25b1d5602fbb597d21953d2553462548108afec0a2f7e81fc0f2462529d1da87",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_17",
+      "year": 2022,
+      "form": "B",
+      "number": 17,
+      "digest": "3d884307d60765fe1e307ec8364121118191d6504c7605125ede92fbd28373f4",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_18",
+      "year": 2022,
+      "form": "B",
+      "number": 18,
+      "digest": "64c9b98922e374e6684dacd368581802b929d67b50cd13bf173f1da7bf1b86bd",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_19",
+      "year": 2022,
+      "form": "B",
+      "number": 19,
+      "digest": "b88a1b965f571668632e019b69f30f2304cb2c7e0207b94ca9a0f3781d7ae426",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_2",
+      "year": 2022,
+      "form": "B",
+      "number": 2,
+      "digest": "a714ab97a434143c44d73cbf8d9020ff2fc5962ee2a9055b99b312d749596237",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_20",
+      "year": 2022,
+      "form": "B",
+      "number": 20,
+      "digest": "f714d03d16c756c8d894f97cd22f0a0821bbdfb85512c4cedcbaf58cf875cb6e",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_21",
+      "year": 2022,
+      "form": "B",
+      "number": 21,
+      "digest": "fcc9fb05487a729fdc554418ab88b6ae250d2766fd642596494ecd3aa1317019",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_22",
+      "year": 2022,
+      "form": "B",
+      "number": 22,
+      "digest": "ef1ad4f5451213dabbd239aceb287c8b7a727ef947e6867fe46e26daf40376a0",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_23",
+      "year": 2022,
+      "form": "B",
+      "number": 23,
+      "digest": "cf4d858dcd1637cbf8047d63f7ec8fb5012061f1c8a86e5c43275e357bcc31bf",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_24",
+      "year": 2022,
+      "form": "B",
+      "number": 24,
+      "digest": "e7562732291f195d018629dc3b4e700118aee8dec493898011a4a279697adb8b",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_25",
+      "year": 2022,
+      "form": "B",
+      "number": 25,
+      "digest": "090e6fe626ac42a36a6dea3b4a759a8a3ef5a9f459b62ffb49092521a0d4d0b6",
+      "split": "validation",
+      "eligible": true
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_3",
+      "year": 2022,
+      "form": "B",
+      "number": 3,
+      "digest": "fda1bd704e77efee77c32a374fb5c5717547781b03c8ba9f15fbd40beabd06f6",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_4",
+      "year": 2022,
+      "form": "B",
+      "number": 4,
+      "digest": "264898a9bfd0edd02ac08d120742b06e2edfba4c535bc1fac78e3909857a7ced",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_5",
+      "year": 2022,
+      "form": "B",
+      "number": 5,
+      "digest": "066059e62cbe775eb4ebf6a5e1e9b3c6327418a30194730b4db4b06c55300cf9",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_6",
+      "year": 2022,
+      "form": "B",
+      "number": 6,
+      "digest": "8f33d692d8950801feac9e6561376b42be2afd6f13de32ad06c12c65c1d452e8",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_7",
+      "year": 2022,
+      "form": "B",
+      "number": 7,
+      "digest": "5cacc76af248fcf826dc28cd77a2a18458f3039346ea54f5b2959882e6e19d04",
+      "split": "validation",
+      "eligible": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_9",
+      "year": 2022,
+      "form": "B",
+      "number": 9,
+      "digest": "160001b2a39da8e60c1b42520c06e61f6c483541b0f336071987b4cfb6f64c16",
+      "split": "validation",
+      "eligible": false
+    }
+  ]
+}
