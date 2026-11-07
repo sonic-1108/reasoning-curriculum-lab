@@ -1,5 +1,7 @@
 """Audit complete GSM8K runs and draw figures solely from saved measurements."""
 import json
+import platform
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -7,12 +9,19 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
+import torch
 from gsm8k import extract, numeric
 
 root = Path('gsm8k_results')
 assert (root / 'COMPLETE').exists(), 'Training is not complete'
 manifest = json.loads((root / 'manifest.json').read_text())
 rows = json.loads((root / 'predictions.json').read_text())
+checkpoints = defaultdict(list)
+for row in rows:
+    checkpoints[(row['seed'],row['policy'],row['step'])].append(row)
+for checkpoint in checkpoints.values():
+    assert len(checkpoint) == manifest['config']['test_size']
+    assert {row['index'] for row in checkpoint} == set(manifest['evaluation_indices'])
 for row in rows:
     answer = extract(row['prediction'])
     row['parsed'] = str(answer)
@@ -44,8 +53,21 @@ for policy in ['base']+policies:
         generation_cap_fraction=np.mean([row['generation_tokens']==manifest['config']['max_new_tokens'] for row in selected]),
         training_seconds=np.mean([row['training_seconds'] for row in selected]),
         selection_seconds=np.mean([row['selection_seconds'] for row in selected]),
+        correct_by_seed={str(seed):sum(row['correct'] for row in selected if row['seed']==seed) for seed in sorted({row['seed'] for row in selected})},
         supervised_tokens_by_seed={str(seed):next(row['supervised_tokens'] for row in selected if row['seed']==seed) for seed in sorted({row['seed'] for row in selected})}))
 (root/'summary.json').write_text(json.dumps(summary,indent=2))
+table = ['# GSM8K fixed-subset measurements', '', '24 shared test problems; counts across seeds are repeated observations, not independent problems.', '',
+    '| Policy | Final answer accuracy | Correct by seed | Valid final answer | Token cap reached | Train seconds | Select seconds |',
+    '|---|---:|---|---:|---:|---:|---:|']
+for row in summary:
+    table.append(f"| {row['policy']} | {row['accuracy']:.1%} | {row['correct_by_seed']} | {row['format_valid']:.1%} | {row['generation_cap_fraction']:.1%} | {row['training_seconds']:.2f} | {row['selection_seconds']:.2f} |")
+table.extend(['', 'Training and selection seconds are means across seeds; evaluation time is saved separately in costs.json.',
+    'Correct final numbers do not certify correct explanations. Some matches occur with invalid reasoning or at the generation limit.',
+    '', 'Supervised tokens per seed (identical across policies):', str(summary[1]['supervised_tokens_by_seed'])])
+(root/'RESULTS.md').write_text('\n'.join(table)+'\n')
+(root/'environment.json').write_text(json.dumps(dict(python=sys.version,platform=platform.platform(),
+    torch=torch.__version__,device='cpu',threads=4,scorer='complete numeric marker line or boxed/explicit/bare answer',
+    full_benchmark=False),indent=2))
 figures=root/'figures'
 figures.mkdir(exist_ok=True)
 for budget in ['supervised_tokens','cost']:

@@ -64,6 +64,8 @@ def download(split, cache):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--model', default='HuggingFaceTB/SmolLM2-135M')
+    parser.add_argument('--model-revision', default=MODEL_REVISION)
     parser.add_argument('--steps', type=int, default=12)
     parser.add_argument('--seeds', type=int, nargs='+', default=[7, 19, 41])
     parser.add_argument('--test-size', type=int, default=24)
@@ -82,7 +84,7 @@ def main():
     normalize = lambda text: re.sub(r'\s+', ' ', text.lower()).strip()
     test_questions = {normalize(row['question']) for row in test}
     train = [row for row in train if normalize(row['question']) not in test_questions]
-    tokenizer = AutoTokenizer.from_pretrained('HuggingFaceTB/SmolLM2-135M', revision=MODEL_REVISION)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, revision=args.model_revision)
     tokenizer.pad_token = tokenizer.eos_token
     groups = defaultdict(list)
     seen = set()
@@ -105,12 +107,12 @@ def main():
     evaluation = random.Random(2027).sample(list(enumerate(test)), args.test_size)
     pool = [row for group in groups.values() for row in group]
     output.joinpath('manifest.json').write_text(json.dumps(dict(config=vars(args), dataset_revision=DATA_REVISION,
-        model_revision=MODEL_REVISION, train_sha256=train_hash, test_sha256=test_hash,
+        model_revision=args.model_revision, model=args.model, train_sha256=train_hash, test_sha256=test_hash,
         source_sizes={'train':7473,'test':1319}, eligible_pool_size=len(pool),
         pool=[{key:value for key,value in row.items() if key not in ['prefix','target']} for row in pool],
         evaluation_indices=[index for index, _ in evaluation], setup_seconds=time.perf_counter()-started), indent=2))
     torch.set_num_threads(4)
-    model = AutoModelForCausalLM.from_pretrained('HuggingFaceTB/SmolLM2-135M', revision=MODEL_REVISION)
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=args.model_revision)
     model.to('cpu')
     initial = {key:value.clone() for key,value in model.state_dict().items()}
     def loss(row):
