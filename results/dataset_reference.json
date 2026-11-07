@@ -1,0 +1,5 @@
+{
+  "path": "../results_full/data.json",
+  "sha256": "75e21e34bb05cfc52f1ffd7f34d5e7aaa2dad88de87411a27054db99ccd80096",
+  "reason": "The 10-step and 30-step arithmetic runs used byte-identical datasets. Keep one verified copy."
+}

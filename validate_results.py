@@ -2,9 +2,10 @@
 import json
 import sys
 from pathlib import Path
+from dataset_loader import load_dataset
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else 'results')
-data = json.loads((root / 'data.json').read_text())
+data = load_dataset(root)
 metrics = json.loads((root / 'metrics.json').read_text())
 selections = json.loads((root / 'selections.json').read_text())
 environment = json.loads((root / 'environment.json').read_text())

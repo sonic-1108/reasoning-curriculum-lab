@@ -1,0 +1,23 @@
+{
+  "provenance": "Manual descriptive annotations from local problem statements. Assigned after calibration for reporting only; not official AMC labels and not used for selection or training.",
+  "problems": [
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_25",
+      "digest": "090e6fe626ac42a36a6dea3b4a759a8a3ef5a9f459b62ffb49092521a0d4d0b6",
+      "category": "Geometry",
+      "description": "Area of a square-and-hexagon configuration; diagram not rendered"
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_17",
+      "digest": "3d884307d60765fe1e307ec8364121118191d6504c7605125ede92fbd28373f4",
+      "category": "Counting / combinatorics",
+      "description": "Binary arrays with constrained row and column totals"
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_18",
+      "digest": "64c9b98922e374e6684dacd368581802b929d67b50cd13bf173f1da7bf1b86bd",
+      "category": "Counting / combinatorics",
+      "description": "Initial configurations under grid-update rules"
+    }
+  ]
+}

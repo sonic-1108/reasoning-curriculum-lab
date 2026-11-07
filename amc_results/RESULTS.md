@@ -2,6 +2,19 @@
 
 **Validation only. No weights updated; no final test or three-policy study run.**
 
+## Performance by question type
+
+| Question type | Correct / attempted | Accuracy |
+|---|---:|---:|
+| Counting / combinatorics | 0/2 | 0% |
+| Geometry | 0/1 | 0% |
+
+**Best category: not established. Worst category: not established.** Both observed categories scored zero; two counting questions and one geometry question cannot support a ranking. Other categories were not evaluated.
+Geometry has an additional input limitation: no rendered diagram was provided. Shorter runtime does not imply better mathematical performance.
+Categories are manual post-hoc descriptive annotations, not official AMC tags, and did not affect selection or training.
+
+## Per-problem measurements
+
 | 2022 AMC12B problem | Generated tokens | Seconds | Tokens/s | EOS completed | Correct numeric answer |
 |---|---:|---:|---:|---|---|
 | [Problem_25](https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_25) | 558 | 72.22 | 7.73 | True | False |

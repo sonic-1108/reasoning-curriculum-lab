@@ -127,12 +127,15 @@ L 756 274.392
     <text style="fill: #697980; font: 7.5px 'DejaVu Sans'; text-anchor: start" x="324" y="264.739931" transform="rotate(-0 324 264.739931)">REFERENCE</text>
    </g>
    <g id="text_15">
-    <text style="fill: #1c2b33; font: 10px 'DejaVu Sans'; text-anchor: start" x="60.48" y="303.791375" transform="rotate(-0 60.48 303.791375)">Problem 17</text>
+    <text style="fill: #1c2b33; font: 10px 'DejaVu Sans'; text-anchor: start" x="60.48" y="297.930575" transform="rotate(-0 60.48 297.930575)">Problem 17</text>
    </g>
    <g id="text_16">
-    <text style="fill: #b45049; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="220.32" y="305.722938" transform="rotate(-0 220.32 305.722938)">90</text>
+    <text style="fill: #697980; font: 7px 'DejaVu Sans'; text-anchor: start" x="60.48" y="312.553963" transform="rotate(-0 60.48 312.553963)">Counting / combinatorics</text>
    </g>
    <g id="text_17">
+    <text style="fill: #b45049; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="220.32" y="305.722938" transform="rotate(-0 220.32 305.722938)">90</text>
+   </g>
+   <g id="text_18">
     <text style="fill: #1c2b33; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="324" y="305.722938" transform="rotate(-0 324 305.722938)">76</text>
    </g>
    <g id="PathCollection_1">
@@ -153,19 +156,22 @@ z
      <use xlink:href="#m0e1502365e" x="678.676609" y="301.032" style="fill: #287f77; stroke: #287f77"/>
     </g>
    </g>
-   <g id="text_18">
+   <g id="text_19">
     <text style="fill: #1c2b33; font: 700 10px 'DejaVu Sans'; text-anchor: end" x="812.16" y="303.791375" transform="rotate(-0 812.16 303.791375)">59.0s</text>
    </g>
-   <g id="text_19">
+   <g id="text_20">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="531.36" y="321.8875" transform="rotate(-0 531.36 321.8875)">501 tokens  ·  8.49 tokens/s</text>
    </g>
-   <g id="text_20">
-    <text style="fill: #1c2b33; font: 10px 'DejaVu Sans'; text-anchor: start" x="60.48" y="359.735375" transform="rotate(-0 60.48 359.735375)">Problem 18</text>
-   </g>
    <g id="text_21">
-    <text style="fill: #b45049; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="220.32" y="361.666938" transform="rotate(-0 220.32 361.666938)">112</text>
+    <text style="fill: #1c2b33; font: 10px 'DejaVu Sans'; text-anchor: start" x="60.48" y="353.874575" transform="rotate(-0 60.48 353.874575)">Problem 18</text>
    </g>
    <g id="text_22">
+    <text style="fill: #697980; font: 7px 'DejaVu Sans'; text-anchor: start" x="60.48" y="368.497963" transform="rotate(-0 60.48 368.497963)">Counting / combinatorics</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #b45049; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="220.32" y="361.666938" transform="rotate(-0 220.32 361.666938)">112</text>
+   </g>
+   <g id="text_24">
     <text style="fill: #1c2b33; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="324" y="361.666938" transform="rotate(-0 324 361.666938)">22</text>
    </g>
    <g id="PathCollection_2">
@@ -173,19 +179,22 @@ z
      <use xlink:href="#m0e1502365e" x="674.724282" y="356.976" style="fill: #287f77; stroke: #287f77"/>
     </g>
    </g>
-   <g id="text_23">
+   <g id="text_25">
     <text style="fill: #1c2b33; font: 700 10px 'DejaVu Sans'; text-anchor: end" x="812.16" y="359.735375" transform="rotate(-0 812.16 359.735375)">57.4s</text>
    </g>
-   <g id="text_24">
+   <g id="text_26">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="531.36" y="377.8315" transform="rotate(-0 531.36 377.8315)">496 tokens  ·  8.64 tokens/s</text>
    </g>
-   <g id="text_25">
-    <text style="fill: #1c2b33; font: 10px 'DejaVu Sans'; text-anchor: start" x="60.48" y="415.679375" transform="rotate(-0 60.48 415.679375)">Problem 25</text>
+   <g id="text_27">
+    <text style="fill: #1c2b33; font: 10px 'DejaVu Sans'; text-anchor: start" x="60.48" y="409.818575" transform="rotate(-0 60.48 409.818575)">Problem 25</text>
    </g>
-   <g id="text_26">
+   <g id="text_28">
+    <text style="fill: #697980; font: 7px 'DejaVu Sans'; text-anchor: start" x="60.48" y="424.441963" transform="rotate(-0 60.48 424.441963)">Geometry</text>
+   </g>
+   <g id="text_29">
     <text style="fill: #b45049; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="220.32" y="417.610938" transform="rotate(-0 220.32 417.610938)">8</text>
    </g>
-   <g id="text_27">
+   <g id="text_30">
     <text style="fill: #1c2b33; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="324" y="417.610938" transform="rotate(-0 324 417.610938)">4</text>
    </g>
    <g id="PathCollection_3">
@@ -193,28 +202,28 @@ z
      <use xlink:href="#m0e1502365e" x="711.613586" y="412.92" style="fill: #287f77; stroke: #287f77"/>
     </g>
    </g>
-   <g id="text_28">
+   <g id="text_31">
     <text style="fill: #1c2b33; font: 700 10px 'DejaVu Sans'; text-anchor: end" x="812.16" y="415.679375" transform="rotate(-0 812.16 415.679375)">72.2s</text>
    </g>
-   <g id="text_29">
+   <g id="text_32">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="531.36" y="433.7755" transform="rotate(-0 531.36 433.7755)">558 tokens  ·  7.73 tokens/s</text>
    </g>
-   <g id="text_30">
+   <g id="text_33">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: middle" x="531.36" y="452.9563" transform="rotate(-0 531.36 452.9563)">0s</text>
    </g>
-   <g id="text_31">
+   <g id="text_34">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: middle" x="643.68" y="452.9563" transform="rotate(-0 643.68 452.9563)">45s</text>
    </g>
-   <g id="text_32">
+   <g id="text_35">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: middle" x="756" y="452.9563" transform="rotate(-0 756 452.9563)">90s</text>
    </g>
-   <g id="text_33">
+   <g id="text_36">
     <text style="fill: #b45049; font: 700 8px 'DejaVu Sans'; text-anchor: start" x="47.52" y="475.8667" transform="rotate(-0 47.52 475.8667)">READOUT</text>
    </g>
-   <g id="text_34">
+   <g id="text_37">
     <text style="fill: #1c2b33; font: 9px 'DejaVu Sans'; text-anchor: start" x="125.28" y="476.142638" transform="rotate(-0 125.28 476.142638)">This configuration failed the capability screen; three trials do not estimate overall AMC accuracy.</text>
    </g>
-   <g id="text_35">
+   <g id="text_38">
     <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="47.52" y="506.2363" transform="rotate(-0 47.52 506.2363)">Validation only · No fine-tuning or test run · Adapted numeric keys · Geometry diagram was not rendered.</text>
    </g>
   </g>

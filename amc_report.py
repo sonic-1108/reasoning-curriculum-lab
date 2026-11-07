@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from figure_style import MUTED, PAPER, RED, RULE, TEAL, canvas, label, rectangle, rule, save
+from amc_analysis import summarize_types
 
 
 def load_results(root):
@@ -18,6 +19,8 @@ def load_results(root):
 
 
 def draw_measurements(root, calibration, rows):
+    annotations = json.loads((root / 'problem_types.json').read_text())
+    descriptions = {entry['url']: entry['category'] for entry in annotations['problems']}
     ordered = sorted(rows, key=lambda row: int(row['url'].split('_')[-1]))
     figure, axis = canvas(7.4, 'amc-validation-brief')
     label(axis, .055, .95, 'A M C 1 2   /   V A L I D A T I O N   B R I E F', 8, MUTED)
@@ -45,7 +48,8 @@ def draw_measurements(root, calibration, rows):
             rectangle(axis, (.055, vertical - .037), .455, .075, PAPER)
         number = row['url'].split('_')[-1]
         reference = f"{float(row['reference']):g}"
-        label(axis, .07, vertical, f'Problem {number}', 10)
+        label(axis, .07, vertical + .011, f'Problem {number}', 10)
+        label(axis, .07, vertical - .018, descriptions[row['url']], 7, MUTED)
         label(axis, .255, vertical, row['prediction'], 17, RED, 'bold')
         label(axis, .375, vertical, reference, 17, weight='bold')
         start = .615
@@ -66,12 +70,26 @@ def draw_measurements(root, calibration, rows):
 
 
 def write_table(root, gate, rows):
+    annotations = json.loads((root / 'problem_types.json').read_text())
+    categories = summarize_types(rows, annotations)
+    (root / 'type_summary.json').write_text(json.dumps(categories, indent=2) + '\n')
     table = [
         '# AMC12 local calibration measurements', '',
         '**Validation only. No weights updated; no final test or three-policy study run.**', '',
+        '## Performance by question type', '',
+        '| Question type | Correct / attempted | Accuracy |',
+        '|---|---:|---:|',
+    ]
+    for category in categories:
+        table.append(f"| {category['category']} | {category['correct']}/{category['attempted']} | {category['accuracy']:.0%} |")
+    table.extend([
+        '', '**Best category: not established. Worst category: not established.** Both observed categories scored zero; two counting questions and one geometry question cannot support a ranking. Other categories were not evaluated.',
+        'Geometry has an additional input limitation: no rendered diagram was provided. Shorter runtime does not imply better mathematical performance.',
+        'Categories are manual post-hoc descriptive annotations, not official AMC tags, and did not affect selection or training.',
+        '', '## Per-problem measurements', '',
         '| 2022 AMC12B problem | Generated tokens | Seconds | Tokens/s | EOS completed | Correct numeric answer |',
         '|---|---:|---:|---:|---|---|',
-    ]
+    ])
     for row in rows:
         table.append(
             f"| [{row['url'].split('/')[-1]}]({row['url']}) | {row['tokens']} "
