@@ -1,5 +1,26 @@
 # What should a reasoning model learn next?
 
+## 当前研究 / Current study
+
+**GSM8K 标准应用题子集实验正在运行；下方已有数字属于早期算术验证。**
+
+研究问题：同样的模型、同样的训练 token 预算，下一道题应该随机选、先易后难选，还是根据学生当前的错误选？模型是 **SmolLM2-135M**；策略只是选题规则。模型生成答案，训练程序用训练集标准解答更新权重，测试集只负责评分。
+
+```mermaid
+flowchart LR
+    A[GSM8K training pool] --> B[Random / Easy-to-hard / Adaptive]
+    B --> C[Same pretrained student]
+    C --> D[Update weights on training solutions]
+    D --> B
+    E[Fixed held-out test questions] --> F[Student generates answers]
+    D --> F
+    F --> G[Final-answer accuracy and cost]
+```
+
+GSM8K has 7,473 official training and 1,319 official test problems. This CPU study uses a fixed **24-question test subset**, 12 updates and three seeds, with complete worked-solution supervision. Both supervised token counts and padded training slots match across policies within each seed. [Exact experiment definition and provenance](GSM8K_METHOD.md). **Prepared/running does not mean benchmark success.**
+
+## Earlier arithmetic pilot
+
 **Status: completed — 9 real open-model training runs, 3 seeds, saved predictions and reproducible figures.**
 
 If a model has time to study only a few examples, which examples should it study?
