@@ -1,6 +1,6 @@
 # Local student comparison
 
-Status: preparation in progress. No results for the new candidates are claimed yet.
+Status: the Qwen3 screen is running; the DeepSeek screen is queued. No results for the new candidates are claimed yet.
 
 The user approved comparing two alternative students before starting AMC training. The historical Qwen2.5-Math-1.5B run remains unchanged.
 
@@ -23,3 +23,7 @@ All inputs are the same adapted integer-answer variants; the geometry diagram re
 ## Reproduce
 
 Use a separate Python 3.12 environment for the Apple-Silicon backend. The existing main environment remains unchanged. Install `requirements-mlx.txt`, prepare local inputs with the existing `amc.py --phase prepare`, then run `compare_students.py` once per candidate. Exact commands and actual results will be added after backend validation.
+
+The installed Metal-enabled MLX wheel could not initialize because this session cannot access a GPU. A CPU-only build from the official MLX v0.32.4 source commit `36969c094354086e15d2a327a9c50feb20b9cf11` succeeded using `CMAKE_ARGS='-DMLX_BUILD_METAL=OFF -DMLX_BUILD_CPU=ON'`. Both candidates use that same CPU backend. The CPU workaround is documented by an [MLX maintainer](https://github.com/ml-explore/mlx/issues/3148).
+
+Before interpreting model mistakes, `verify_amc.py` independently checked all three numeric keys from the supplied constraints/coordinates. All match. This verification uses no reserved-test data and does not provide training solutions or update weights.

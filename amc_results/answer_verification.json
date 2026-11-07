@@ -1,0 +1,33 @@
+{
+  "scope": "Only the three frozen validation problems; no reserved test inputs used",
+  "limitations": "Checks the stated constraints and supplied boundary coordinates; does not prove original exam transcription or diagram construction is correct",
+  "all_agree": true,
+  "checks": [
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_25",
+      "digest": "090e6fe626ac42a36a6dea3b4a759a8a3ef5a9f459b62ffb49092521a0d4d0b6",
+      "computed_answer": 4,
+      "dataset_answer": 4.0,
+      "agrees": true,
+      "method": "Exact shoelace area from the twelve-vertex boundary in the supplied diagram source; no model reasoning used",
+      "exact_area": "-23 + 16*sqrt(3)"
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_17",
+      "digest": "3d884307d60765fe1e307ec8364121118191d6504c7605125ede92fbd28373f4",
+      "computed_answer": 76,
+      "dataset_answer": 76.0,
+      "agrees": true,
+      "method": "Enumerate all 65,536 binary 4-by-4 arrays; apply row/column constraints; take remainder modulo 100",
+      "valid_arrays_before_modulo": 576
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_18",
+      "digest": "64c9b98922e374e6684dacd368581802b929d67b50cd13bf173f1da7bf1b86bd",
+      "computed_answer": 22,
+      "dataset_answer": 22.0,
+      "agrees": true,
+      "method": "Enumerate all 512 initial 3-by-3 configurations and update the entire 5-by-5 grid once"
+    }
+  ]
+}

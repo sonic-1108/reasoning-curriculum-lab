@@ -4,7 +4,9 @@
 
 **Question:** Which examples help a reasoning model learn most under the same training-token budget?
 
-**Current result:** Qwen2.5-Math-1.5B-Instruct scored **0/3** on a small hard-AMC validation sample. All three outputs completed normally. No AMC training, final-test evaluation or curriculum comparison has been run.
+**Initial result:** Qwen2.5-Math-1.5B-Instruct scored **0/3** on a small hard-AMC validation sample. All three outputs completed normally. No AMC training, final-test evaluation or curriculum comparison has been run.
+
+**Active follow-up:** two pinned 4-bit students, Qwen3-4B-Instruct and DeepSeek-R1-Distill-Qwen-7B, are being screened on the same three validation questions. [Frozen configuration and limitations](MODEL_COMPARISON.md). No new-candidate accuracy is claimed until its run completes.
 
 ## Which question types worked best?
 
@@ -25,6 +27,8 @@
 - **Hard subset:** original positions 16–25 only. There are 9 training candidates from 2022A, 9 validation problems from 2022B, and 13 reserved test problems from 2023.
 - **Actual evaluation:** three validation problems chosen beforehand by question hash. Greedy CPU inference; at most 2,048 new tokens and 90 seconds per answer. Observed times: 57–72 seconds.
 - **Labels and limitations:** publisher-provided numeric keys, no worked solutions. Unknown pretraining overlap; no overall AMC accuracy claim. Problem text stays local because underlying redistribution rights are not independently established.
+
+The three evaluated keys have now been independently checked: finite enumeration for counting and exact area from the supplied geometry coordinates. All agree with the dataset. This does not verify the other source keys or the original diagram transcription. [Verification record](amc_results/answer_verification.json) · [Solver code](verify_amc.py).
 
 [Exact provenance and method](AMC_STUDY.md) · [Split manifest](amc_results/manifest.json) · [Study overview](amc_results/overview.svg)
 
