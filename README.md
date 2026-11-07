@@ -1,5 +1,11 @@
 # What should a reasoning model learn next?
 
+[![Data invariants](https://github.com/sonic-1108/reasoning-curriculum-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/sonic-1108/reasoning-curriculum-lab/actions/workflows/tests.yml)
+
+**Research question:** Which training examples should a reasoning model study next, under the same training-token budget?
+
+![Study structure and current evidence](amc_results/overview.svg)
+
 ## 现在先做 AMC / AMC first
 
 **主线已改为 AMC12 后半卷竞赛题；旧算术和 GSM8K 仅保留为历史流程验证。**
@@ -20,17 +26,36 @@
 
 下一步需要校准更大的数学模型，并取得更多有可信解答的 AMC 训练题。当前 9 道训练候选只有数值标签，不足以支持有说服力的推理训练研究。GPU/量化模型方案是待执行计划，不是已有结果；未购买任何计算资源。
 
-```mermaid
-flowchart LR
-    A[AMC12 positions 16–25] --> B[2022A training candidates]
-    A --> C[2022B validation calibration]
-    C --> D[Check math model and generation budget]
-    D --> E[If viable: freeze later-year test]
-    B --> F[Future three-policy training study]
-    E --> F
+这里的“喂题”先指让预训练模型作答；校准不更新权重。未解决模型能力、算力及可信训练解答来源前，不盲目开始微调。
+
+注意：几何题包含图形源代码，但没有给文字模型提供渲染后的图片；这也是当前三题校准的输入限制。
+
+## Core code / 核心代码
+
+| Purpose | Entry point | Saved evidence |
+|---|---|---|
+| Acquire AMC data locally; calibrate the pinned math model | [amc.py](amc.py) | [Source manifest](amc_results/manifest.json), [numeric predictions](amc_results/calibration.json) |
+| Audit AMC records and regenerate measured charts | [amc_report.py](amc_report.py) | [Measured table](amc_results/RESULTS.md) |
+| Regenerate the study overview from saved records | [plot_overview.py](plot_overview.py) | Diagram at the top of this page |
+| Reproduce the historical matched-token GSM8K study | [gsm8k.py](gsm8k.py), [gsm8k_report.py](gsm8k_report.py) | [Historical results](gsm8k_results/RESULTS.md) |
+| Reproduce the early arithmetic validation | [experiment.py](experiment.py), [report.py](report.py), [validate_results.py](validate_results.py) | [Saved measurements](results_full/summary.json) |
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-amc.txt
+python -m unittest -v
+# Redraw published figures only; no model download or new experiment:
+python amc_report.py
+python plot_overview.py
 ```
 
-这里的“喂题”先指让预训练模型作答；校准不更新权重。未解决模型能力、算力及可信训练解答来源前，不盲目开始微调。
+Acquisition and model-running commands are in [AMC_STUDY.md](AMC_STUDY.md). The seven automated tests check contest identity, numeric scoring, arithmetic labels, split invariants and complete target masking. Scratch files, model downloads and unreleased AMC text stay in ignored `work/`; saved measurements and reproducible source code are tracked. Historical entry-point names stay stable so published commands remain usable.
+
+## Historical evidence / 历史记录
+
+<details>
+<summary>GSM8K pilot — expand measured results and reproducible method</summary>
 
 ## 历史 GSM8K 流程实验 / Historical GSM8K pilot
 
@@ -74,6 +99,11 @@ python gsm8k_report.py
 ```
 
 Next scientific step: select a more capable student and a longer generation/training budget using a validation split carved from training data, then freeze a new experiment before evaluating. This run used CPU only and incurred no paid cloud charges. It demonstrates a working standard-dataset experiment and its limitations, rather than a successful curriculum method.
+
+</details>
+
+<details>
+<summary>Arithmetic pilot — expand measured results and reproducible method</summary>
 
 ## Earlier arithmetic pilot
 
@@ -132,6 +162,8 @@ The model downloads from Hugging Face; no paid APIs are used. CPU fallback and A
 ## How much does this tell us?
 
 This is an arithmetic engineering pilot, with actual pretrained-model fine-tuning. It does not measure advanced mathematical reasoning. Thirty updates, three seeds, 64 questions and a very small model give limited statistical power. Strict formatting may reject numerically correct continuations. The unseen family uses familiar operations; it is a narrow transfer test. Prompt deduplication prevents exact split overlap; semantically related arithmetic and overlap with unknown pretraining data remain possible. Difficulty is a declared operand/operator heuristic, not a validated human rating. Full-model checkpoints are not uploaded; rerun commands reproduce training. Two data tests and a saved-run audit verify arithmetic answers, stable splits, unique IDs, identical initial predictions, complete checkpoints, equal padded budgets and training-only selections. The final audit covers **2,304 saved predictions**.
+
+</details>
 
 ## Research context
 

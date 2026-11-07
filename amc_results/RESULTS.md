@@ -12,3 +12,4 @@ Feasibility gate passed: **False**.
 Correctness uses publisher-provided adapted integer keys; it is not an independent proof of solution validity.
 Full generations stay local under ignored work/amc. Numeric predictions, identifiers and timings are published in calibration.json.
 A hypothetical 2,048-token output at measured speed is an extrapolation, not an observed full completion.
+The geometry problem includes diagram source code; no rendered image was supplied to the text-only model.
