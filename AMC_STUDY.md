@@ -35,6 +35,10 @@ python -m unittest test_amc -v
 
 ## Conditional next study (not run)
 
+Observed calibration: all three responses ended normally at 496–558 generated tokens, taking 57.44–72.22 seconds each. Numeric predictions were 8/90/112 versus publisher keys 4/76/22 for 2022B problems 25/17/18. Correctness was 0/3, so the gate failed due to answer quality, not wall-clock or token truncation. CPU inference at this size is feasible. This small validation screen cannot establish general AMC performance. The 2023 test pool remains unevaluated.
+
+Next model proposal: [Qwen2.5-Math-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct), a larger math-specialized model from the same publisher. Recalibrate on the same validation forms, never on test. Its raw float32 parameter storage is approximately 28GB before cache/activations, beyond this machine's 24GiB memory. Two unrun routes are a vetted 4-bit local Apple-Silicon backend (requiring its own speed/quality check) or an available CUDA GPU for low-precision inference/LoRA. Quantized quality and memory fit have not been measured here; GPU access would not itself guarantee correctness. Do not spend money without a budget.
+
 Before training: enlarge the hard AMC training pool from additional older year/forms with documented usage rights and trusted solution/answer provenance. Nine answer-only training items cannot support a strong reasoning-training study. Keep 2022B validation and 2023 test untouched by training. Do not manufacture rationale labels. Full worked-solution supervision requires separately sourced verified solutions; a final-answer-only experiment must be clearly named as such.
 
 Proposed compute: an existing user-provided CUDA GPU with at least 24GB VRAM, or explicit budget approval for a single rented GPU pilot. Use Qwen2.5-Math-1.5B-Instruct LoRA, batch one with accumulation, complete targets, no truncation, and 2,048 generation tokens initially. Measure one training and one generation batch before committing to a larger run; duration and price cannot be asserted without that measurement/provider quote. No GPU time is booked or purchased.

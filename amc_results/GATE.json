@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "criterion": "At least two parseable EOS completions and one correct out of three validation problems, with no time limit reached. A feasibility screen, not a benchmark claim.",
+  "test_ids_frozen": false,
+  "test_evaluated": false,
+  "training_performed": false
+}

@@ -1,0 +1,56 @@
+{
+  "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+  "revision": "aafeb0fc6f22cbf0eaeed126eff8be45b0360a35",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "loading_seconds": 1.824010167,
+  "max_new_tokens": 2048,
+  "max_seconds_per_problem": 90,
+  "planned_count": 3,
+  "complete": true,
+  "results": [
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_25",
+      "digest": "090e6fe626ac42a36a6dea3b4a759a8a3ef5a9f459b62ffb49092521a0d4d0b6",
+      "split": "validation",
+      "prediction": "8",
+      "reference": "4.0",
+      "correct": false,
+      "parsed": true,
+      "tokens": 558,
+      "elapsed_seconds": 72.21698174999999,
+      "tokens_per_second": 7.726714499529747,
+      "ended_with_eos": true,
+      "time_limit_reached": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_17",
+      "digest": "3d884307d60765fe1e307ec8364121118191d6504c7605125ede92fbd28373f4",
+      "split": "validation",
+      "prediction": "90",
+      "reference": "76.0",
+      "correct": false,
+      "parsed": true,
+      "tokens": 501,
+      "elapsed_seconds": 59.021077500000004,
+      "tokens_per_second": 8.48849294559219,
+      "ended_with_eos": true,
+      "time_limit_reached": false
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12B_Problems/Problem_18",
+      "digest": "64c9b98922e374e6684dacd368581802b929d67b50cd13bf173f1da7bf1b86bd",
+      "split": "validation",
+      "prediction": "112",
+      "reference": "22.0",
+      "correct": false,
+      "parsed": true,
+      "tokens": 496,
+      "elapsed_seconds": 57.43761287500001,
+      "tokens_per_second": 8.63545637036539,
+      "ended_with_eos": true,
+      "time_limit_reached": false
+    }
+  ]
+}
