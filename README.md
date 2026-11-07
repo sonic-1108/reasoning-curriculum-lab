@@ -2,7 +2,27 @@
 
 [![Data invariants](https://github.com/sonic-1108/reasoning-curriculum-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/sonic-1108/reasoning-curriculum-lab/actions/workflows/tests.yml)
 
-**Question:** Which examples help a reasoning model learn most under the same training-token budget?
+## Project goal
+
+**Find out which training problems help an open-weight model improve most on hard, unseen mathematical questions for a fixed training budget.**
+
+The intended outcome is a reproducible comparison of three ways to choose the next training example:
+
+| Selection rule | What the student studies next |
+|---|---|
+| Random | A randomly selected training problem |
+| Fixed curriculum | Problems ordered from relatively easier to harder within the hard-problem pool |
+| Adaptive | Problems selected using the student's current errors or estimated learnability |
+
+Start each run from the same model weights and match supervised training-token budgets. Compare against the untrained starting model on held-out questions that never guide training choices. Report accuracy, variation across seeds, and training and selection costs separately.
+
+**Why this matters:** selecting better examples could make mathematical post-training more efficient. The evidence must show whether an accuracy gain justifies the extra selection cost. A well-supported finding that adaptive selection offers no worthwhile benefit is also a valid outcome.
+
+**Final deliverable:** saved predictions, learning curves, per-question-type results, cost comparisons and reproducible commands supporting a clear conclusion about when each selection rule helps or fails. No improvement or novel method is assumed in advance.
+
+**Current stage:** model and data feasibility checks. The three-question AMC calibration below does **not** answer the main research question; the planned hard-math training comparison is still incomplete.
+
+## Progress so far
 
 **Initial result:** Qwen2.5-Math-1.5B-Instruct scored **0/3** on a small hard-AMC validation sample. All three outputs completed normally. No AMC training, final-test evaluation or curriculum comparison has been run.
 
