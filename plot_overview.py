@@ -50,7 +50,7 @@ def main():
     axis.text(.025, .885, 'CURRENT EVIDENCE  /  AMC12 hard-problem calibration',
               fontsize=10, color='#64748b', va='top')
     card(axis, (.04, .52, .25, .26), '01 · Source',
-         f"{manifest['source_rows']} adapted AMC12 problems\n2022–2023 · Positions 16–25 only\nNumeric keys; no worked solutions")
+         f"{manifest['source_rows']} adapted AMC12 problems\n{sum(counts.values())} eligible · Positions 16–25 only\nNumeric keys; no worked solutions")
     card(axis, (.37, .52, .25, .26), '02 · Separate by form',
          f"2022A · {counts['train']} training candidates\n2022B · {counts['validation']} validation problems\n2023 A/B · {counts['reserved_test']} reserved test problems")
     card(axis, (.70, .52, .25, .26), '03 · Calibrate the student',
