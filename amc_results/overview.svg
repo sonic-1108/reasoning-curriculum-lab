@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="468pt" viewBox="0 0 936 468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="475.2pt" viewBox="0 0 864 475.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -20,172 +20,156 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 468
-L 936 468
-L 936 0
+   <path d="M 0 475.2
+L 864 475.2
+L 864 0
 L 0 0
 z
-" style="fill: #f8fafc"/>
+" style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 60.95232 233.10144
-L 273.01248 233.10144
-Q 295.47648 233.10144 295.47648 221.86944
-L 295.47648 111.34656
-Q 295.47648 100.11456 273.01248 100.11456
-L 60.95232 100.11456
-Q 38.48832 100.11456 38.48832 111.34656
-L 38.48832 221.86944
-Q 38.48832 233.10144 60.95232 233.10144
+    <path d="M 47.52 288.4464
+L 170.430968 288.4464
+L 170.430968 267.0624
+L 47.52 267.0624
 z
-" clip-path="url(#p023a9491af)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pde83df4b38)" style="fill: #cad4d8"/>
    </g>
    <g id="patch_3">
-    <path d="M 357.47712 233.10144
-L 569.53728 233.10144
-Q 592.00128 233.10144 592.00128 221.86944
-L 592.00128 111.34656
-Q 592.00128 100.11456 569.53728 100.11456
-L 357.47712 100.11456
-Q 335.01312 100.11456 335.01312 111.34656
-L 335.01312 221.86944
-Q 335.01312 233.10144 357.47712 233.10144
+    <path d="M 170.430968 288.4464
+L 293.341935 288.4464
+L 293.341935 267.0624
+L 170.430968 267.0624
 z
-" clip-path="url(#p023a9491af)" style="fill: #ffffff; stroke: #2563eb; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pde83df4b38)" style="fill: #287f77"/>
    </g>
    <g id="patch_4">
-    <path d="M 654.00192 233.10144
-L 866.06208 233.10144
-Q 888.52608 233.10144 888.52608 221.86944
-L 888.52608 111.34656
-Q 888.52608 100.11456 866.06208 100.11456
-L 654.00192 100.11456
-Q 631.53792 100.11456 631.53792 111.34656
-L 631.53792 221.86944
-Q 631.53792 233.10144 654.00192 233.10144
+    <path d="M 293.341935 288.4464
+L 470.88 288.4464
+L 470.88 267.0624
+L 293.341935 267.0624
 z
-" clip-path="url(#p023a9491af)" style="fill: #ffffff; stroke: #0d9488; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pde83df4b38)" style="fill: #526773"/>
    </g>
    <g id="patch_5">
-    <path d="M 299.269913 166.608
-Q 315.242226 166.608 329.761096 166.608
-" clip-path="url(#p023a9491af)" style="fill: none; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 324.161096 163.808
-L 329.761096 166.608
-L 324.161096 169.408
+    <path d="M 47.52 432.432
+L 816.48 432.432
+L 816.48 389.664
+L 47.52 389.664
 z
-" clip-path="url(#p023a9491af)" style="fill: #94a3b8; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#pde83df4b38)" style="fill: #f3f6f6"/>
    </g>
    <g id="patch_6">
-    <path d="M 595.794713 166.608
-Q 611.767026 166.608 626.285896 166.608
-" clip-path="url(#p023a9491af)" style="fill: none; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 620.685896 163.808
-L 626.285896 166.608
-L 620.685896 169.408
+    <path d="M 47.52 432.432
+L 50.112 432.432
+L 50.112 389.664
+L 47.52 389.664
 z
-" clip-path="url(#p023a9491af)" style="fill: #94a3b8; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#pde83df4b38)" style="fill: #287f77"/>
    </g>
-   <g id="patch_7">
-    <path d="M 60.95232 412.81344
-L 434.75328 412.81344
-Q 457.21728 412.81344 457.21728 401.58144
-L 457.21728 295.55136
-Q 457.21728 284.31936 434.75328 284.31936
-L 60.95232 284.31936
-Q 38.48832 284.31936 38.48832 295.55136
-L 38.48832 401.58144
-Q 38.48832 412.81344 60.95232 412.81344
-z
-" clip-path="url(#p023a9491af)" style="fill: #ffffff; stroke: #b45309; stroke-width: 1.5; stroke-linejoin: miter"/>
+   <g id="line2d_1">
+    <path d="M 47.52 125.928
+L 816.48 125.928
+" clip-path="url(#pde83df4b38)" style="fill: none; stroke: #dce3e5; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
-   <g id="patch_8">
-    <path d="M 501.24672 412.81344
-L 866.06208 412.81344
-Q 888.52608 412.81344 888.52608 401.58144
-L 888.52608 295.55136
-Q 888.52608 284.31936 866.06208 284.31936
-L 501.24672 284.31936
-Q 478.78272 284.31936 478.78272 295.55136
-L 478.78272 401.58144
-Q 478.78272 412.81344 501.24672 412.81344
-z
-" clip-path="url(#p023a9491af)" style="fill: #ffffff; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #64748b; stroke-width: 1.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_9">
-    <path d="M 645.747497 238.861144
-Q 539.885634 258.710244 435.452321 278.29149
-" clip-path="url(#p023a9491af)" style="fill: none; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 441.472413 280.011516
-L 435.452321 278.29149
-L 440.440398 274.507432
-z
-" clip-path="url(#p023a9491af)" style="fill: #94a3b8; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
-   </g>
-   <g id="patch_10">
-    <path d="M 764.5248 240.491855
-Q 764.5248 258.708204 764.5248 275.471109
-" clip-path="url(#p023a9491af)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
-    <path d="M 767.3248 269.871109
-L 764.5248 275.471109
-L 761.7248 269.871109
-z
-" clip-path="url(#p023a9491af)" style="fill: #94a3b8; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #94a3b8; stroke-width: 1.3; stroke-linecap: round"/>
+   <g id="line2d_2">
+    <path d="M 522.72 358.776
+L 522.72 144.936
+" clip-path="url(#pde83df4b38)" style="fill: none; stroke: #dce3e5; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="fill: #0f172a; font: 700 21px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="41.184" y="43.287919" transform="rotate(-0 41.184 43.287919)">What should a reasoning model learn next?</text>
+    <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="47.52" y="28.3435" transform="rotate(-0 47.52 28.3435)">R E A S O N I N G   C U R R I C U L U M   L A B</text>
    </g>
    <g id="text_2">
-    <text style="fill: #64748b; font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="41.184" y="68.625637" transform="rotate(-0 41.184 68.625637)">CURRENT EVIDENCE  /  AMC12 hard-problem calibration</text>
+    <text style="fill: #1c2b33; font: 700 24px 'DejaVu Sans'; text-anchor: start" x="47.52" y="76.9521" transform="rotate(-0 47.52 76.9521)">First establish a capable student.</text>
    </g>
    <g id="text_3">
-    <text style="fill: #2563eb; font: 700 10.5px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="72.6336" y="136.397559" transform="rotate(-0 72.6336 136.397559)">01 · Source</text>
+    <text style="fill: #697980; font: 10px 'DejaVu Sans'; text-anchor: start" x="47.52" y="103.501775" transform="rotate(-0 47.52 103.501775)">AMC12 hard-problem study  /  Current phase: validation calibration</text>
    </g>
    <g id="text_4">
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(72.6336 166.707394)">83 adapted AMC12 problems</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(72.6336 179.520862)">31 eligible · Positions 16–25 only</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(72.6336 192.334331)">Numeric keys; no worked solutions</text>
+    <text style="fill: #1c2b33; font: 700 9px 'DejaVu Sans'; text-anchor: start" x="47.52" y="156.923437" transform="rotate(-0 47.52 156.923437)">01   DATA DESIGN</text>
    </g>
    <g id="text_5">
-    <text style="fill: #2563eb; font: 700 10.5px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="369.1584" y="136.397559" transform="rotate(-0 369.1584 136.397559)">02 · Separate by form</text>
+    <text style="fill: #1c2b33; font: 700 9px 'DejaVu Sans'; text-anchor: start" x="565.92" y="156.923437" transform="rotate(-0 565.92 156.923437)">02   OBSERVED RESULT</text>
    </g>
    <g id="text_6">
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(369.1584 166.707394)">2022A · 9 training candidates</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(369.1584 179.520862)">2022B · 9 validation problems</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(369.1584 192.334331)">2023 A/B · 13 reserved test problems</text>
+    <text style="fill: #1c2b33; font: 700 32px 'DejaVu Sans'; text-anchor: start" x="47.52" y="214.1164" transform="rotate(-0 47.52 214.1164)">83</text>
    </g>
    <g id="text_7">
-    <text style="fill: #0d9488; font: 700 10.5px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="665.6832" y="136.397559" transform="rotate(-0 665.6832 136.397559)">03 · Calibrate the student</text>
+    <text style="fill: #697980; font: 10px 'DejaVu Sans'; text-anchor: start" x="47.52" y="240.834575" transform="rotate(-0 47.52 240.834575)">downloaded</text>
    </g>
    <g id="text_8">
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(665.6832 166.707394)">Qwen2.5-Math-1.5B</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(665.6832 179.520862)">3 validation problems · 0 correct</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(665.6832 192.334331)">All 3 outputs completed</text>
+    <text style="fill: #1c2b33; font: 700 32px 'DejaVu Sans'; text-anchor: start" x="203.04" y="214.1164" transform="rotate(-0 203.04 214.1164)">31</text>
    </g>
    <g id="text_9">
-    <text style="fill: #b45309; font: 700 10.5px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="72.6336" y="320.602359" transform="rotate(-0 72.6336 320.602359)">MEASURED · Capability gate not passed</text>
+    <text style="fill: #697980; font: 10px 'DejaVu Sans'; text-anchor: start" x="203.04" y="240.834575" transform="rotate(-0 203.04 240.834575)">eligible</text>
    </g>
    <g id="text_10">
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(72.6336 350.912194)">CPU inference runs; this configuration scored 0/3.</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(72.6336 363.725662)">No claim of overall AMC accuracy or reasoning gains.</text>
+    <text style="fill: #1c2b33; font: 700 32px 'DejaVu Sans'; text-anchor: start" x="358.56" y="214.1164" transform="rotate(-0 358.56 214.1164)">3</text>
    </g>
    <g id="text_11">
-    <text style="fill: #64748b; font: 700 10.5px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="512.928" y="320.602359" transform="rotate(-0 512.928 320.602359)">PROPOSED · Curriculum comparison</text>
+    <text style="fill: #697980; font: 10px 'DejaVu Sans'; text-anchor: start" x="358.56" y="240.834575" transform="rotate(-0 358.56 240.834575)">attempted</text>
    </g>
    <g id="text_12">
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(512.928 350.912194)">Stronger validated student + trusted training solutions</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(512.928 363.725662)">Random / easy-to-hard / adaptive · Matched token budgets</text>
-    <text style="fill: #475569; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(512.928 376.539131)">Not run · Reserved test remains untouched</text>
+    <text style="fill: #1c2b33; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="108.975484" y="280.475437" transform="rotate(-0 108.975484 280.475437)">9</text>
    </g>
    <g id="text_13">
-    <text style="fill: #64748b; font: 8.5px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="41.184" y="447.408" transform="rotate(-0 41.184 447.408)">Source: saved manifest, calibration predictions and gate decision. Historical pilots remain available below.</text>
+    <text style="fill: #ffffff; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="231.886452" y="280.475437" transform="rotate(-0 231.886452 280.475437)">9</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #ffffff; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="382.110968" y="280.475437" transform="rotate(-0 382.110968 280.475437)">13</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #1c2b33; font: 700 8.5px 'DejaVu Sans'; text-anchor: start" x="47.52" y="313.093066" transform="rotate(-0 47.52 313.093066)">Training candidates</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="47.52" y="331.5211" transform="rotate(-0 47.52 331.5211)">2022A · not trained</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #1c2b33; font: 700 8.5px 'DejaVu Sans'; text-anchor: start" x="203.04" y="313.126269" transform="rotate(-0 203.04 313.126269)">Validation</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="203.04" y="331.5211" transform="rotate(-0 203.04 331.5211)">2022B · 3 of 9 tried</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #1c2b33; font: 700 8.5px 'DejaVu Sans'; text-anchor: start" x="358.56" y="313.126269" transform="rotate(-0 358.56 313.126269)">Reserved test</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="358.56" y="331.5211" transform="rotate(-0 358.56 331.5211)">2023 A/B · untouched</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #697980; font: 8.5px 'DejaVu Sans'; text-anchor: start" x="47.52" y="365.398269" transform="rotate(-0 47.52 365.398269)">Filter: original positions 16–25 only; 52 other problems excluded.</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #b45049; font: 700 32px 'DejaVu Sans'; text-anchor: start" x="565.92" y="214.1164" transform="rotate(-0 565.92 214.1164)">0 / 3</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #697980; font: 10px 'DejaVu Sans'; text-anchor: start" x="565.92" y="240.834575" transform="rotate(-0 565.92 240.834575)">correct numeric answers</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #1c2b33; font: 700 13px 'DejaVu Sans'; text-anchor: start" x="565.92" y="281.053206" transform="rotate(-0 565.92 281.053206)">3 / 3 finished normally</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #697980; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="565.92" y="306.274206" transform="rotate(-0 565.92 306.274206)">Qwen2.5-Math-1.5B · CPU</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #697980; font: 8.5px 'DejaVu Sans'; text-anchor: start" x="565.92" y="331.183869" transform="rotate(-0 565.92 331.183869)">No weights updated. No final test run.</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: #287f77; font: 700 8px 'DejaVu Sans'; text-anchor: start" x="64.8" y="413.2555" transform="rotate(-0 64.8 413.2555)">NEXT GATE</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: #1c2b33; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="177.12" y="413.641813" transform="rotate(-0 177.12 413.641813)">Stronger validated student + trusted solutions before curriculum training.</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: #697980; font: 8px 'DejaVu Sans'; text-anchor: start" x="47.52" y="456.0235" transform="rotate(-0 47.52 456.0235)">Adapted integer-answer variants · Not an overall AMC score · Source: saved manifest, predictions and gate decision.</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p023a9491af">
-   <rect x="18.72" y="9.36" width="898.56" height="449.28"/>
+  <clipPath id="pde83df4b38">
+   <rect x="0" y="0" width="864" height="475.2"/>
   </clipPath>
  </defs>
 </svg>

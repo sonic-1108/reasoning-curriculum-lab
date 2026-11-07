@@ -37,6 +37,7 @@
 | Acquire AMC data locally; calibrate the pinned math model | [amc.py](amc.py) | [Source manifest](amc_results/manifest.json), [numeric predictions](amc_results/calibration.json) |
 | Audit AMC records and regenerate measured charts | [amc_report.py](amc_report.py) | [Measured table](amc_results/RESULTS.md) |
 | Regenerate the study overview from saved records | [plot_overview.py](plot_overview.py) | Diagram at the top of this page |
+| Shared typography, colors and deterministic SVG export | [figure_style.py](figure_style.py) | Used by both AMC visual reports |
 | Reproduce the historical matched-token GSM8K study | [gsm8k.py](gsm8k.py), [gsm8k_report.py](gsm8k_report.py) | [Historical results](gsm8k_results/RESULTS.md) |
 | Reproduce the early arithmetic validation | [experiment.py](experiment.py), [report.py](report.py), [validate_results.py](validate_results.py) | [Saved measurements](results_full/summary.json) |
 

@@ -2,10 +2,7 @@
 import json
 from pathlib import Path
 
-import matplotlib
-
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+from figure_style import MUTED, PAPER, RED, RULE, TEAL, canvas, label, rectangle, rule, save
 
 
 def load_results(root):
@@ -21,49 +18,51 @@ def load_results(root):
 
 
 def draw_measurements(root, calibration, rows):
-    with plt.rc_context({
-        'font.family': 'DejaVu Sans',
-        'axes.spines.top': False,
-        'axes.spines.right': False,
-        'axes.titleweight': 'bold',
-        'axes.labelcolor': '#475569',
-        'text.color': '#0f172a',
-        'svg.fonttype': 'none',
-        'svg.hashsalt': 'amc-measurements',
-    }):
-        figure, axes = plt.subplots(1, 2, figsize=(11, 4.5))
-        labels = [row['url'].split('/')[-1].replace('Problem_', 'P') for row in rows]
-        bars = axes[0].bar(labels, [row['tokens'] for row in rows], color='#2563eb', width=.55)
-        axes[0].bar_label(bars, padding=5)
-        axes[0].axhline(
-            calibration['max_new_tokens'], linestyle='--', color='#94a3b8',
-            label=f"Configured ceiling: {calibration['max_new_tokens']:,} tokens",
-        )
-        completed = sum(row['ended_with_eos'] for row in rows)
-        axes[0].set(ylabel='Generated tokens', title=f'{completed}/{len(rows)} answers completed')
-        axes[0].legend(frameon=False, fontsize=8)
-        speeds = [row['tokens_per_second'] for row in rows]
-        bars = axes[1].bar(labels, speeds, color='#0d9488', width=.55)
-        axes[1].bar_label(bars, fmt='%.2f', padding=5)
-        axes[1].set(ylabel='Tokens per second', title='Measured CPU speed',
-                    ylim=(0, max(speeds) * 1.2))
-        for axis in axes:
-            axis.set_axisbelow(True)
-            axis.grid(axis='y', color='#e2e8f0', linewidth=.7)
-        figure.suptitle('AMC12 validation · Qwen2.5-Math-1.5B',
-                       fontweight='bold', fontsize=15)
-        correct = sum(row['correct'] for row in rows)
-        figure.text(
-            .5, .025,
-            f'{len(rows)} adapted hard problems · {correct} correct · No weights updated · No test evaluation',
-            ha='center', fontsize=9, color='#64748b',
-        )
-        figure.tight_layout(rect=(0, .07, 1, .93))
-        svg_path = root / 'calibration.svg'
-        figure.savefig(svg_path, metadata={'Date': None})
-        svg_path.write_text('\n'.join(line.rstrip() for line in svg_path.read_text().splitlines()) + '\n')
-        figure.savefig(root / 'calibration.png', dpi=160)
-        plt.close(figure)
+    ordered = sorted(rows, key=lambda row: int(row['url'].split('_')[-1]))
+    figure, axis = canvas(7.4, 'amc-validation-brief')
+    label(axis, .055, .95, 'A M C 1 2   /   V A L I D A T I O N   B R I E F', 8, MUTED)
+    label(axis, .055, .87, 'Complete answers. Incorrect results.', 24, weight='bold')
+    label(axis, .055, .812, 'Qwen2.5-Math-1.5B · Three hard 2022B problems · Greedy CPU inference', 10, MUTED)
+    correct = sum(row['correct'] for row in rows)
+    completed = sum(row['ended_with_eos'] for row in rows)
+    mean_seconds = sum(row['elapsed_seconds'] for row in rows) / len(rows)
+    for horizontal, value, description, color in [
+        (.055, f'{correct}/{len(rows)}', 'numeric answers correct', RED),
+        (.365, f'{completed}/{len(rows)}', 'outputs ended normally', TEAL),
+        (.675, f'{mean_seconds:.1f}s', 'mean time per problem', '#1c2b33'),
+    ]:
+        label(axis, horizontal, .716, value, 29, color, 'bold')
+        label(axis, horizontal, .657, description, 9, MUTED)
+    rule(axis, (.055, .61), (.945, .61))
+    label(axis, .055, .565, '01   FINAL-ANSWER AUDIT', 9, weight='bold')
+    label(axis, .595, .565, '02   TIME TO ANSWER', 9, weight='bold')
+    for horizontal, text in [(.07, 'PROBLEM'), (.255, 'MODEL'), (.375, 'REFERENCE')]:
+        label(axis, horizontal, .507, text, 7.5, MUTED)
+    limit = calibration['max_seconds_per_problem']
+    for index, row in enumerate(ordered):
+        vertical = .435 - index * .105
+        if index % 2 == 0:
+            rectangle(axis, (.055, vertical - .037), .455, .075, PAPER)
+        number = row['url'].split('_')[-1]
+        reference = f"{float(row['reference']):g}"
+        label(axis, .07, vertical, f'Problem {number}', 10)
+        label(axis, .255, vertical, row['prediction'], 17, RED, 'bold')
+        label(axis, .375, vertical, reference, 17, weight='bold')
+        start = .615
+        endpoint = start + .26 * row['elapsed_seconds'] / limit
+        rule(axis, (start, vertical), (.875, vertical), RULE, 2)
+        rule(axis, (start, vertical), (endpoint, vertical), TEAL, 2)
+        axis.scatter([endpoint], [vertical], s=42, color=TEAL, zorder=3)
+        label(axis, .94, vertical, f"{row['elapsed_seconds']:.1f}s", 10, weight='bold', ha='right')
+        label(axis, .615, vertical - .035,
+              f"{row['tokens']} tokens  ·  {row['tokens_per_second']:.2f} tokens/s", 8, MUTED)
+    rule(axis, (.875, .18), (.875, .485), color=RULE, linestyle='--')
+    for fraction in [0, .5, 1]:
+        label(axis, .615 + .26 * fraction, .154, f'{limit * fraction:g}s', 8, MUTED, ha='center')
+    label(axis, .055, .111, 'READOUT', 8, RED, 'bold')
+    label(axis, .145, .111, 'This configuration failed the capability screen; three trials do not estimate overall AMC accuracy.', 9)
+    label(axis, .055, .054, 'Validation only · No fine-tuning or test run · Adapted numeric keys · Geometry diagram was not rendered.', 8, MUTED)
+    save(figure, root, 'calibration')
 
 
 def write_table(root, gate, rows):
