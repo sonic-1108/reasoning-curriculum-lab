@@ -25,7 +25,7 @@ def numeric(text):
 
 
 def extract(text):
-    marked = re.findall(r'(?<!#)####(?!#)\s*([-+]?\$?[\d,]+(?:\.\d+)?)', text)
+    marked = re.findall(r'(?m)^[ \t]*####[ \t]*([-+]?\$?[\d,]+(?:\.\d+)?)[ \t]*\.?[ \t]*$', text)
     boxed = re.findall(r'\\boxed\{([-+]?\$?[\d,]+(?:\.\d+)?)\}', text)
     if marked or boxed:
         return numeric((marked or boxed)[-1])

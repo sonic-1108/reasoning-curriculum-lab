@@ -13,6 +13,8 @@ class ScoringTests(unittest.TestCase):
         self.assertIsNone(extract('There are 5 apples and 3 pears.'))
         self.assertIsNone(extract('I cannot solve this'))
         self.assertIsNone(extract('##### 11. A new question'))
+        self.assertIsNone(extract('#### 48/8 = 6'))
+        self.assertIsNone(extract('#### 100% (4 ratings)'))
         self.assertNotIn('gold', prompt('How many apples?'))
 
     def test_solution_is_complete_and_prompt_is_masked(self):

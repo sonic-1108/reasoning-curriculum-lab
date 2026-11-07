@@ -22,6 +22,8 @@ The 135M student and tiny training budget are a local feasibility study. A resul
 
 Unknown pretrained-model overlap with GSM8K cannot be excluded. Normalized question checks prevent exact pipeline overlap but cannot prove semantic decontamination. Filtering training sequences to 256 tokens changes the training distribution; short solutions are overrepresented. No claim of benchmark novelty or full-benchmark improvement is intended.
 
+Scoring audit: during inspection of raw generations, malformed calculation lines such as `#### 48/8 = 6` and percentage ratings were found to be incorrectly accepted by a permissive prefix parser. The final parser requires a complete numeric marker line, with regression tests. Every saved prediction is rescored by `gsm8k_report.py`; live console counts before this fix are provisional. This parser correction changes no model weights, selection rules, budgets or decoding settings.
+
 ## Reproduce
 
 ```bash
