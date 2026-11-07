@@ -2,7 +2,7 @@
 
 ## 当前研究 / Current study
 
-**GSM8K 标准应用题子集实验正在运行；下方已有数字属于早期算术验证。**
+**GSM8K 固定子集实验已完成：9 次真实训练、3 个种子、456 条保存的评测回答。**
 
 研究问题：同样的模型、同样的训练 token 预算，下一道题应该随机选、先易后难选，还是根据学生当前的错误选？模型是 **SmolLM2-135M**；策略只是选题规则。模型生成答案，训练程序用训练集标准解答更新权重，测试集只负责评分。
 
@@ -17,7 +17,31 @@ flowchart LR
     F --> G[Final-answer accuracy and cost]
 ```
 
-GSM8K has 7,473 official training and 1,319 official test problems. This CPU study uses a fixed **24-question test subset**, 12 updates and three seeds, with complete worked-solution supervision. Both supervised token counts and padded training slots match across policies within each seed. [Exact experiment definition and provenance](GSM8K_METHOD.md). **Prepared/running does not mean benchmark success.**
+GSM8K has 7,473 official training and 1,319 official test problems. This CPU study used a fixed **24-question test subset**, a **360-question retained training pool**, 12 updates and three seeds, with complete worked-solution supervision. Both supervised token counts and padded training slots match across policies within each seed. [Exact experiment definition and provenance](GSM8K_METHOD.md).
+
+| GSM8K subset | Final accuracy | Correct / 24 by seed | Train seconds | Select seconds |
+|---|---:|---|---:|---:|
+| Untrained base | 0.0% | 0 (evaluated once) | — | — |
+| Random | 0.0% | 0, 0, 0 | 6.82 | 0.0002 |
+| Easy-to-hard | 1.4% | 0, 0, 1 | 6.83 | 0.0002 |
+| Adaptive | 2.8% | 1, 1, 0 | 6.88 | 6.41 |
+
+**结论：当前小模型、短训练和生成预算下，没有得到可信的应用题能力提升。** 自适应比随机多得到两个数字匹配，但训练加选题耗时约 **1.95 倍**，不能据此宣布胜出。最终回答有 **95.8%–97.2%** 达到 96-token 上限；部分匹配数字伴随错误推导。这里测的是最终数字匹配，不是推理正确性，也不是完整 GSM8K 成绩。
+
+The same 24 questions are reused across seeds; 72 final observations are not 72 independent questions. Token budgets per seed are **958 / 1,165 / 1,221 supervised tokens**, identical across policies; every run also uses **3,072 padded slots**. Times are per-run seed means, excluding evaluation. [Full measured table](gsm8k_results/RESULTS.md), [raw predictions](gsm8k_results/predictions.json), [selection logs](gsm8k_results/selections.json), [evaluation timing](gsm8k_results/costs.json), [provenance and fixed IDs](gsm8k_results/manifest.json).
+
+![GSM8K answer and format curves](gsm8k_results/figures/supervised_tokens.svg)
+![GSM8K accuracy versus training and scoring cost](gsm8k_results/figures/cost.svg)
+
+曲线中的答案格式比例用于解释模型是否输出可评分答案，不表示推理能力。All charts are regenerated from saved predictions, using the corrected strict final-answer parser. Five tests pass; the benchmark audit checks all 456 predictions, complete test checkpoints, training-only selections, and exact matched token schedules. Unknown pretraining overlap with GSM8K and semantic duplicates cannot be excluded.
+
+```bash
+HF_HOME="$PWD/work/hf" python gsm8k.py
+python -m unittest -v
+python gsm8k_report.py
+```
+
+Next scientific step: select a more capable student and a longer generation/training budget using a validation split carved from training data, then freeze a new experiment before evaluating. This run used CPU only and incurred no paid cloud charges. It demonstrates a working standard-dataset experiment and its limitations, rather than a successful curriculum method.
 
 ## Earlier arithmetic pilot
 

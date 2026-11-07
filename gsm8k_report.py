@@ -56,7 +56,7 @@ for policy in ['base']+policies:
         correct_by_seed={str(seed):sum(row['correct'] for row in selected if row['seed']==seed) for seed in sorted({row['seed'] for row in selected})},
         supervised_tokens_by_seed={str(seed):next(row['supervised_tokens'] for row in selected if row['seed']==seed) for seed in sorted({row['seed'] for row in selected})}))
 (root/'summary.json').write_text(json.dumps(summary,indent=2))
-table = ['# GSM8K fixed-subset measurements', '', '24 shared test problems; counts across seeds are repeated observations, not independent problems.', '',
+table = ['# GSM8K fixed-subset measurements', '', f"{manifest['config']['test_size']} shared test problems; counts across seeds are repeated observations, not independent problems.", '',
     '| Policy | Final answer accuracy | Correct by seed | Valid final answer | Token cap reached | Train seconds | Select seconds |',
     '|---|---:|---|---:|---:|---:|---:|']
 for row in summary:
@@ -83,7 +83,7 @@ for budget in ['supervised_tokens','cost']:
             axis.plot(*zip(*points),marker='o',label=policy)
             axis.set(xlabel='Supervised training tokens' if budget!='cost' else 'Training + selection seconds',ylabel='Accuracy' if metric=='correct' else 'Parseable final-answer fraction',ylim=(-.02,1.02))
     axes[0].legend()
-    fig.suptitle('GSM8K: fixed 24-question subset, SmolLM2-135M, three seeds')
+    fig.suptitle(f"GSM8K: fixed {manifest['config']['test_size']}-question subset, {len(manifest['config']['seeds'])} seeds")
     fig.tight_layout()
     fig.savefig(figures/f'{budget}.svg')
     fig.savefig(figures/f'{budget}.png',dpi=160)

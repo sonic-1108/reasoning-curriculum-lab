@@ -4,7 +4,7 @@
 
 谁在作答？SmolLM2-135M 预训练语言模型。训练程序用训练题的标准解答更新模型权重。测试只让模型作答并评分，不更新权重。“策略”是选训练题的规则，不是另一个聊天机器人。
 
-## Preregistered local configuration
+## Configuration fixed before the local run
 
 - Source: OpenAI's [GSM8K repository](https://github.com/openai/grade-school-math), pinned commit `3101c7d5072418e28b9008a6636bde82a006892c`; [dataset card](https://huggingface.co/datasets/openai/gsm8k) specifies MIT license. Upstream license is retained in `gsm8k_results/DATA_LICENSE` when results are published.
 - Official splits: 7,473 training and 1,319 test word problems. Fixed local evaluation: 24 official test examples selected with seed 2027 before any model evaluation. These are subset scores, not full GSM8K scores.
@@ -33,3 +33,7 @@ python gsm8k_report.py
 ```
 
 Do not use evaluation results to change this configuration retrospectively. Any follow-up configuration should be separately named and motivated, with a fresh validation split from training for tuning.
+
+## Completed outcome
+
+All nine configured training runs finished. Final counts across seeds 7/19/41 were random 0/0/0, easy-to-hard 0/0/1, adaptive 1/1/0 out of 24 shared test questions. The base model scored 0/24. Exact supervised budgets were 958, 1,165 and 1,221 tokens per seed for every policy. All runs used 3,072 padded positions. The saved-run audit passed for 456 predictions and training-only selection logs. See `gsm8k_results/RESULTS.md` for timing and generation-limit measurements. These results establish local execution, not a reliable curriculum advantage or full-benchmark result.

@@ -1,0 +1,758 @@
+[
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 0,
+    "id": "93f1cb1cf00952b13595ea913c1d5b028440d99cac10da45040df4a7a5b05458",
+    "target_tokens": 84
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 1,
+    "id": "01ebd1962b510d245c7a0381451bee070cc4b971e5f190e9dee49011e56418b8",
+    "target_tokens": 72
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 2,
+    "id": "ffc1ca7ee616b3fd76cf562f828d7a78b950af6277e9712fe4b891c67ee5500a",
+    "target_tokens": 106
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 3,
+    "id": "81fca9b679e023cbfd818f70a11e3d039120e810f0f3f5a827913af8c5cc66a5",
+    "target_tokens": 66
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 4,
+    "id": "d435fc6e968d27d8354093e8088d5a95cef386479b253c42db2706566cd2f9d5",
+    "target_tokens": 97
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 5,
+    "id": "67094fc28dfb0aeff3bf6a86c279eb3cc4b501983d4dc41fbf15cd265757967c",
+    "target_tokens": 86
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 6,
+    "id": "4a5073873c6acac11bf29b8908d6767a5e971aba2f9836907c80571b17c8b3f1",
+    "target_tokens": 65
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 7,
+    "id": "82c0c89cddc670f5f2588202065d509704459773650815db3c0b787283ecbaa4",
+    "target_tokens": 95
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 8,
+    "id": "2d60cd0d3e67a61fc835dc754fa7cb0132a38ab8fe4baa7db89b3db0448d59ba",
+    "target_tokens": 64
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 9,
+    "id": "5660ee0b627442b2179912d281727ab9cd66ff1513c011c2e764b9266590492d",
+    "target_tokens": 90
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 10,
+    "id": "2ad8ebf0be15824595ea2d42a6cd6f7230c5b8472cfd9a5c7ed04f26d5da903a",
+    "target_tokens": 66
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 11,
+    "id": "c9f0d26104b6e8ad0d117946c7f73e1e55f8af749ed226862bf19e35af5df924",
+    "target_tokens": 67
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 0,
+    "id": "a5fdce1e53e8dd0cf47737bb77fb0b24ad5f215920c228a83e67f6742d41774f",
+    "target_tokens": 84
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 1,
+    "id": "01ebd1962b510d245c7a0381451bee070cc4b971e5f190e9dee49011e56418b8",
+    "target_tokens": 72
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 2,
+    "id": "730d9636a6e47f0215cd3f5dd5c074365d0d7df567b0fb57af4a6320fc8954c0",
+    "target_tokens": 106
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 3,
+    "id": "81fca9b679e023cbfd818f70a11e3d039120e810f0f3f5a827913af8c5cc66a5",
+    "target_tokens": 66
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 4,
+    "id": "d435fc6e968d27d8354093e8088d5a95cef386479b253c42db2706566cd2f9d5",
+    "target_tokens": 97
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 5,
+    "id": "0e2c0311365f518160dbc1740354d54e25c8e691a0afe2f24ea3411361caee1b",
+    "target_tokens": 86
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 6,
+    "id": "8a8e1540eeba4dcab714efc3f81269745201de6e22f6443b5b15c1166da70a9c",
+    "target_tokens": 65
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 7,
+    "id": "4b84b1899e2d283994fa018b602a8d65ed5ed6ab7f863d865b81fa8db4e101b0",
+    "target_tokens": 95
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 8,
+    "id": "2d60cd0d3e67a61fc835dc754fa7cb0132a38ab8fe4baa7db89b3db0448d59ba",
+    "target_tokens": 64
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 9,
+    "id": "5660ee0b627442b2179912d281727ab9cd66ff1513c011c2e764b9266590492d",
+    "target_tokens": 90
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 10,
+    "id": "2ad8ebf0be15824595ea2d42a6cd6f7230c5b8472cfd9a5c7ed04f26d5da903a",
+    "target_tokens": 66
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 11,
+    "id": "c9f0d26104b6e8ad0d117946c7f73e1e55f8af749ed226862bf19e35af5df924",
+    "target_tokens": 67
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 0,
+    "id": "a5fdce1e53e8dd0cf47737bb77fb0b24ad5f215920c228a83e67f6742d41774f",
+    "target_tokens": 84
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 1,
+    "id": "01ebd1962b510d245c7a0381451bee070cc4b971e5f190e9dee49011e56418b8",
+    "target_tokens": 72
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 2,
+    "id": "cff578551d04e4dba6c904f04bd7b05466b002729f2a945b176e78aa850e4b5a",
+    "target_tokens": 106
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 3,
+    "id": "81fca9b679e023cbfd818f70a11e3d039120e810f0f3f5a827913af8c5cc66a5",
+    "target_tokens": 66
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 4,
+    "id": "d435fc6e968d27d8354093e8088d5a95cef386479b253c42db2706566cd2f9d5",
+    "target_tokens": 97
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 5,
+    "id": "e37881caf5da0af6dc11283431c9f9f269f936ece110b5903a5aa0e1ee270221",
+    "target_tokens": 86
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 6,
+    "id": "676c1b1bdec9816d1764e9edc198a3855e73917cff2824ed573ab4e03199ab3a",
+    "target_tokens": 65
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 7,
+    "id": "f1458f430ad18d1cc05f00eb96399a8f22adf5ca589cd3f8b3a26da989644cb7",
+    "target_tokens": 95
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 8,
+    "id": "360663233329316264a079757c49e6240aee770f4271844a4867bd3f0a538348",
+    "target_tokens": 64
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 9,
+    "id": "5660ee0b627442b2179912d281727ab9cd66ff1513c011c2e764b9266590492d",
+    "target_tokens": 90
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 10,
+    "id": "9c6e79d81984ee010fbdc81447313e76e1c71b4f6abc127229aa6f99b6ab1d27",
+    "target_tokens": 66
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 11,
+    "id": "fa21f41ea181cf2907f9136081e3e9f5fc7e9d3167a0af00e0b39e7bd6dda2c7",
+    "target_tokens": 67
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 0,
+    "id": "dbc3476e82d2791340d853ad1d3fe072d0471a4a50d70a0e8b498b52cfaedc29",
+    "target_tokens": 108
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 1,
+    "id": "792d69c4aba80869c5be4bb869278410410b7acd4e0608731f19fac4f138dc57",
+    "target_tokens": 125
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 2,
+    "id": "1a072b68cdb79cd8c37c4ac92cf136ec8f0e93443cb1913e46bb3764da3efa47",
+    "target_tokens": 96
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 3,
+    "id": "82c0c89cddc670f5f2588202065d509704459773650815db3c0b787283ecbaa4",
+    "target_tokens": 95
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 4,
+    "id": "b96c1d2f621f074345afa677f5f4a3658e5eb89d8175cd7065d11c813ac750b1",
+    "target_tokens": 88
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 5,
+    "id": "c344a7d5a267d440e4b8432b85e5f69d6641b939f25f12147b71e2e0c5e8d186",
+    "target_tokens": 176
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 6,
+    "id": "6e1552da9caffc7ccf35646b269e4f175a959b6b306ea480f08ae8cc66ce7c2d",
+    "target_tokens": 81
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 7,
+    "id": "4ac142670bc75d32f3db539ae756343fabeba4f4d167f7c5a2eeb130f66a5074",
+    "target_tokens": 72
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 8,
+    "id": "e2d733b444d80dc3e82b564ccdf0162677f66366d1aa3acb73f3c0f495366694",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 9,
+    "id": "ad1bfeef1db39460d6c1425a7eb918a651edc40594957ea5e497372f5b4c7063",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 10,
+    "id": "430ccac54d55d4260fa24a2a8fdd88d49de3ee09b4dd54074f40fec289dcb39c",
+    "target_tokens": 84
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 11,
+    "id": "1d955f7d0d85e5599408b310bd52e8a156005165802948172325b5ac07417c0e",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 0,
+    "id": "dbc3476e82d2791340d853ad1d3fe072d0471a4a50d70a0e8b498b52cfaedc29",
+    "target_tokens": 108
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 1,
+    "id": "201fbb77e897f7063205efc5c12b671689ef995e3094c44185e4944c997cfef6",
+    "target_tokens": 125
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 2,
+    "id": "1a072b68cdb79cd8c37c4ac92cf136ec8f0e93443cb1913e46bb3764da3efa47",
+    "target_tokens": 96
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 3,
+    "id": "82c0c89cddc670f5f2588202065d509704459773650815db3c0b787283ecbaa4",
+    "target_tokens": 95
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 4,
+    "id": "19549124544df8cc3ff946bbbb64aed0c6d170355bf63f3be2c82eb07ec0becc",
+    "target_tokens": 88
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 5,
+    "id": "c344a7d5a267d440e4b8432b85e5f69d6641b939f25f12147b71e2e0c5e8d186",
+    "target_tokens": 176
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 6,
+    "id": "e0a83c66032dbe1bcb8fa7e1c5d38c62bc530d9fe74632cc9564d5aabdfaef02",
+    "target_tokens": 81
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 7,
+    "id": "6e345b517a0130fe1a96d2878e7f63777d6bd72cd6e27d4b35b202254e6aefd0",
+    "target_tokens": 72
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 8,
+    "id": "086499d4a1a63598a6142c181963c16f49585b50a1f83ee2e891d8e9037d315d",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 9,
+    "id": "086499d4a1a63598a6142c181963c16f49585b50a1f83ee2e891d8e9037d315d",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 10,
+    "id": "430ccac54d55d4260fa24a2a8fdd88d49de3ee09b4dd54074f40fec289dcb39c",
+    "target_tokens": 84
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 11,
+    "id": "086499d4a1a63598a6142c181963c16f49585b50a1f83ee2e891d8e9037d315d",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 0,
+    "id": "1df1301fff377f3d7760f4961fd474ebb82ddd0fa50d46e68e64760844469319",
+    "target_tokens": 108
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 1,
+    "id": "a36895f969b6e2a6603de301df2975e23a0f501331aa092736c83656f8820efd",
+    "target_tokens": 125
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 2,
+    "id": "71cb43d6d22247f821575db301d3f2087c0192b042af60c51cdc3165c3958be7",
+    "target_tokens": 96
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 3,
+    "id": "82c0c89cddc670f5f2588202065d509704459773650815db3c0b787283ecbaa4",
+    "target_tokens": 95
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 4,
+    "id": "19549124544df8cc3ff946bbbb64aed0c6d170355bf63f3be2c82eb07ec0becc",
+    "target_tokens": 88
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 5,
+    "id": "5061f68002878e5b40e5862155a800e34e871f579b7ec2bf1423b15ed016043a",
+    "target_tokens": 176
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 6,
+    "id": "6e1552da9caffc7ccf35646b269e4f175a959b6b306ea480f08ae8cc66ce7c2d",
+    "target_tokens": 81
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 7,
+    "id": "1ca31d22b67ae0b579a855b3c5ce49f9f5f96ebf4088f0324db4a8991c90d238",
+    "target_tokens": 72
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 8,
+    "id": "1d955f7d0d85e5599408b310bd52e8a156005165802948172325b5ac07417c0e",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 9,
+    "id": "1d955f7d0d85e5599408b310bd52e8a156005165802948172325b5ac07417c0e",
+    "target_tokens": 80
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 10,
+    "id": "93f1cb1cf00952b13595ea913c1d5b028440d99cac10da45040df4a7a5b05458",
+    "target_tokens": 84
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 11,
+    "id": "ad1bfeef1db39460d6c1425a7eb918a651edc40594957ea5e497372f5b4c7063",
+    "target_tokens": 80
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 0,
+    "id": "e1c129549eb4c59ad8f71a65c14fb11493798874669af0354b0a33e5760c8896",
+    "target_tokens": 87
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 1,
+    "id": "36798bc08d57138e7054a91bafbb8854df68a922edb560455fe8e128b415adb4",
+    "target_tokens": 78
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 2,
+    "id": "bf9a93e13b68833c296616e68f97328e298f798d0a632f9fc5d2bc48085dd1a9",
+    "target_tokens": 73
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 3,
+    "id": "e49e5077d0607ad951dbcee430cc6a0d9a2f6a5698a06fa2d021b11ce03ed268",
+    "target_tokens": 144
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 4,
+    "id": "970d1c3bcfab934da8ba4dd9b279265e04fa7c91f528eda8226695a336b4119e",
+    "target_tokens": 99
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 5,
+    "id": "ed79dc71e6b5fa1db88388ebb16db94c4debbefb0ee12ed4bf0e476e9c907039",
+    "target_tokens": 109
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 6,
+    "id": "a5c8fd255c2cf7f27d065fa3502515926e0c31778452e5533706a614b8059855",
+    "target_tokens": 98
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 7,
+    "id": "f54d528ed01cb76b55da3ca5db17d34307b0ec42cb7e032699c322370a7cd20b",
+    "target_tokens": 87
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 8,
+    "id": "a60f4562d19a266fdb3c49ab49b218ceb28ee449832778f3dc0f5760d44f9a41",
+    "target_tokens": 114
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 9,
+    "id": "17f9779cd5dda291d4c02b5c22d733c519d5d04bfbdd7d58339f4dbb42543848",
+    "target_tokens": 99
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 10,
+    "id": "2c2325f52ce69361c492b6fe1f76ee3f4914eb39f8396bd06cffce451f1709f4",
+    "target_tokens": 125
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 11,
+    "id": "f2c218c9691925612d9be9f3da7d5df1490f228f482782ededa9e4dfdb58d288",
+    "target_tokens": 108
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 0,
+    "id": "a51526976e0c8d923ac9b30254ecd2aa0555998fe2397f79f4ebf936db663131",
+    "target_tokens": 87
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 1,
+    "id": "c6527fa97b751788d70907badb0e30dadda63f89799e48a66aca377a2af87c8e",
+    "target_tokens": 78
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 2,
+    "id": "bf9a93e13b68833c296616e68f97328e298f798d0a632f9fc5d2bc48085dd1a9",
+    "target_tokens": 73
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 3,
+    "id": "e69c14d0be31fd3ba9e0858cf56d37088bede2adda2efc02e68732001cc75b5a",
+    "target_tokens": 144
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 4,
+    "id": "17f9779cd5dda291d4c02b5c22d733c519d5d04bfbdd7d58339f4dbb42543848",
+    "target_tokens": 99
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 5,
+    "id": "b840105384c2e95394ec38d141cd4544e8d8836a476b1b89abe7075e61f92df9",
+    "target_tokens": 109
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 6,
+    "id": "a5c8fd255c2cf7f27d065fa3502515926e0c31778452e5533706a614b8059855",
+    "target_tokens": 98
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 7,
+    "id": "f54d528ed01cb76b55da3ca5db17d34307b0ec42cb7e032699c322370a7cd20b",
+    "target_tokens": 87
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 8,
+    "id": "81887a6be484c18088585e2f9201dbc6dbc14b19442f4f4fc4685c808089e443",
+    "target_tokens": 114
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 9,
+    "id": "17f9779cd5dda291d4c02b5c22d733c519d5d04bfbdd7d58339f4dbb42543848",
+    "target_tokens": 99
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 10,
+    "id": "2c2325f52ce69361c492b6fe1f76ee3f4914eb39f8396bd06cffce451f1709f4",
+    "target_tokens": 125
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 11,
+    "id": "f2c218c9691925612d9be9f3da7d5df1490f228f482782ededa9e4dfdb58d288",
+    "target_tokens": 108
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 0,
+    "id": "f54d528ed01cb76b55da3ca5db17d34307b0ec42cb7e032699c322370a7cd20b",
+    "target_tokens": 87
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 1,
+    "id": "c6527fa97b751788d70907badb0e30dadda63f89799e48a66aca377a2af87c8e",
+    "target_tokens": 78
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 2,
+    "id": "7bb49e679e9f5971ee52039eff35394efcc818466d7366588fc01bb6eec466b7",
+    "target_tokens": 73
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 3,
+    "id": "6dfbb4d308989a230a62b505109617153c6acacb74fed2025ed45a738702b50e",
+    "target_tokens": 144
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 4,
+    "id": "17f9779cd5dda291d4c02b5c22d733c519d5d04bfbdd7d58339f4dbb42543848",
+    "target_tokens": 99
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 5,
+    "id": "b840105384c2e95394ec38d141cd4544e8d8836a476b1b89abe7075e61f92df9",
+    "target_tokens": 109
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 6,
+    "id": "a5c8fd255c2cf7f27d065fa3502515926e0c31778452e5533706a614b8059855",
+    "target_tokens": 98
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 7,
+    "id": "2988b9d54eb2122229d3c31dc534963c2eae933c7a8fd6e7ef1f491e35bb5720",
+    "target_tokens": 87
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 8,
+    "id": "ce6d08cd72711fa1580a93536429617cb4bea2da622db0f50c45c63df500e3a1",
+    "target_tokens": 114
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 9,
+    "id": "204c6f3f72af307bf571d6a5d6b313621c48b998069afa5212e56aaf504e218e",
+    "target_tokens": 99
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 10,
+    "id": "a36895f969b6e2a6603de301df2975e23a0f501331aa092736c83656f8820efd",
+    "target_tokens": 125
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 11,
+    "id": "d27d3c884883f47b8f4dfbb6221b88a444beb9300795cfae437f3f27b42533b4",
+    "target_tokens": 108
+  }
+]

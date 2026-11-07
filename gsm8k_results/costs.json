@@ -1,0 +1,116 @@
+[
+  {
+    "seed": 0,
+    "policy": "base",
+    "step": 0,
+    "evaluation_seconds": 41.026885166
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 6,
+    "evaluation_seconds": 40.596144334
+  },
+  {
+    "seed": 7,
+    "policy": "random",
+    "step": 12,
+    "evaluation_seconds": 40.964218125
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 6,
+    "evaluation_seconds": 39.869728708
+  },
+  {
+    "seed": 7,
+    "policy": "easy_to_hard",
+    "step": 12,
+    "evaluation_seconds": 39.350911165999975
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 6,
+    "evaluation_seconds": 40.714093083999984
+  },
+  {
+    "seed": 7,
+    "policy": "adaptive",
+    "step": 12,
+    "evaluation_seconds": 37.096811041000024
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 6,
+    "evaluation_seconds": 40.41440254199995
+  },
+  {
+    "seed": 19,
+    "policy": "random",
+    "step": 12,
+    "evaluation_seconds": 39.18645754099998
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 6,
+    "evaluation_seconds": 40.384932042
+  },
+  {
+    "seed": 19,
+    "policy": "easy_to_hard",
+    "step": 12,
+    "evaluation_seconds": 39.16891024999995
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 6,
+    "evaluation_seconds": 40.330866125
+  },
+  {
+    "seed": 19,
+    "policy": "adaptive",
+    "step": 12,
+    "evaluation_seconds": 39.74973433399998
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 6,
+    "evaluation_seconds": 41.61572154099997
+  },
+  {
+    "seed": 41,
+    "policy": "random",
+    "step": 12,
+    "evaluation_seconds": 39.09254633299997
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 6,
+    "evaluation_seconds": 40.01501920800001
+  },
+  {
+    "seed": 41,
+    "policy": "easy_to_hard",
+    "step": 12,
+    "evaluation_seconds": 39.89614233300006
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 6,
+    "evaluation_seconds": 39.698275875000036
+  },
+  {
+    "seed": 41,
+    "policy": "adaptive",
+    "step": 12,
+    "evaluation_seconds": 39.69561437499999
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "python": "3.9.6 (default, Aug 13 2026, 04:25:06) \n[Clang 21.0.0 (clang-2100.3.33.1)]",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "torch": "2.8.0",
+  "device": "cpu",
+  "threads": 4,
+  "scorer": "complete numeric marker line or boxed/explicit/bare answer",
+  "full_benchmark": false
+}
