@@ -9,6 +9,7 @@
     "qwen3": {
       "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
       "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+      "weights_sha256": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
       "source_model": "Qwen/Qwen3-4B-Instruct-2507",
       "temperature": 0.7,
       "top_p": 0.8,
@@ -18,6 +19,7 @@
     "deepseek": {
       "model": "mlx-community/DeepSeek-R1-Distill-Qwen-7B-4bit",
       "revision": "21848dbf533d2518a1ef895104820d5ee51317ea",
+      "weights_sha256": "75ed9ed7ad66720041dd186dd0d8ce8a2dd8f487ea3f45a4b8fcaa7bbbf1f64f",
       "source_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
       "temperature": 0.6,
       "top_p": 0.95,
