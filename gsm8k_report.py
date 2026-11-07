@@ -81,7 +81,8 @@ for budget in ['supervised_tokens','cost']:
             base=next(row for row in summary if row['policy']=='base')
             points.insert(0,(0,base['accuracy' if metric=='correct' else 'format_valid']))
             axis.plot(*zip(*points),marker='o',label=policy)
-            axis.set(xlabel='Supervised training tokens' if budget!='cost' else 'Training + selection seconds',ylabel='Accuracy' if metric=='correct' else 'Parseable final-answer fraction',ylim=(-.02,1.02))
+            upper = max(.1, max(point[1] for point in points) * 1.2) if metric == 'correct' else 1.02
+            axis.set(xlabel='Supervised training tokens' if budget!='cost' else 'Training + selection seconds',ylabel='Accuracy (zoomed scale)' if metric=='correct' else 'Parseable final-answer fraction',ylim=(-.002,upper))
     axes[0].legend()
     fig.suptitle(f"GSM8K: fixed {manifest['config']['test_size']}-question subset, {len(manifest['config']['seeds'])} seeds")
     fig.tight_layout()
