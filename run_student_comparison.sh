@@ -11,8 +11,6 @@ if [[ ! -x "$comparison_python" ]]; then
     exit 1
 fi
 
-"$comparison_python" -c 'import mlx.core as mx; assert mx.metal.is_available(), "Run from a normal Terminal with access to the Mac GPU"'
-
 cpu_pattern='work/mlx-env/bin/python compare_students[.]py --candidate qwen3 --weights work/hf/hub/models--mlx-community--Qwen3-4B-Instruct-2507-4bit'
 pkill -TERM -f "$cpu_pattern" || true
 for attempt in 1 2 3 4 5; do
@@ -38,6 +36,8 @@ if path.exists():
             document.update(status='stopped_before_gpu_retry', complete=False)
         path.with_name('qwen3_cpu_attempt.json').write_text(json.dumps(document, indent=2) + '\n')
 PY
+
+"$comparison_python" -c 'import mlx.core as mx; assert mx.metal.is_available(), "Run from a normal Terminal with access to the Mac GPU"'
 
 export HF_HOME="$project_root/work/hf"
 "$comparison_python" compare_students.py --candidate qwen3 \

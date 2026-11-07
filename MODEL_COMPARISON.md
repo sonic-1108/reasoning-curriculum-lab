@@ -37,7 +37,7 @@ cd /path/to/reasoning-curriculum-lab
 bash run_student_comparison.sh
 ```
 
-The launcher checks GPU access, stops only the identified slow CPU attempt, preserves its incomplete record, runs both candidates sequentially, and generates a comparison from completed records. It does not purchase cloud compute. Review the saved outputs before publishing results. Recreating the GPU environment on another machine:
+The launcher stops only the identified slow CPU attempt, preserves its record, checks GPU access, runs both candidates sequentially, and generates a comparison from completed records. If GPU access is still unavailable, it exits before starting another model. It does not purchase cloud compute. Review the saved outputs before publishing results. Recreating the GPU environment on another machine:
 
 ```bash
 python3.12 -m venv work/metal-env
