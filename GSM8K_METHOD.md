@@ -1,8 +1,8 @@
 # GSM8K: frozen local subset study
 
-研究问题：在相同初始模型、相同训练 token 数下，根据学生当前错误选择题目，是否比随机选题或先易后难更有效？
+Research question: with identical initial weights and matched training-token budgets, does selecting examples using the student's current errors outperform random selection or an easy-to-hard curriculum?
 
-谁在作答？SmolLM2-135M 预训练语言模型。训练程序用训练题的标准解答更新模型权重。测试只让模型作答并评分，不更新权重。“策略”是选训练题的规则，不是另一个聊天机器人。
+Who answers the questions? The pretrained SmolLM2-135M language model. The training program updates its weights using the published solutions to training problems. Evaluation asks the model to answer held-out questions and scores the responses without updating weights. A policy is a rule for selecting training examples, not a separate chatbot.
 
 ## Configuration fixed before the local run
 

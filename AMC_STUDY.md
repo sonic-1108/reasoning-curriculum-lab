@@ -1,6 +1,6 @@
 # AMC12 hard-problem phase
 
-当前目标：先把 AMC 后半卷题目交给更强的数学模型作答，检查能否在合理生成预算内完成；通过验证后才做三种选题策略的训练对比。历史算术和 GSM8K 是流程记录，不能证明竞赛数学推理提升。
+Current objective: ask a stronger math model to solve later-paper AMC problems and check whether it can complete them within a reasonable generation budget. Compare the three training-selection policies only after validation. The historical arithmetic and GSM8K experiments check the pipeline; they do not establish improved competition-math reasoning.
 
 ## Exactly which AMC data?
 

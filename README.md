@@ -6,31 +6,31 @@
 
 ![Study structure and current evidence](amc_results/overview.svg)
 
-## 现在先做 AMC / AMC first
+## Current focus: AMC12
 
-**主线已改为 AMC12 后半卷竞赛题；旧算术和 GSM8K 仅保留为历史流程验证。**
+**The primary study now focuses on later-paper AMC12 competition problems. Arithmetic and GSM8K results are retained as historical pipeline checks.**
 
-已获取 AI-MO 发布的 2022/2023 AMC12 **83 道整数答案改写题**，不是原版选择题，也不是 AIME。只采用原题号 **16–25**：2022A 训练候选 9 道、2022B 验证 9 道、2023 年保留测试 13 道。来源只有数值答案，没有标准推导；题文留在本地，GitHub 只发布代码、来源和测量记录。[准确来源、版权范围、模型和计划](AMC_STUDY.md)。
+We acquired **83 integer-answer adaptations of 2022/2023 AMC12 problems** published by AI-MO. These are neither original multiple-choice papers nor AIME problems. Only original positions **16–25** are eligible: 9 training candidates from 2022A, 9 validation problems from 2022B, and 13 reserved test problems from 2023. The source provides numeric answers but no worked solutions. Problem text stays local; this repository publishes code, provenance and measurements. [Source, redistribution limits, model and study plan](AMC_STUDY.md).
 
-模型改为 **Qwen2.5-Math-1.5B-Instruct**，已实际作答 3 道 2022B 验证题：最多 2,048 个生成 token、每题 90 秒。**结果为 0/3；三题均正常完成，没有被截断。尚未进行 AMC 微调、三策略比较或 2023 测试。**
+The student is now **Qwen2.5-Math-1.5B-Instruct**. It answered three 2022B validation problems with a ceiling of 2,048 generated tokens and 90 seconds per problem. **It scored 0/3. All three answers completed without truncation. No AMC fine-tuning, three-policy comparison or 2023 test evaluation has been performed.**
 
-| 2022 AMC12B 改写题 | 模型答案 | 数据集答案 | 生成 token | 耗时 |
+| Adapted 2022 AMC12B problem | Model answer | Dataset answer | Generated tokens | Time |
 |---|---:|---:|---:|---:|
-| 第 25 题 | 8 | 4 | 558 | 72.22 秒 |
-| 第 17 题 | 90 | 76 | 501 | 59.02 秒 |
-| 第 18 题 | 112 | 22 | 496 | 57.44 秒 |
+| Problem 25 | 8 | 4 | 558 | 72.22 s |
+| Problem 17 | 90 | 76 | 501 | 59.02 s |
+| Problem 18 | 112 | 22 | 496 | 57.44 s |
 
-三题是按验证题哈希预先选定的，不是挑出来的失败案例。当前 CPU 能运行这个模型，速度为 **7.73–8.64 token/秒**；瓶颈首先是本次难题正确率，而非输出上限。三个样本不足以推断整个 AMC 的成绩。由于未达到预先设置的能力门槛，测试题继续保留，暂不盲目微调这个学生。[数值预测和运行设置](amc_results/calibration.json) · [完整测量](amc_results/RESULTS.md)。
+These three problems were selected in advance by validation-question hash, rather than chosen as failure examples. CPU generation ran at **7.73–8.64 tokens per second**. The observed limitation was answer correctness, not the output ceiling. Three examples cannot establish overall AMC performance. Because the predefined capability gate was not passed, the test pool remains reserved and this student has not been fine-tuned on AMC. [Numeric predictions and run configuration](amc_results/calibration.json) · [Complete measurements](amc_results/RESULTS.md).
 
 ![AMC validation completion and CPU speed](amc_results/calibration.svg)
 
-下一步需要校准更大的数学模型，并取得更多有可信解答的 AMC 训练题。当前 9 道训练候选只有数值标签，不足以支持有说服力的推理训练研究。GPU/量化模型方案是待执行计划，不是已有结果；未购买任何计算资源。
+The next step is to calibrate a larger math model and obtain more AMC training problems with trustworthy solutions. The nine current training candidates have only numeric labels and cannot support a convincing reasoning-training study. GPU and quantized-model options are proposals, not completed experiments. No compute has been purchased.
 
-这里的“喂题”先指让预训练模型作答；校准不更新权重。未解决模型能力、算力及可信训练解答来源前，不盲目开始微调。
+Supplying questions currently means asking the pretrained model to answer them. Calibration does not update model weights. Fine-tuning is deferred until model capability, compute feasibility and trustworthy training-solution sources are established.
 
-注意：几何题包含图形源代码，但没有给文字模型提供渲染后的图片；这也是当前三题校准的输入限制。
+Input limitation: the geometry problem includes diagram source code, but no rendered image was supplied to the text-only model. This limits interpretation of the three-problem calibration.
 
-## Core code / 核心代码
+## Core code
 
 | Purpose | Entry point | Saved evidence |
 |---|---|---|
@@ -53,16 +53,16 @@ python plot_overview.py
 
 Acquisition and model-running commands are in [AMC_STUDY.md](AMC_STUDY.md). The seven automated tests check contest identity, numeric scoring, arithmetic labels, split invariants and complete target masking. Scratch files, model downloads and unreleased AMC text stay in ignored `work/`; saved measurements and reproducible source code are tracked. Historical entry-point names stay stable so published commands remain usable.
 
-## Historical evidence / 历史记录
+## Historical evidence
 
 <details>
 <summary>GSM8K pilot — expand measured results and reproducible method</summary>
 
-## 历史 GSM8K 流程实验 / Historical GSM8K pilot
+## Historical GSM8K pilot
 
-**GSM8K 固定子集实验已完成：9 次真实训练、3 个种子、456 条保存的评测回答。**
+**The fixed-subset GSM8K experiment is complete: nine actual training runs, three seeds and 456 saved evaluation responses.**
 
-研究问题：同样的模型、同样的训练 token 预算，下一道题应该随机选、先易后难选，还是根据学生当前的错误选？模型是 **SmolLM2-135M**；策略只是选题规则。模型生成答案，训练程序用训练集标准解答更新权重，测试集只负责评分。
+Research question: with the same initial model and training-token budget, should the next example be selected randomly, from easy to hard, or using the student's current errors? The student is **SmolLM2-135M**; each policy is a data-selection rule. The model generates answers, the training program updates weights using training solutions, and the test set is used only for scoring.
 
 ```mermaid
 flowchart LR
@@ -84,14 +84,14 @@ GSM8K has 7,473 official training and 1,319 official test problems. This CPU stu
 | Easy-to-hard | 1.4% | 0, 0, 1 | 6.83 | 0.0002 |
 | Adaptive | 2.8% | 1, 1, 0 | 6.88 | 6.41 |
 
-**结论：当前小模型、短训练和生成预算下，没有得到可信的应用题能力提升。** 自适应比随机多得到两个数字匹配，但训练加选题耗时约 **1.95 倍**，不能据此宣布胜出。最终回答有 **95.8%–97.2%** 达到 96-token 上限；部分匹配数字伴随错误推导。这里测的是最终数字匹配，不是推理正确性，也不是完整 GSM8K 成绩。
+**Conclusion: this small model, short training run and generation budget did not establish a reliable improvement in word-problem reasoning.** Adaptive selection produced two more final-number matches than random selection but used approximately **1.95 times** the training-plus-selection time. This does not establish a winner. **95.8%–97.2%** of final responses reached the 96-token ceiling, and some matched numbers accompanied incorrect reasoning. The metric is final-number agreement, not reasoning correctness or a full GSM8K score.
 
 The same 24 questions are reused across seeds; 72 final observations are not 72 independent questions. Token budgets per seed are **958 / 1,165 / 1,221 supervised tokens**, identical across policies; every run also uses **3,072 padded slots**. Times are per-run seed means, excluding evaluation. [Full measured table](gsm8k_results/RESULTS.md), [raw predictions](gsm8k_results/predictions.json), [selection logs](gsm8k_results/selections.json), [evaluation timing](gsm8k_results/costs.json), [provenance and fixed IDs](gsm8k_results/manifest.json).
 
 ![GSM8K answer and format curves](gsm8k_results/figures/supervised_tokens.svg)
 ![GSM8K accuracy versus training and scoring cost](gsm8k_results/figures/cost.svg)
 
-曲线中的答案格式比例用于解释模型是否输出可评分答案，不表示推理能力。All charts are regenerated from saved predictions, using the corrected strict final-answer parser. Five tests pass; the benchmark audit checks all 456 predictions, complete test checkpoints, training-only selections, and exact matched token schedules. Unknown pretraining overlap with GSM8K and semantic duplicates cannot be excluded.
+The answer-format fraction in the charts indicates whether responses contain parseable final answers; it does not measure reasoning ability. All charts are regenerated from saved predictions, using the corrected strict final-answer parser. Five tests passed at the GSM8K milestone; the benchmark audit checks all 456 predictions, complete test checkpoints, training-only selections, and exact matched token schedules. Unknown pretraining overlap with GSM8K and semantic duplicates cannot be excluded.
 
 ```bash
 HF_HOME="$PWD/work/hf" python gsm8k.py
